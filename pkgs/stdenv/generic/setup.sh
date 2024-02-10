@@ -50,27 +50,69 @@ getAllOutputNames() {
 ######################################################################
 # Hook handling.
 
+_logImplicitHook() {
+    local hookName="$1"
+
+    local implicitHook="${!hookName:-}"
+
+    if [[ -n "$implicitHook" ]]; then
+        echo "qyriad: found an implicit $hookName hook"
+
+        if declare -F "$implicitHook" > /dev/null; then
+            echo "qyriad: implicit hook is a function"
+        elif type -p "$implicitHook" > /dev/null; then
+            echo "qyriad: implicit hook is a file"
+        elif [[ -n "${!implicitHook:-}" ]]; then
+            echo "qyriad: implicit hook is a string to be eval'd"
+        fi
+    fi
+}
 
 # Run all hooks with the specified name in the order in which they
 # were added, stopping if any fails (returns a non-zero exit
 # code). The hooks for <hookName> are the shell function or variable
 # <hookName>, and the values of the shell array ‘<hookName>Hooks’.
 runHook() {
+    echo -e ".\nqyriad: runHook() $@"
     local hookName="$1"
     shift
     local hooksSlice="${hookName%Hook}Hooks[@]"
+
+    if [[ -n "${!hookName:-}" ]]; then
+        echo "qyriad: there is an implicit hook for $hookName!"
+        echo "qyriad: it is" "${!hookName}"
+        #(set +eu; set -x; type -t "$hookName"; declare -p "$hookName")
+    fi
 
     local hook
     # Hack around old bash being bad and thinking empty arrays are
     # undefined.
     local resolvedSlice
-    echo "working on '${hooksSlice}' with $(type -t hooksSlice)"
-    resolvedSlice="${!hooksSlice+"${!hooksSlice}"}"
-    echo "got ${resolvedSlice}"
+    #echo "qyriad: working on '${hooksSlice}' with $(type -t hooksSlice)"
+    ##resolvedSlice="${!hooksSlice+"${!hooksSlice}"}"
+    ###echo "qyriad: resolved '${resolvedSlice}' with '$(type -t resolvedSlice)'"
+    #echo "qyriad: total:" "_callImplicitHook 0 $hookName ${!hooksSlice+"${!hooksSlice}"}" "/total"
+    #echo "hooksSlice=$hooksSlice ->" "${!hooksSlice}"
+    local -i hooksLen=0
+    actual=${!hooksSlice+"${hooksSlice}"}
+    if [[ -n "$actual" ]]; then
+        echo "actual=$actual, indirect ->" "${!actual}"
+        local -a hookArray=("${!actual}")
+        echo "there are ${#hookArray[@]} hooks: ${hookArray[@]}"
+    fi
+    for _hook in "${actual[@]}"; do
+        echo "found: $_hook"
+        #echo "expanded:" "${!hooksSlice}"
+        hooksLen+=1
+    done
+    echo "qyriad: there are $hooksLen hooks"
     for hook in "_callImplicitHook 0 $hookName" ${!hooksSlice+"${!hooksSlice}"}; do
-        echo "qyriad: _callImplicitHook in '$hook' for '$hookName'"
+        #echo "qyriad: _evaling with hook='$hook' for hookName='$hookName'"
+        echo "qyriad: runHook in $hook for $hookName"
         _eval "$hook" "$@"
     done
+
+    echo -e "qyriad: EXIT runHook()\n."
 
     return 0
 }
@@ -79,6 +121,7 @@ runHook() {
 # Run all hooks with the specified name, until one succeeds (returns a
 # zero exit code). If none succeed, return a non-zero exit code.
 runOneHook() {
+    echo -e ".\nqyriad: runOneHook()"
     local hookName="$1"
     shift
     local hooksSlice="${hookName%Hook}Hooks[@]"
@@ -93,6 +136,8 @@ runOneHook() {
         fi
     done
 
+    echo -e "qyriad: EXIT runOneHook()\n."
+
     return "$ret"
 }
 
@@ -103,19 +148,32 @@ runOneHook() {
 # environment variables) and from shell scripts (as functions). If you
 # want to allow multiple hooks, use runHook instead.
 _callImplicitHook() {
+    echo "qyriad: _callImplicitHook()"
     local def="$1"
     local hookName="$2"
+    echo "trying hookName '$hookName' which is a $(type -t "$hookName")"
+    local ranHook=0
     if declare -F "$hookName" > /dev/null; then
         echo "qyriad: calling function hook $hookName"
+        ranHook=1
         "$hookName"
     elif type -p "$hookName" > /dev/null; then
         echo "qyriad: sourcing hook file $hookName"
+        ranHook=1
         source "$hookName"
     elif [ -n "${!hookName:-}" ]; then
-        echo "qyriad: evaling hook string $hookName"
+        echo "qyriad: evaling hook string '$hookName"
+        ranHook=1
         eval "${!hookName}"
     else
+        echo "qyriad: nothing"
         return "$def"
+    fi
+    echo "qyriad: ran an implicit hook"
+
+    if [[ "$ranHook" = "0" ]]; then
+        echo "impossible??"
+        exit 5
     fi
     # `_eval` expects hook to need nounset disable and leave it
     # disabled anyways, so Ok to to delegate. The alternative of a
@@ -127,9 +185,12 @@ _callImplicitHook() {
 # hooks exits the hook, not the caller. Also will only pass args if
 # command can take them
 _eval() {
+    echo "_eval() $@"
     if declare -F "$1" > /dev/null 2>&1; then
+        echo "_eval(): including args for $(declare -F "$1")"
         "$@" # including args
     else
+        echo "_eval(): no args"
         eval "$1"
     fi
 }

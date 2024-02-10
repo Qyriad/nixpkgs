@@ -3,6 +3,7 @@
 __nixpkgs_setup_set_original=$-
 set -eu
 set -o pipefail
+shopt -s extdebug
 
 if [[ -n "${BASH_VERSINFO-}" && "${BASH_VERSINFO-}" -lt 4 ]]; then
     echo "Detected Bash version that isn't supported by Nixpkgs (${BASH_VERSION})"
@@ -14,6 +15,10 @@ shopt -s inherit_errexit
 
 if (( "${NIX_DEBUG:-0}" >= 6 )); then
     set -x
+fi
+
+if (( "${NIX_DEBUG:-0}" >= 2 )); then
+    shopt -s extdebug
 fi
 
 if [ -f .attrs.sh ] || [[ -n "${NIX_ATTRS_JSON_FILE:-}" ]]; then
@@ -47,9 +52,37 @@ getAllOutputNames() {
     fi
 }
 
+function what() {
+    echo -n "what $1: "
+    if declare -p "$1" > /dev/null 2>&1; then
+        declare -p "$1"
+    elif declare -F "$1" > /dev/null 2>&1; then
+        declare -F "$1"
+    elif type -t "$1" > /dev/null 2>&1; then
+        type -t "$1"
+    else
+        echo "string --" "$1"
+    fi
+}
+
 ######################################################################
 # Hook handling.
 
+_logHook() {
+    local hookKind="$1"
+    local hookExpr="$2"
+    shift 2
+
+    if declare -F "$hookExpr" > /dev/null 2>&1; then
+        echo "calling $hookKind function $hookExpr" "$@"
+    elif type -p "$hookExpr" > /dev/null; then
+        echo "sourcing $hookKind script $hookExpr"
+    else
+        if [[ "$hookExpr" != "_callImplicitHook"* ]]; then
+            echo "eval'ing $hookKind string '$hookExpr'"
+        fi
+    fi
+}
 
 # Run all hooks with the specified name in the order in which they
 # were added, stopping if any fails (returns a non-zero exit
@@ -60,10 +93,33 @@ runHook() {
     shift
     local hooksSlice="${hookName%Hook}Hooks[@]"
 
+    local -a allHooks=("_callImplicitHook 0 $hookName")
+    if [[ -n ${!hooksSlice+"${!hooksSlice}"} ]]; then
+
+        #what "${hooksSlice%[@]}"
+        #what "${!hooksSlice}"
+
+        local -a newArray=("${!hooksSlice}")
+        #what newArray
+
+        allHooks+=("${newArray[@]}")
+
+        #for arrayHook in "${!hooksSlice}"; do
+        #for arrayHook in "${newArray[@]}"; do
+        #    what arrayHook
+        #    what "$arrayHook"
+        #    allHooks+=("$arrayHook")
+        #done
+    fi
+
+    #what allHooks
+    #echo "found ${#allHooks[@]} hooks"
+
     local hook
     # Hack around old bash being bad and thinking empty arrays are
     # undefined.
-    for hook in "_callImplicitHook 0 $hookName" ${!hooksSlice+"${!hooksSlice}"}; do
+    for hook in "${allHooks[@]}"; do
+        _logHook "$hookName" "$hook" "$@"
         _eval "$hook" "$@"
     done
 
@@ -100,10 +156,13 @@ _callImplicitHook() {
     local def="$1"
     local hookName="$2"
     if declare -F "$hookName" > /dev/null; then
+        echo "calling implicit $hookName function"
         "$hookName"
     elif type -p "$hookName" > /dev/null; then
+        echo "sourcing implicit $hookName script"
         source "$hookName"
     elif [ -n "${!hookName:-}" ]; then
+        echo "eval'ing implicit $hookName string"
         eval "${!hookName}"
     else
         return "$def"
@@ -644,6 +703,7 @@ activatePackage() {
     (( hostOffset <= targetOffset )) || exit 1
 
     if [ -f "$pkg" ]; then
+        echo "sourcing setup hook '$pkg'"
         source "$pkg"
     fi
 
@@ -667,6 +727,7 @@ activatePackage() {
     fi
 
     if [[ -f "$pkg/nix-support/setup-hook" ]]; then
+        echo "sourcing setup hook '$pkg/nix-support/setup-hook'"
         source "$pkg/nix-support/setup-hook"
     fi
 }

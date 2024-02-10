@@ -63,12 +63,7 @@ runHook() {
     local hook
     # Hack around old bash being bad and thinking empty arrays are
     # undefined.
-    local resolvedSlice
-    echo "working on '${hooksSlice}' with $(type -t hooksSlice)"
-    resolvedSlice="${!hooksSlice+"${!hooksSlice}"}"
-    echo "got ${resolvedSlice}"
     for hook in "_callImplicitHook 0 $hookName" ${!hooksSlice+"${!hooksSlice}"}; do
-        echo "qyriad: _callImplicitHook in '$hook' for '$hookName'"
         _eval "$hook" "$@"
     done
 
@@ -86,7 +81,6 @@ runOneHook() {
     local hook ret=1
     # Hack around old bash like above
     for hook in "_callImplicitHook 1 $hookName" ${!hooksSlice+"${!hooksSlice}"}; do
-        echo "qyriad: runOneHook in $hook for $hookName"
         if _eval "$hook" "$@"; then
             ret=0
             break
@@ -106,13 +100,10 @@ _callImplicitHook() {
     local def="$1"
     local hookName="$2"
     if declare -F "$hookName" > /dev/null; then
-        echo "qyriad: calling function hook $hookName"
         "$hookName"
     elif type -p "$hookName" > /dev/null; then
-        echo "qyriad: sourcing hook file $hookName"
         source "$hookName"
     elif [ -n "${!hookName:-}" ]; then
-        echo "qyriad: evaling hook string $hookName"
         eval "${!hookName}"
     else
         return "$def"

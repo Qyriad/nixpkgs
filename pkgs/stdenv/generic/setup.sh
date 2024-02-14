@@ -74,12 +74,12 @@ _logHook() {
     shift 2
 
     if declare -F "$hookExpr" > /dev/null 2>&1; then
-        echo "calling $hookKind function $hookExpr" "$@"
+        echo "calling '$hookKind' function hook '$hookExpr'" "$@"
     elif type -p "$hookExpr" > /dev/null; then
-        echo "sourcing $hookKind script $hookExpr"
+        echo "sourcing '$hookKind' script hook '$hookExpr'"
     else
         if [[ "$hookExpr" != "_callImplicitHook"* ]]; then
-            echo "eval'ing $hookKind string '$hookExpr'"
+            echo "eval'ing '$hookKind' string hook '$hookExpr'"
         fi
     fi
 }

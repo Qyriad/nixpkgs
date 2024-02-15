@@ -17,10 +17,6 @@ if (( "${NIX_DEBUG:-0}" >= 6 )); then
     set -x
 fi
 
-if (( "${NIX_DEBUG:-0}" >= 2 )); then
-    shopt -s extdebug
-fi
-
 if [ -f .attrs.sh ] || [[ -n "${NIX_ATTRS_JSON_FILE:-}" ]]; then
     __structuredAttrs=1
     echo "structuredAttrs is enabled"
@@ -116,25 +112,9 @@ runHook() {
 
     local -a allHooks=("_callImplicitHook 0 $hookName")
     if [[ -n ${!hooksSlice+"${!hooksSlice}"} ]]; then
-
-        #what "${hooksSlice%[@]}"
-        #what "${!hooksSlice}"
-
         local -a newArray=("${!hooksSlice}")
-        #what newArray
-
         allHooks+=("${newArray[@]}")
-
-        #for arrayHook in "${!hooksSlice}"; do
-        #for arrayHook in "${newArray[@]}"; do
-        #    what arrayHook
-        #    what "$arrayHook"
-        #    allHooks+=("$arrayHook")
-        #done
     fi
-
-    #what allHooks
-    #echo "found ${#allHooks[@]} hooks"
 
     local hook
     # Hack around old bash being bad and thinking empty arrays are

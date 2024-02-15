@@ -68,6 +68,8 @@ function what() {
 ######################################################################
 # Hook handling.
 
+# Note: Logging for "implicit" hooks -- the ones specified directly in
+# derivation's arguments -- is done in _callImplicitHook instead.
 _logHook() {
     local hookKind="$1"
     local hookExpr="$2"
@@ -168,13 +170,13 @@ _callImplicitHook() {
     local def="$1"
     local hookName="$2"
     if declare -F "$hookName" > /dev/null; then
-        echo "calling implicit $hookName function"
+        echo "calling implicit '$hookName' function hook"
         "$hookName"
     elif type -p "$hookName" > /dev/null; then
-        echo "sourcing implicit $hookName script"
+        echo "sourcing implicit '$hookName' script hook"
         source "$hookName"
     elif [ -n "${!hookName:-}" ]; then
-        echo "eval'ing implicit $hookName string"
+        echo "evaling implicit '$hookName' string hook"
         eval "${!hookName}"
     else
         return "$def"

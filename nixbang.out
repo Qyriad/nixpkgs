@@ -1,0 +1,155 @@
+Sourcing python-remove-tests-dir-hook
+Sourcing python-catch-conflicts-hook.sh
+Sourcing python-remove-bin-bytecode-hook.sh
+Sourcing setuptools-build-hook
+Using setuptoolsBuildPhase
+Using setuptoolsShellHook
+Sourcing pypa-install-hook
+Using pypaInstallPhase
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+Sourcing python-namespaces-hook
+Sourcing python-catch-conflicts-hook.sh
+Sourcing setuptools-check-hook
+Using setuptoolsCheckPhase
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/jxhjajdn6gvb61y98dv38ym0lmi4i6nf-source
+source root is source
+setting SOURCE_DATE_EPOCH to timestamp 315619200 of file source/setup.py
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Executing setuptoolsBuildPhase
+running bdist_wheel
+running build
+running build_scripts
+creating build
+creating build/scripts-3.11
+copying and adjusting nixbang -> build/scripts-3.11
+changing mode of build/scripts-3.11/nixbang from 644 to 755
+/nix/store/dyl7f7v3cfi7j9d4z42pn2ss0bgw0r33-python3.11-setuptools-69.0.2/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_egg_info
+running egg_info
+creating nixbang.egg-info
+writing nixbang.egg-info/PKG-INFO
+writing dependency_links to nixbang.egg-info/dependency_links.txt
+writing top-level names to nixbang.egg-info/top_level.txt
+writing manifest file 'nixbang.egg-info/SOURCES.txt'
+reading manifest file 'nixbang.egg-info/SOURCES.txt'
+writing manifest file 'nixbang.egg-info/SOURCES.txt'
+Copying nixbang.egg-info to build/bdist.linux-x86_64/wheel/nixbang-0.1.0-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/nixbang-0.1.0.data
+creating build/bdist.linux-x86_64/wheel/nixbang-0.1.0.data/scripts
+copying build/scripts-3.11/nixbang -> build/bdist.linux-x86_64/wheel/nixbang-0.1.0.data/scripts
+changing mode of build/bdist.linux-x86_64/wheel/nixbang-0.1.0.data/scripts/nixbang to 755
+creating build/bdist.linux-x86_64/wheel/nixbang-0.1.0.dist-info/WHEEL
+creating 'dist/nixbang-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'nixbang-0.1.0.data/scripts/nixbang'
+adding 'nixbang-0.1.0.dist-info/METADATA'
+adding 'nixbang-0.1.0.dist-info/WHEEL'
+adding 'nixbang-0.1.0.dist-info/top_level.txt'
+adding 'nixbang-0.1.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Finished executing setuptoolsBuildPhase
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+Executing pypaInstallPhase
+Successfully installed nixbang-0.1.0-py3-none-any.whl
+Finished executing pypaInstallPhase
+@nix { "action": "setPhase", "phase": "pythonOutputDistPhase" }
+Running phase: pythonOutputDistPhase
+Executing pythonOutputDistPhase
+Finished executing pythonOutputDistPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/pwqrpmvfdin1aw33cb5kjbj4f0dvmqdy-nixbang-0.1.2
+checking for references to /build/ in /nix/store/pwqrpmvfdin1aw33cb5kjbj4f0dvmqdy-nixbang-0.1.2...
+patching script interpreter paths in /nix/store/pwqrpmvfdin1aw33cb5kjbj4f0dvmqdy-nixbang-0.1.2
+stripping (with command strip and flags -S -p) in  /nix/store/pwqrpmvfdin1aw33cb5kjbj4f0dvmqdy-nixbang-0.1.2/lib /nix/store/pwqrpmvfdin1aw33cb5kjbj4f0dvmqdy-nixbang-0.1.2/bin
+shrinking RPATHs of ELF executables and libraries in /nix/store/xcapbz9fsgr96brgq2ls4yhgdhjqanv6-nixbang-0.1.2-dist
+checking for references to /build/ in /nix/store/xcapbz9fsgr96brgq2ls4yhgdhjqanv6-nixbang-0.1.2-dist...
+patching script interpreter paths in /nix/store/xcapbz9fsgr96brgq2ls4yhgdhjqanv6-nixbang-0.1.2-dist
+Rewriting #!/nix/store/w4fvvhkzb0ssv0fw5j34pw09f0qw84w8-python3-3.11.7/bin/python3.11 to #!/nix/store/w4fvvhkzb0ssv0fw5j34pw09f0qw84w8-python3-3.11.7
+wrapping `/nix/store/pwqrpmvfdin1aw33cb5kjbj4f0dvmqdy-nixbang-0.1.2/bin/nixbang'...
+Executing pythonRemoveTestsDir
+Finished executing pythonRemoveTestsDir
+@nix { "action": "setPhase", "phase": "installCheckPhase" }
+Running phase: installCheckPhase
+no Makefile or custom installCheckPhase, doing nothing
+@nix { "action": "setPhase", "phase": "pythonCatchConflictsPhase" }
+Running phase: pythonCatchConflictsPhase
+@nix { "action": "setPhase", "phase": "pythonRemoveBinBytecodePhase" }
+Running phase: pythonRemoveBinBytecodePhase
+@nix { "action": "setPhase", "phase": "pythonImportsCheckPhase" }
+Running phase: pythonImportsCheckPhase
+Executing pythonImportsCheckPhase
+@nix { "action": "setPhase", "phase": "setuptoolsCheckPhase" }
+Running phase: setuptoolsCheckPhase
+Executing setuptoolsCheckPhase
+running test
+WARNING: Testing via this command is deprecated and will be removed in a future version. Users looking for a generic test entry point independent of test runner are encouraged to use tox.
+/nix/store/dyl7f7v3cfi7j9d4z42pn2ss0bgw0r33-python3.11-setuptools-69.0.2/lib/python3.11/site-packages/setuptools/command/test.py:193: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+!!
+
+        ********************************************************************************
+        Requirements should be satisfied by a PEP 517 installer.
+        If you are using pip, you can try `pip install --use-pep517`.
+        ********************************************************************************
+
+!!
+  ir_d = dist.fetch_build_eggs(dist.install_requires)
+/nix/store/dyl7f7v3cfi7j9d4z42pn2ss0bgw0r33-python3.11-setuptools-69.0.2/lib/python3.11/site-packages/setuptools/command/test.py:194: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+!!
+
+        ********************************************************************************
+        Requirements should be satisfied by a PEP 517 installer.
+        If you are using pip, you can try `pip install --use-pep517`.
+        ********************************************************************************
+
+!!
+  tr_d = dist.fetch_build_eggs(dist.tests_require or [])
+/nix/store/dyl7f7v3cfi7j9d4z42pn2ss0bgw0r33-python3.11-setuptools-69.0.2/lib/python3.11/site-packages/setuptools/command/test.py:195: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+!!
+
+        ********************************************************************************
+        Requirements should be satisfied by a PEP 517 installer.
+        If you are using pip, you can try `pip install --use-pep517`.
+        ********************************************************************************
+
+!!
+  er_d = dist.fetch_build_eggs(
+running egg_info
+writing nixbang.egg-info/PKG-INFO
+writing dependency_links to nixbang.egg-info/dependency_links.txt
+writing top-level names to nixbang.egg-info/top_level.txt
+reading manifest file 'nixbang.egg-info/SOURCES.txt'
+writing manifest file 'nixbang.egg-info/SOURCES.txt'
+running build_ext
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+Finished executing setuptoolsCheckPhase

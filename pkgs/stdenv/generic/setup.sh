@@ -88,10 +88,17 @@ _logHook() {
             else
                 local hookExprLine
                 while IFS= read -r hookExprLine; do
-                    exprToOutput+="$hookExprLine; "
+                    # These lines usually have indentation so let's remove
+                    # leading whitespace.
+                    hookExprLine="${hookExprLine#"${hookExprLine%%[![:space:]]*}"}"
+                    # If this line wasn't entirely whitespace,
+                    # then add it to our output.
+                    if [[ -n "$hookExprLine" ]]; then
+                        exprToOutput+="$hookExprLine\\n "
+                    fi
                 done <<< "$(echo "$hookExpr")"
-                # And then remove the final, unncesessary, semicolon.
-                exprToOutput="${exprToOutput%%; }"
+                # And then remove the final, unncesessary, \n.
+                exprToOutput="${exprToOutput%%\\n }"
             fi
             echo "evaling '$hookKind' string hook ${exprToOutput@Q}"
         fi

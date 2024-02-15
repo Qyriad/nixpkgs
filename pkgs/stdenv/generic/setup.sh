@@ -79,7 +79,19 @@ _logHook() {
         echo "sourcing '$hookKind' script hook '$hookExpr'"
     else
         if [[ "$hookExpr" != "_callImplicitHook"* ]]; then
-            echo "eval'ing '$hookKind' string hook '$hookExpr'"
+            # Join lines onto one, unless NIX_DEBUG >= 2.
+            local exprToOutput
+            if (( "${NIX_DEBUG:-0}" >= 2 )); then
+                exprToOutput="$hookExpr"
+            else
+                local hookExprLine
+                while IFS= read -r hookExprLine; do
+                    exprToOutput+="$hookExprLine; "
+                done <<< "$(echo "$hookExpr")"
+                # And then remove the final, unncesessary, semicolon.
+                exprToOutput="${exprToOutput%%; }"
+            fi
+            echo "evaling '$hookKind' string hook ${exprToOutput@Q}"
         fi
     fi
 }

@@ -3,7 +3,6 @@
 __nixpkgs_setup_set_original=$-
 set -eu
 set -o pipefail
-shopt -s extdebug
 
 if [[ -n "${BASH_VERSINFO-}" && "${BASH_VERSINFO-}" -lt 4 ]]; then
     echo "Detected Bash version that isn't supported by Nixpkgs (${BASH_VERSION})"
@@ -45,19 +44,6 @@ getAllOutputNames() {
         echo "${!outputs[*]}"
     else
         echo "$outputs"
-    fi
-}
-
-function what() {
-    echo -n "what $1: "
-    if declare -p "$1" > /dev/null 2>&1; then
-        declare -p "$1"
-    elif declare -F "$1" > /dev/null 2>&1; then
-        declare -F "$1"
-    elif type -t "$1" > /dev/null 2>&1; then
-        type -t "$1"
-    else
-        echo "string --" "$1"
     fi
 }
 

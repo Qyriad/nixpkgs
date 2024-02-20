@@ -1,0 +1,382 @@
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/kh041hi0hwiq2b07xi1zyx79fqdkminq-source
+source root is source
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+fixing cmake files...
+cmake flags: -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LOCALEDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/share/locale -DCMAKE_INSTALL_LIBEXECDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/libexec -DCMAKE_INSTALL_LIBDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/lib -DCMAKE_INSTALL_DOCDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/share/doc/doxygen -DCMAKE_INSTALL_INFODIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/share/info -DCMAKE_INSTALL_MANDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/share/man -DCMAKE_INSTALL_OLDINCLUDEDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/include -DCMAKE_INSTALL_INCLUDEDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/include -DCMAKE_INSTALL_SBINDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/sbin -DCMAKE_INSTALL_BINDIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/bin -DCMAKE_INSTALL_NAME_DIR=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/lib -DCMAKE_POLICY_DEFAULT_CMP0025=NEW -DCMAKE_OSX_SYSROOT= -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_STRIP=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/strip -DCMAKE_RANLIB=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/ranlib -DCMAKE_AR=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/ar -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=/nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0 -DICONV_INCLUDE_DIR=/nix/store/r9ar62xlmqismp2f4s4l6inhixmb1a6z-glibc-iconv-2.38/include -Duse_sys_sqlite3=ON 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using Cmake version 3.27.9
+-- Found SQLite3: /nix/store/w02gl9y1qwrqg4grl60hg0gp8r8v2nih-sqlite-3.45.1-dev/include (found version "3.45.1") 
+-- Found Python: /nix/store/y027d3bvlaizbri04c1bzh28hqd6lj01-python3-3.11.7/bin/python3.11 (found version "3.11.7") found components: Interpreter 
+-- Found FLEX: /nix/store/bwgdxd7jb5bg50x54xzap6x67cwdz8ns-flex-2.6.4/bin/flex (found version "2.6.4") 
+-- Found BISON: /nix/store/25p9rdlq32nxj1mjisln1dfc2vnlmjn3-bison-3.8.2/bin/bison (found version "3.8.2") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for iconv_open
+-- Looking for iconv_open - found
+-- Performing Test ICONV_COMPILES
+-- Performing Test ICONV_COMPILES - Success
+-- Found Iconv: In glibc  
+-- One (and only one) of the ICONV_ACCEPTS_... tests must pass
+-- Performing Test ICONV_ACCEPTS_NONCONST_INPUT
+-- Performing Test ICONV_ACCEPTS_NONCONST_INPUT - Success
+-- Performing Test ICONV_ACCEPTS_CONST_INPUT
+-- Performing Test ICONV_ACCEPTS_CONST_INPUT - Failed
+-- Build spdlog: 1.11.0
+-- Build type: Release
+-- The javacc executable not found, using existing files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_POLICY_DEFAULT_CMP0025
+
+[0m
+-- Build files have been written to: /build/source/build
+cmake: enabled parallel building
+cmake: enabled parallel installing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+build flags: -j32 SHELL=/nix/store/5l50g7kzj7v0rdhshld1vx46rf2k5lf9-bash-5.2p26/bin/bash
+[  1%] [34m[1m[FLEX][xml] Building scanner with flex 2.6.4[0m
+[  1%] [34m[1mGenerating ../generated_src/configoptions.cpp[0m
+[  1%] [34m[1mGenerating ../generated_src/configvalues.h[0m
+[  2%] [34m[1m[FLEX][mscgen_lexer] Building scanner with flex 2.6.4[0m
+[  3%] [34m[1mGenerating ../generated_src/xml.l.h[0m
+[  3%] [34m[1mGenerating ../../generated_src/mscgen_lexer.l.h[0m
+[  3%] [34m[1mGenerating ../generated_src/configvalues.cpp[0m
+[  1%] [34m[1m[BISON][mscgen_language] Building parser with bison 3.8.2[0m
+[  2%] [34m[1mGenerating ../generated_src/configimpl.l, ../generated_src/configimpl.corr, ../generated_src/configimpl.d[0m
+[  4%] [34m[1m[BISON][constexp] Building parser with bison 3.8.2[0m
+[  4%] [34m[1mGenerating ../generated_src/xmlcode.l, ../generated_src/xmlcode.corr, ../generated_src/xmlcode.d[0m
+[  4%] [34m[1mGenerating ../generated_src/ce_parse.h[0m
+[  5%] [34m[1mGenerating ../generated_src/commentscan.l, ../generated_src/commentscan.corr, ../generated_src/commentscan.d[0m
+[  5%] [34m[1mGenerating ../generated_src/commentcnv.l, ../generated_src/commentcnv.corr, ../generated_src/commentcnv.d[0m
+[  5%] [34m[1mGenerating ../generated_src/configvalues.h[0m
+[  5%] [34m[1mGenerating ../generated_src/constexp.l, ../generated_src/constexp.corr, ../generated_src/constexp.d[0m
+[  5%] [34m[1mGenerating ../generated_src/code.l, ../generated_src/code.corr, ../generated_src/code.d[0m
+[  6%] [34m[1mGenerating ../generated_src/declinfo.l, ../generated_src/declinfo.corr, ../generated_src/declinfo.d[0m
+[  6%] [34m[1mGenerating ../generated_src/defargs.l, ../generated_src/defargs.corr, ../generated_src/defargs.d[0m
+[  6%] [34m[1mGenerating ../generated_src/fortranscanner.l, ../generated_src/fortranscanner.corr, ../generated_src/fortranscanner.d[0m
+[  7%] [34m[1mGenerating ../generated_src/fortrancode.l, ../generated_src/fortrancode.corr, ../generated_src/fortrancode.d[0m
+[  7%] [34m[1mGenerating ../generated_src/lexcode.l, ../generated_src/lexcode.corr, ../generated_src/lexcode.d[0m
+[  7%] [34m[1mGenerating ../generated_src/doctokenizer.l, ../generated_src/doctokenizer.corr, ../generated_src/doctokenizer.d[0m
+[  7%] [34m[1mChecking the doxygen version for changes...[0m
+[  7%] [32mBuilding C object deps/libmd5/CMakeFiles/md5.dir/md5.c.o[0m
+[  8%] [32mBuilding CXX object deps/liblodepng/CMakeFiles/lodepng.dir/lodepng.cpp.o[0m
+[  8%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[  8%] Built target generate_configvalues_header
+[  9%] [34m[1mGenerating ../generated_src/lexscanner.l, ../generated_src/lexscanner.corr, ../generated_src/lexscanner.d[0m
+/build/source/src/constexp.y:36.1-25: warning: deprecated directive: '%name-prefix "constexpYY"', use '%define api.prefix {constexpYY}' [-Wdeprecated]
+   36 | %name-prefix [  9%] [34m[1mChecking the git repository for changes...[0m
+"constexpYY"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      | %define api.prefix {constexpYY}
+[ 10%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+/build/source/src/constexp.y:36.1-25: warning: deprecated directive: '%name-prefix "constexpYY"', use '%define api.prefix {constexpYY}' [-Wdeprecated]
+   36 | %name-prefix "constexpYY"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      | %define api.prefix {constexpYY}
+[ 11%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[ 11%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[ 11%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[ 12%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[ 12%] Built target check_doxygen_version
+[ 12%] [34m[1mGenerating ../generated_src/VhdlParser_adj.cc[0m
+[ 12%] [34m[1mGenerating ../generated_src/VhdlParserTokenManager_adj.cc[0m
+[ 12%] Built target check_git_repository
+[ 13%] [34m[1m[FLEX][configimpl] Building scanner with flex 2.6.4[0m
+[ 13%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o[0m
+[ 13%] [34m[1mGenerating ../generated_src/pre.l, ../generated_src/pre.corr, ../generated_src/pre.d[0m
+[ 14%] [34m[1mGenerating ../generated_src/pycode.l, ../generated_src/pycode.corr, ../generated_src/pycode.d[0m
+/build/source/src/constexp.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+[ 14%] [34m[1mGenerating ../generated_src/configimpl.l.h[0m
+[ 14%] [34m[1mGenerating ../generated_src/pyscanner.l, ../generated_src/pyscanner.corr, ../generated_src/pyscanner.d[0m
+/build/source/src/constexp.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+[ 15%] [34m[1mGenerating ../generated_src/configimpl.cpp[0m
+[ 16%] [34m[1mGenerating /build/source/build/generated_src/resources.cpp[0m
+[ 16%] [34m[1mGenerating ../generated_src/scanner.l, ../generated_src/scanner.corr, ../generated_src/scanner.d[0m
+[ 17%] [34m[1mGenerating ../generated_src/sqlcode.l, ../generated_src/sqlcode.corr, ../generated_src/sqlcode.d[0m
+[ 17%] [34m[1mGenerating ../generated_src/vhdlcode.l, ../generated_src/vhdlcode.corr, ../generated_src/vhdlcode.d[0m
+[ 18%] [34m[1mGenerating ../generated_src/xmlcode.l.h[0m
+[ 18%] [32mBuilding CXX object libxml/CMakeFiles/xml.dir/__/generated_src/xml.cpp.o[0m
+[ 18%] [34m[1m[FLEX][xmlcode] Building scanner with flex 2.6.4[0m
+[ 18%] [32mBuilding CXX object libversion/CMakeFiles/doxygen_version.dir/__/generated_src/doxyversion.cpp.o[0m
+[ 18%] [32mBuilding CXX object libversion/CMakeFiles/doxygen_version.dir/__/generated_src/gitversion.cpp.o[0m
+[ 19%] [32mBuilding CXX object libversion/CMakeFiles/doxygen_version.dir/fullversion.cpp.o[0m
+[ 20%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/CharStream.cc.o[0m
+[ 20%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/ParseException.cc.o[0m
+[ 21%] [34m[1m[FLEX][code] Building scanner with flex 2.6.4[0m
+[ 21%] [34m[1mGenerating ../generated_src/code.l.h[0m
+[ 21%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/TokenMgrError.cc.o[0m
+[ 21%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd.c.o[0m
+[ 21%] [34m[1m[FLEX][commentcnv] Building scanner with flex 2.6.4[0m
+[ 22%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/Token.cc.o[0m
+[ 22%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd_security.c.o[0m
+[ 23%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdfontt.c.o[0m
+[ 24%] [34m[1mGenerating ../generated_src/commentcnv.l.h[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/__/generated_src/configimpl.cpp.o[0m
+[ 25%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/__/generated_src/VhdlParserTokenManager_adj.cc.o[0m
+[ 25%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/__/generated_src/VhdlParser_adj.cc.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/__/generated_src/configoptions.cpp.o[0m
+[ 25%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdtables.c.o[0m
+[ 25%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdfonts.c.o[0m
+[ 26%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd_color.c.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/__/generated_src/configvalues.cpp.o[0m
+[ 27%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdhelpers.c.o[0m
+[ 27%] [34m[1m[FLEX][commentscan] Building scanner with flex 2.6.4[0m
+[ 28%] [32m[1mLinking C static library ../../lib/libmd5.a[0m
+[ 28%] [34m[1mGenerating ../generated_src/commentscan.l.h[0m
+[ 29%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd_lodepng.c.o[0m
+[ 29%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_adraw.c.o[0m
+[ 30%] [34m[1m[FLEX][constexp] Building scanner with flex 2.6.4[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/portable.cpp.o[0m
+[ 30%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_gd_out.c.o[0m
+[ 31%] [34m[1mGenerating ../generated_src/constexp.l.h[0m
+[ 31%] Built target md5
+[ 31%] [32mBuilding C object src/CMakeFiles/doxycfg.dir/portable_c.c.o[0m
+[ 32%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_ps_out.c.o[0m
+[ 32%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_null_out.c.o[0m
+[ 34%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/message.cpp.o[0m
+[ 34%] [34m[1m[FLEX][declinfo] Building scanner with flex 2.6.4[0m
+[ 34%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/debug.cpp.o[0m
+[ 35%] [32mBuilding CXX object deps/libmscgen/CMakeFiles/mscgen.dir/__/__/generated_src/mscgen_language.cpp.o[0m
+[ 35%] [32mBuilding CXX object deps/libmscgen/CMakeFiles/mscgen.dir/__/__/generated_src/mscgen_lexer.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/trace.cpp.o[0m
+[ 36%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_api.c.o[0m
+[ 36%] [34m[1mGenerating ../generated_src/declinfo.l.h[0m
+[ 37%] [34m[1m[FLEX][defargs] Building scanner with flex 2.6.4[0m
+[ 38%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_msc.c.o[0m
+[ 38%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_safe.c.o[0m
+[ 38%] [34m[1mGenerating ../generated_src/defargs.l.h[0m
+[ 38%] [34m[1m[FLEX][doctokenizer] Building scanner with flex 2.6.4[0m
+[ 38%] [32m[1mLinking CXX static library ../lib/libdoxygen_version.a[0m
+[ 39%] [34m[1mGenerating ../generated_src/doctokenizer.l.h[0m
+[ 39%] [34m[1m[FLEX][fortrancode] Building scanner with flex 2.6.4[0m
+[ 39%] Built target doxygen_version
+[ 39%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_svg_out.c.o[0m
+[ 40%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_usage.c.o[0m
+[ 40%] [34m[1mGenerating ../generated_src/fortrancode.l.h[0m
+[ 40%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_utf8.c.o[0m
+[ 41%] [34m[1m[FLEX][fortranscanner] Building scanner with flex 2.6.4[0m
+[ 41%] [34m[1mGenerating ../generated_src/fortranscanner.l.h[0m
+[ 41%] [34m[1m[FLEX][lexcode] Building scanner with flex 2.6.4[0m
+[ 42%] [34m[1mGenerating ../generated_src/lexcode.l.h[0m
+[ 42%] [34m[1m[FLEX][lexscanner] Building scanner with flex 2.6.4[0m
+[ 42%] [34m[1mGenerating ../generated_src/lexscanner.l.h[0m
+[ 43%] [34m[1m[FLEX][pre] Building scanner with flex 2.6.4[0m
+[ 44%] [34m[1mGenerating ../generated_src/pre.l.h[0m
+[ 44%] [34m[1m[FLEX][pycode] Building scanner with flex 2.6.4[0m
+[ 44%] [34m[1mGenerating ../generated_src/pycode.l.h[0m
+[ 44%] [34m[1m[FLEX][pyscanner] Building scanner with flex 2.6.4[0m
+[ 44%] [34m[1mGenerating ../generated_src/pyscanner.l.h[0m
+[ 45%] [34m[1m[FLEX][scanner] Building scanner with flex 2.6.4[0m
+[ 46%] [34m[1mGenerating ../generated_src/scanner.l.h[0m
+[ 46%] [34m[1m[FLEX][sqlcode] Building scanner with flex 2.6.4[0m
+[ 46%] [34m[1mGenerating ../generated_src/sqlcode.l.h[0m
+[ 47%] [34m[1m[FLEX][vhdlcode] Building scanner with flex 2.6.4[0m
+[ 47%] [34m[1mGenerating ../generated_src/vhdlcode.l.h[0m
+[ 47%] [34m[1mGenerating ../generated_src/xmlcode.cpp[0m
+[ 47%] [34m[1mGenerating ../generated_src/code.cpp[0m
+[ 47%] [34m[1mGenerating ../generated_src/commentcnv.cpp[0m
+[ 48%] [34m[1mGenerating ../generated_src/commentscan.cpp[0m
+[ 48%] [34m[1mGenerating ../generated_src/constexp.cpp[0m
+[ 49%] [34m[1mGenerating ../generated_src/declinfo.cpp[0m
+[ 49%] [34m[1mGenerating ../generated_src/defargs.cpp[0m
+[ 49%] [34m[1mGenerating ../generated_src/lexcode.cpp[0m
+[ 50%] [34m[1mGenerating ../generated_src/lexscanner.cpp[0m
+[ 50%] [34m[1mGenerating ../generated_src/pre.cpp[0m
+[ 50%] [34m[1mGenerating ../generated_src/pycode.cpp[0m
+[ 51%] [34m[1mGenerating ../generated_src/pyscanner.cpp[0m
+[ 52%] [34m[1mGenerating ../generated_src/sqlcode.cpp[0m
+[ 52%] [34m[1mGenerating ../generated_src/scanner.cpp[0m
+[ 52%] [34m[1mGenerating ../generated_src/vhdlcode.cpp[0m
+[ 52%] [32m[1mLinking CXX static library ../../lib/liblodepng.a[0m
+[ 52%] Built target lodepng
+[ 53%] [32m[1mLinking CXX static library ../lib/libxml.a[0m
+[ 53%] Built target xml
+[ 53%] [32m[1mLinking CXX static library ../../lib/libmscgen.a[0m
+[ 53%] Built target mscgen
+[ 54%] [34m[1mGenerating ../generated_src/fortrancode.cpp[0m
+[ 54%] [34m[1mGenerating ../generated_src/doctokenizer.cpp[0m
+[ 54%] [34m[1mGenerating ../generated_src/fortranscanner.cpp[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/commentscan.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/constexp.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/defargs.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/code.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/doctokenizer.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/declinfo.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/fortrancode.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/fortranscanner.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/lexcode.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/pre.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/pycode.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/lexscanner.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/pyscanner.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/sqlcode.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/vhdlcode.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/commentcnv.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/xmlcode.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/ce_parse.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/scanner.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/resources.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/aliases.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/anchor.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/arguments.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/cite.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/clangparser.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/classdef.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/classlist.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/cmdmapper.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/codefragment.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/conceptdef.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/condparser.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/cppvalue.cpp.o[0m
+[ 67%] [32m[1mLinking CXX static library ../../lib/libspdlog.a[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/datetime.cpp.o[0m
+[ 67%] Built target spdlog
+[ 67%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/defgen.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/definition.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dia.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/diagram.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dir.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dirdef.cpp.o[0m
+[ 69%] [32m[1mLinking CXX static library ../lib/libdoxycfg.a[0m
+[ 69%] Built target doxycfg
+[ 70%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docbookgen.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docbookvisitor.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docgroup.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docnode.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docparser.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docsets.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docvisitor.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dot.cpp.o[0m
+[ 72%] [32m[1mLinking CXX static library ../lib/libvhdlparser.a[0m
+[ 72%] Built target vhdlparser
+[ 73%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotcallgraph.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotclassgraph.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotdirdeps.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotfilepatcher.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotgfxhierarchytable.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotgroupcollaboration.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotgraph.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotincldepgraph.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotlegendgraph.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotnode.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotrunner.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/doxygen.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/eclipsehelp.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/emoji.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/entry.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/filedef.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/fileinfo.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/fileparser.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/formula.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/ftvhelp.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/groupdef.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htags.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmldocvisitor.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmlentity.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmlgen.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmlhelp.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/image.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/index.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/language.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/latexdocvisitor.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/latexgen.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/layout.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/mandocvisitor.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/mangen.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/markdown.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/memberdef.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/membergroup.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/memberlist.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/moduledef.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/msc.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/namespacedef.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/outputgen.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/outputlist.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/pagedef.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/perlmodgen.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/plantuml.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/qcstring.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/qhp.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/reflist.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/regex.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/resourcemgr.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/rtfdocvisitor.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/rtfgen.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/rtfstyle.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/searchindex.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/searchindex_js.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/sitemap.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/sqlite3gen.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/stlsupport.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/symbolresolver.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/tagreader.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/textdocvisitor.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/tooltip.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/utf8.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/util.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/vhdldocgen.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/vhdljjparser.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/xmldocvisitor.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/xmlgen.cpp.o[0m
+[ 98%] [32m[1mLinking CXX static library ../lib/libdoxymain.a[0m
+[ 98%] Built target doxymain
+[ 98%] [32mBuilding CXX object src/CMakeFiles/doxygen.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../bin/doxygen[0m
+[100%] Built target doxygen
+buildPhase completed in 1 minutes 10 seconds
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+install flags: -j32 SHELL=/nix/store/5l50g7kzj7v0rdhshld1vx46rf2k5lf9-bash-5.2p26/bin/bash install
+[  0%] [34m[1mChecking the git repository for changes...[0m
+[  0%] Built target generate_configvalues_header
+[  1%] Built target lodepng
+[  3%] Built target xml
+[  3%] [34m[1mChecking the doxygen version for changes...[0m
+[  4%] Built target md5
+[ 12%] Built target mscgen
+[ 19%] Built target spdlog
+[ 21%] Built target doxycfg
+[ 21%] Built target check_doxygen_version
+[ 21%] Built target check_git_repository
+[ 24%] Built target vhdlparser
+[ 25%] Built target doxygen_version
+[ 98%] Built target doxymain
+[100%] Built target doxygen
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/bin/doxygen
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0
+shrinking /nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/bin/doxygen
+checking for references to /build/ in /nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0...
+patching script interpreter paths in /nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0
+stripping (with command strip and flags -S -p) in  /nix/store/1d2j9h71pazcsgydm4dgcmhr7r4ppp5v-doxygen-1.10.0/bin
+shrinking RPATHs of ELF executables and libraries in /nix/store/gynpfax4ba0zcz7zdas1r72747rc6mnn-doxygen-1.10.0-examples
+checking for references to /build/ in /nix/store/gynpfax4ba0zcz7zdas1r72747rc6mnn-doxygen-1.10.0-examples...
+patching script interpreter paths in /nix/store/gynpfax4ba0zcz7zdas1r72747rc6mnn-doxygen-1.10.0-examples

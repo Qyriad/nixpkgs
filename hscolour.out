@@ -1,0 +1,476 @@
+Running phase: setupCompilerEnvironmentPhase
+Build with /nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8.
+Running phase: unpackPhase
+unpacking source archive /nix/store/vbcisx90wrx657pa1iapmk38wvrv9p6p-hscolour-1.24.4.tar.gz
+source root is hscolour-1.24.4
+setting SOURCE_DATE_EPOCH to timestamp 1512069381 of file hscolour-1.24.4/Setup.hs
+Running phase: patchPhase
+Running phase: compileBuildDriverPhase
+setupCompileFlags: -package-db=/build/tmp.SBnHT1LrQX/setup-package.conf.d -j2 +RTS -A64M -RTS -threaded -rtsopts
+[1 of 2] Compiling Main             ( Setup.hs, /build/tmp.SBnHT1LrQX/Main.o )
+[2 of 2] Linking Setup
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+configureFlags: --verbose --prefix=/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4 --libdir=$prefix/lib/$compiler --libsubdir=$abi/$libname --datadir=/nix/store/bad369g6nd7wqb541zdmr6042mnbn7ia-hscolour-1.24.4-data/share/ghc-9.4.8 --docdir=/nix/store/jsijbc8msx3slw0w19ywg0s6gk17vx0q-hscolour-1.24.4-doc/share/doc/hscolour-1.24.4 --with-gcc=gcc --package-db=/build/tmp.SBnHT1LrQX/package.conf.d --ghc-options=-j2 +RTS -A64M -RTS --disable-split-objs --enable-library-profiling --profiling-detail=exported-functions --disable-profiling --enable-shared --disable-coverage --enable-static --disable-executable-dynamic --enable-tests --disable-benchmarks --enable-library-vanilla --disable-library-for-ghci --ghc-option=-split-sections --ghc-options=-haddock --extra-lib-dirs=/nix/store/wyw0d6r22mzl4g7wk1rkif9fsks00qbv-ncurses-6.4/lib --extra-lib-dirs=/nix/store/zabxhfpsgkb9c4sb7fy50pn1l1kczzv2-libffi-3.4.4/lib --extra-lib-dirs=/nix/store/wanbfij8izz6kjxrqj21gh2fdcb93wg7-gmp-with-cxx-6.3.0/lib
+Using Parsec parser
+Configuring hscolour-1.24.4...
+Dependency base <10: using base-4.17.2.1
+Dependency containers: using containers-0.6.7
+Dependency base <10: using base-4.17.2.1
+Dependency containers: using containers-0.6.7
+Source component graph:
+    component exe:HsColour
+    component lib
+Configured component graph:
+    component hscolour-1.24.4-5RS8FtPMpECDDpJ0B5M5Ch-HsColour
+        include base-4.17.2.1
+        include containers-0.6.7
+    component hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH
+        include base-4.17.2.1
+        include containers-0.6.7
+Linked component graph:
+    unit hscolour-1.24.4-5RS8FtPMpECDDpJ0B5M5Ch-HsColour
+        include base-4.17.2.1
+        include containers-0.6.7
+    unit hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH
+        include base-4.17.2.1
+        include containers-0.6.7
+        Language.Haskell.HsColour=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour,Language.Haskell.HsColour.ACSS=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.ACSS,Language.Haskell.HsColour.ANSI=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.ANSI,Language.Haskell.HsColour.Anchors=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.Anchors,Language.Haskell.HsColour.CSS=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.CSS,Language.Haskell.HsColour.Classify=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.Classify,Language.Haskell.HsColour.ColourHighlight=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.ColourHighlight,Language.Haskell.HsColour.Colourise=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.Colourise,Language.Haskell.HsColour.General=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.General,Language.Haskell.HsColour.HTML=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.HTML,Language.Haskell.HsColour.InlineCSS=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.InlineCSS,Language.Haskell.HsColour.LaTeX=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.LaTeX,Language.Haskell.HsColour.MIRC=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.MIRC,Language.Haskell.HsColour.Options=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.Options,Language.Haskell.HsColour.Output=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.Output,Language.Haskell.HsColour.TTY=hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH:Language.Haskell.HsColour.TTY
+Ready component graph:
+    definite hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH
+        depends base-4.17.2.1
+        depends containers-0.6.7
+    definite hscolour-1.24.4-5RS8FtPMpECDDpJ0B5M5Ch-HsColour
+        depends base-4.17.2.1
+        depends containers-0.6.7
+Using Cabal-3.8.1.0 compiled by ghc-9.4
+Using compiler: ghc-9.4.8
+Using install prefix:
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4
+Executables installed in:
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/bin
+Libraries installed in:
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/lib/ghc-9.4.8/x86_64-linux-ghc-9.4.8/hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH
+Dynamic Libraries installed in:
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/lib/ghc-9.4.8/x86_64-linux-ghc-9.4.8
+Private executables installed in:
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/libexec/x86_64-linux-ghc-9.4.8/hscolour-1.24.4
+Data files installed in:
+/nix/store/bad369g6nd7wqb541zdmr6042mnbn7ia-hscolour-1.24.4-data/share/ghc-9.4.8/x86_64-linux-ghc-9.4.8/hscolour-1.24.4
+Documentation installed in:
+/nix/store/jsijbc8msx3slw0w19ywg0s6gk17vx0q-hscolour-1.24.4-doc/share/doc/hscolour-1.24.4
+Configuration files installed in:
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/etc
+No alex found
+Using ar found on system at:
+/nix/store/2ab5740x0cy1d74qvbpl5s28qikmppl5-binutils-2.40/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 13.2.0 given by user at:
+/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/gcc
+Using ghc version 9.4.8 found on system at:
+/nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8/bin/ghc
+Using ghc-pkg version 9.4.8 found on system at:
+/nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8/bin/ghc-pkg-9.4.8
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.27.0 found on system at:
+/nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8/bin/haddock-ghc-9.4.8
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.68 found on system at:
+/nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8/bin/hpc
+Using hsc2hs version 0.68.8 found on system at:
+/nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/6acwm52psx39fc1j181qwwc4218j6i84-hscolour-1.24.4/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/c53f8hagyblvx52zylsnqcc0b3nxbrcl-binutils-wrapper-2.40/bin/ld.gold
+No pkg-config found
+Using runghc version 9.4.8 found on system at:
+/nix/store/85ybhny02pn4nskrcvvdl1yjpb1zll31-ghc-9.4.8/bin/runghc-9.4.8
+Using strip version 2.40 found on system at:
+/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/strip
+Using tar found on system at:
+/nix/store/1ds6c0i7z4advdr0z210sxgvmq786h09-gnutar-1.35/bin/tar
+No uhc found
+Running phase: buildPhase
+Preprocessing library for hscolour-1.24.4..
+Building library for hscolour-1.24.4..
+[ 1 of 16] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, dist/build/Language/Haskell/HsColour/Classify.o, dist/build/Language/Haskell/HsColour/Classify.dyn_o )
+
+Language/Haskell/HsColour/Classify.hs:50:39: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+50 | glue (q:".":n:rest) | isUpper (head q)  -- qualified names
+   |                                       ^^
+[ 2 of 16] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, dist/build/Language/Haskell/HsColour/ColourHighlight.o, dist/build/Language/Haskell/HsColour/ColourHighlight.dyn_o )
+[ 3 of 16] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, dist/build/Language/Haskell/HsColour/Colourise.o, dist/build/Language/Haskell/HsColour/Colourise.dyn_o )
+[ 4 of 16] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, dist/build/Language/Haskell/HsColour/General.o, dist/build/Language/Haskell/HsColour/General.dyn_o )
+[ 5 of 16] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, dist/build/Language/Haskell/HsColour/Anchors.o, dist/build/Language/Haskell/HsColour/Anchors.dyn_o )
+
+Language/Haskell/HsColour/Anchors.hs:73:1: warning: [-Wtabs]
+    Tab character found here, and in four further locations.
+    Suggested fix: Please use spaces instead.
+   |
+73 |                       | v `inST` st     -> Nothing
+   | ^^^^^^^^
+[ 6 of 16] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, dist/build/Language/Haskell/HsColour/HTML.o, dist/build/Language/Haskell/HsColour/HTML.dyn_o )
+[ 7 of 16] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, dist/build/Language/Haskell/HsColour/CSS.o, dist/build/Language/Haskell/HsColour/CSS.dyn_o )
+[ 8 of 16] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, dist/build/Language/Haskell/HsColour/ACSS.o, dist/build/Language/Haskell/HsColour/ACSS.dyn_o )
+[ 9 of 16] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, dist/build/Language/Haskell/HsColour/InlineCSS.o, dist/build/Language/Haskell/HsColour/InlineCSS.dyn_o )
+
+Language/Haskell/HsColour/InlineCSS.hs:12:24: warning: [-Wtabs]
+    Tab character found here.
+    Suggested fix: Please use spaces instead.
+   |
+12 | hscolour :: ColourPrefs -- ^ Preferences for styling.
+   |                        ^
+[10 of 16] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, dist/build/Language/Haskell/HsColour/LaTeX.o, dist/build/Language/Haskell/HsColour/LaTeX.dyn_o )
+[11 of 16] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, dist/build/Language/Haskell/HsColour/MIRC.o, dist/build/Language/Haskell/HsColour/MIRC.dyn_o )
+[12 of 16] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, dist/build/Language/Haskell/HsColour/Output.o, dist/build/Language/Haskell/HsColour/Output.dyn_o )
+[13 of 16] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, dist/build/Language/Haskell/HsColour/Options.o, dist/build/Language/Haskell/HsColour/Options.dyn_o )
+
+Language/Haskell/HsColour/Options.hs:11:9: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+11 |     Help                -- ^ print usage message
+   |         ^^^^^^^^
+[14 of 16] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, dist/build/Language/Haskell/HsColour/ANSI.o, dist/build/Language/Haskell/HsColour/ANSI.dyn_o )
+
+Language/Haskell/HsColour/ANSI.hs:62:10: warning: [-Wmissing-methods]
+    • No explicit implementation for
+        ‘toEnum’
+    • In the instance declaration for ‘Enum Highlight’
+   |
+62 | instance Enum Highlight where
+   |          ^^^^^^^^^^^^^^
+[15 of 16] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, dist/build/Language/Haskell/HsColour/TTY.o, dist/build/Language/Haskell/HsColour/TTY.dyn_o )
+[16 of 16] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, dist/build/Language/Haskell/HsColour.o, dist/build/Language/Haskell/HsColour.dyn_o )
+
+Language/Haskell/HsColour.hs:37:19: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Suggested fix: Please use spaces instead.
+   |
+37 |          -> String      -- ^ Title for output.
+   |                   ^^^^^^
+[ 1 of 16] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, dist/build/Language/Haskell/HsColour/Classify.p_o )
+
+Language/Haskell/HsColour/Classify.hs:50:39: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+50 | glue (q:".":n:rest) | isUpper (head q)  -- qualified names
+   |                                       ^^
+[ 2 of 16] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, dist/build/Language/Haskell/HsColour/ColourHighlight.p_o )
+[ 3 of 16] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, dist/build/Language/Haskell/HsColour/Colourise.p_o )
+[ 4 of 16] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, dist/build/Language/Haskell/HsColour/General.p_o )
+[ 5 of 16] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, dist/build/Language/Haskell/HsColour/Anchors.p_o )
+
+Language/Haskell/HsColour/Anchors.hs:73:1: warning: [-Wtabs]
+    Tab character found here, and in four further locations.
+    Suggested fix: Please use spaces instead.
+   |
+73 |                       | v `inST` st     -> Nothing
+   | ^^^^^^^^
+[ 6 of 16] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, dist/build/Language/Haskell/HsColour/HTML.p_o )
+[ 7 of 16] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, dist/build/Language/Haskell/HsColour/CSS.p_o )
+[ 8 of 16] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, dist/build/Language/Haskell/HsColour/ACSS.p_o )
+[ 9 of 16] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, dist/build/Language/Haskell/HsColour/InlineCSS.p_o )
+
+Language/Haskell/HsColour/InlineCSS.hs:12:24: warning: [-Wtabs]
+    Tab character found here.
+    Suggested fix: Please use spaces instead.
+   |
+12 | hscolour :: ColourPrefs -- ^ Preferences for styling.
+   |                        ^
+[10 of 16] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, dist/build/Language/Haskell/HsColour/LaTeX.p_o )
+[11 of 16] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, dist/build/Language/Haskell/HsColour/MIRC.p_o )
+[12 of 16] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, dist/build/Language/Haskell/HsColour/Output.p_o )
+[13 of 16] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, dist/build/Language/Haskell/HsColour/Options.p_o )
+
+Language/Haskell/HsColour/Options.hs:11:9: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+11 |     Help                -- ^ print usage message
+   |         ^^^^^^^^
+[14 of 16] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, dist/build/Language/Haskell/HsColour/ANSI.p_o )
+
+Language/Haskell/HsColour/ANSI.hs:62:10: warning: [-Wmissing-methods]
+    • No explicit implementation for
+        ‘toEnum’
+    • In the instance declaration for ‘Enum Highlight’
+   |
+62 | instance Enum Highlight where
+   |          ^^^^^^^^^^^^^^
+[15 of 16] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, dist/build/Language/Haskell/HsColour/TTY.p_o )
+[16 of 16] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, dist/build/Language/Haskell/HsColour.p_o )
+
+Language/Haskell/HsColour.hs:37:19: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Suggested fix: Please use spaces instead.
+   |
+37 |          -> String      -- ^ Title for output.
+   |                   ^^^^^^
+Preprocessing executable 'HsColour' for hscolour-1.24.4..
+Building executable 'HsColour' for hscolour-1.24.4..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules for ‘main’ :
+        Language.Haskell.HsColour
+        Language.Haskell.HsColour.ACSS
+        Language.Haskell.HsColour.ANSI
+        Language.Haskell.HsColour.Anchors
+        Language.Haskell.HsColour.CSS
+        Language.Haskell.HsColour.Classify
+        Language.Haskell.HsColour.ColourHighlight
+        Language.Haskell.HsColour.Colourise
+        Language.Haskell.HsColour.General
+        Language.Haskell.HsColour.HTML
+        Language.Haskell.HsColour.InlineCSS
+        Language.Haskell.HsColour.LaTeX
+        Language.Haskell.HsColour.MIRC
+        Language.Haskell.HsColour.Options
+        Language.Haskell.HsColour.Output
+        Language.Haskell.HsColour.TTY
+[ 1 of 17] Compiling Language.Haskell.HsColour.Classify ( Language/Haskell/HsColour/Classify.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Classify.o )
+
+Language/Haskell/HsColour/Classify.hs:50:39: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+50 | glue (q:".":n:rest) | isUpper (head q)  -- qualified names
+   |                                       ^^
+[ 2 of 17] Compiling Language.Haskell.HsColour.ColourHighlight ( Language/Haskell/HsColour/ColourHighlight.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ColourHighlight.o )
+[ 3 of 17] Compiling Language.Haskell.HsColour.Colourise ( Language/Haskell/HsColour/Colourise.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Colourise.o )
+[ 4 of 17] Compiling Language.Haskell.HsColour.General ( Language/Haskell/HsColour/General.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/General.o )
+[ 5 of 17] Compiling Language.Haskell.HsColour.Anchors ( Language/Haskell/HsColour/Anchors.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Anchors.o )
+
+Language/Haskell/HsColour/Anchors.hs:73:1: warning: [-Wtabs]
+    Tab character found here, and in four further locations.
+    Suggested fix: Please use spaces instead.
+   |
+73 |                       | v `inST` st     -> Nothing
+   | ^^^^^^^^
+[ 6 of 17] Compiling Language.Haskell.HsColour.HTML ( Language/Haskell/HsColour/HTML.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/HTML.o )
+[ 7 of 17] Compiling Language.Haskell.HsColour.CSS ( Language/Haskell/HsColour/CSS.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/CSS.o )
+[ 8 of 17] Compiling Language.Haskell.HsColour.ACSS ( Language/Haskell/HsColour/ACSS.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ACSS.o )
+[ 9 of 17] Compiling Language.Haskell.HsColour.InlineCSS ( Language/Haskell/HsColour/InlineCSS.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/InlineCSS.o )
+
+Language/Haskell/HsColour/InlineCSS.hs:12:24: warning: [-Wtabs]
+    Tab character found here.
+    Suggested fix: Please use spaces instead.
+   |
+12 | hscolour :: ColourPrefs -- ^ Preferences for styling.
+   |                        ^
+[10 of 17] Compiling Language.Haskell.HsColour.LaTeX ( Language/Haskell/HsColour/LaTeX.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/LaTeX.o )
+[11 of 17] Compiling Language.Haskell.HsColour.MIRC ( Language/Haskell/HsColour/MIRC.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/MIRC.o )
+[12 of 17] Compiling Language.Haskell.HsColour.Output ( Language/Haskell/HsColour/Output.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Output.o )
+[13 of 17] Compiling Language.Haskell.HsColour.Options ( Language/Haskell/HsColour/Options.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/Options.o )
+
+Language/Haskell/HsColour/Options.hs:11:9: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+11 |     Help                -- ^ print usage message
+   |         ^^^^^^^^
+[14 of 17] Compiling Language.Haskell.HsColour.ANSI ( Language/Haskell/HsColour/ANSI.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/ANSI.o )
+
+Language/Haskell/HsColour/ANSI.hs:62:10: warning: [-Wmissing-methods]
+    • No explicit implementation for
+        ‘toEnum’
+    • In the instance declaration for ‘Enum Highlight’
+   |
+62 | instance Enum Highlight where
+   |          ^^^^^^^^^^^^^^
+[15 of 17] Compiling Language.Haskell.HsColour.TTY ( Language/Haskell/HsColour/TTY.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour/TTY.o )
+[16 of 17] Compiling Language.Haskell.HsColour ( Language/Haskell/HsColour.hs, dist/build/HsColour/HsColour-tmp/Language/Haskell/HsColour.o )
+
+Language/Haskell/HsColour.hs:37:19: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Suggested fix: Please use spaces instead.
+   |
+37 |          -> String      -- ^ Title for output.
+   |                   ^^^^^^
+[17 of 17] Compiling Main             ( HsColour.hs, dist/build/HsColour/HsColour-tmp/Main.o )
+
+HsColour.hs:72:1: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Suggested fix: Please use spaces instead.
+   |
+72 |                               [(f, guessLiterate lhs f) | Input f <- good]
+   | ^^^^^^^^
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules for ‘main’ :
+        Language.Haskell.HsColour
+        Language.Haskell.HsColour.ACSS
+        Language.Haskell.HsColour.ANSI
+        Language.Haskell.HsColour.Anchors
+        Language.Haskell.HsColour.CSS
+        Language.Haskell.HsColour.Classify
+        Language.Haskell.HsColour.ColourHighlight
+        Language.Haskell.HsColour.Colourise
+        Language.Haskell.HsColour.General
+        Language.Haskell.HsColour.HTML
+        Language.Haskell.HsColour.InlineCSS
+        Language.Haskell.HsColour.LaTeX
+        Language.Haskell.HsColour.MIRC
+        Language.Haskell.HsColour.Options
+        Language.Haskell.HsColour.Output
+        Language.Haskell.HsColour.TTY
+[18 of 18] Linking dist/build/HsColour/HsColour
+Running phase: checkPhase
+Package has no test suites.
+Running phase: haddockPhase
+Preprocessing library for hscolour-1.24.4..
+Running Haddock on library for hscolour-1.24.4..
+Warning: --source-* options are ignored when --hyperlinked-source is enabled.
+  66% (  2 /  3) in 'Language.Haskell.HsColour.Classify'
+  Missing documentation for:
+    Module header
+
+Language/Haskell/HsColour/Classify.hs:50:39: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+50 | glue (q:".":n:rest) | isUpper (head q)  -- qualified names
+   |                                       ^^
+  87% (  7 /  8) in 'Language.Haskell.HsColour.ColourHighlight'
+  Missing documentation for:
+    Module header
+  66% (  4 /  6) in 'Language.Haskell.HsColour.Colourise'
+  Missing documentation for:
+    Module header
+    defaultColourPrefs (Language/Haskell/HsColour/Colourise.hs:27)
+   0% (  0 /  3) in 'Language.Haskell.HsColour.General'
+  Missing documentation for:
+    Module header
+    dropLast (Language/Haskell/HsColour/General.hs:7)
+    dropFirst (Language/Haskell/HsColour/General.hs:13)
+  50% (  1 /  2) in 'Language.Haskell.HsColour.Anchors'
+  Missing documentation for:
+    Module header
+
+Language/Haskell/HsColour/Anchors.hs:73:1: warning: [-Wtabs]
+    Tab character found here, and in four further locations.
+    Suggested fix: Please use spaces instead.
+   |
+73 |                       | v `inST` st     -> Nothing
+   | ^^^^^^^^
+  37% (  3 /  8) in 'Language.Haskell.HsColour.HTML'
+  Missing documentation for:
+    top'n'tail (Language/Haskell/HsColour/HTML.hs:31)
+    renderAnchors (Language/Haskell/HsColour/HTML.hs:41)
+    renderComment (Language/Haskell/HsColour/HTML.hs:47)
+    renderNewLinesAnchors (Language/Haskell/HsColour/HTML.hs:59)
+    escape (Language/Haskell/HsColour/HTML.hs:82)
+  40% (  2 /  5) in 'Language.Haskell.HsColour.CSS'
+  Missing documentation for:
+    top'n'tail (Language/Haskell/HsColour/CSS.hs:29)
+    renderToken (Language/Haskell/HsColour/CSS.hs:35)
+    pre (Language/Haskell/HsColour/CSS.hs:32)
+  42% (  3 /  7) in 'Language.Haskell.HsColour.ACSS'
+  Missing documentation for:
+    AnnMap (Language/Haskell/HsColour/ACSS.hs:24)
+    Loc (Language/Haskell/HsColour/ACSS.hs:25)
+    breakS (Language/Haskell/HsColour/ACSS.hs:117)
+    srcModuleName (Language/Haskell/HsColour/ACSS.hs:107)
+  66% (  2 /  3) in 'Language.Haskell.HsColour.InlineCSS'
+  Missing documentation for:
+    top'n'tail (Language/Haskell/HsColour/InlineCSS.hs:27)
+
+Language/Haskell/HsColour/InlineCSS.hs:12:24: warning: [-Wtabs]
+    Tab character found here.
+    Suggested fix: Please use spaces instead.
+   |
+12 | hscolour :: ColourPrefs -- ^ Preferences for styling.
+   |                        ^
+  66% (  2 /  3) in 'Language.Haskell.HsColour.LaTeX'
+  Missing documentation for:
+    top'n'tail (Language/Haskell/HsColour/LaTeX.hs:15)
+ 100% (  2 /  2) in 'Language.Haskell.HsColour.MIRC'
+  33% (  1 /  3) in 'Language.Haskell.HsColour.Output'
+  Missing documentation for:
+    Module header
+    TerminalType (Language/Haskell/HsColour/Output.hs:3)
+  50% (  2 /  4) in 'Language.Haskell.HsColour.Options'
+  Missing documentation for:
+    Module header
+    TerminalType (Language/Haskell/HsColour/Output.hs:3)
+
+Language/Haskell/HsColour/Options.hs:11:9: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Suggested fix: Please use spaces instead.
+   |
+11 |     Help                -- ^ print usage message
+   |         ^^^^^^^^
+  37% ( 10 / 27) in 'Language.Haskell.HsColour.ANSI'
+  Missing documentation for:
+    highlightOnG (Language/Haskell/HsColour/ANSI.hs:91)
+    highlightOff (Language/Haskell/HsColour/ANSI.hs:96)
+    cleareol (Language/Haskell/HsColour/ANSI.hs:46)
+    clearbol (Language/Haskell/HsColour/ANSI.hs:47)
+    clearline (Language/Haskell/HsColour/ANSI.hs:48)
+    clearDown (Language/Haskell/HsColour/ANSI.hs:49)
+    clearUp (Language/Haskell/HsColour/ANSI.hs:50)
+    cursorUp (Language/Haskell/HsColour/ANSI.hs:41)
+    cursorDown (Language/Haskell/HsColour/ANSI.hs:42)
+    cursorLeft (Language/Haskell/HsColour/ANSI.hs:44)
+    cursorRight (Language/Haskell/HsColour/ANSI.hs:43)
+    savePosition (Language/Haskell/HsColour/ANSI.hs:55)
+    restorePosition (Language/Haskell/HsColour/ANSI.hs:56)
+    scrollUp (Language/Haskell/HsColour/ANSI.hs:118)
+    scrollDown (Language/Haskell/HsColour/ANSI.hs:116)
+    lineWrap (Language/Haskell/HsColour/ANSI.hs:122)
+    TerminalType (Language/Haskell/HsColour/Output.hs:3)
+
+Language/Haskell/HsColour/ANSI.hs:62:10: warning: [-Wmissing-methods]
+    • No explicit implementation for
+        ‘toEnum’
+    • In the instance declaration for ‘Enum Highlight’
+   |
+62 | instance Enum Highlight where
+   |          ^^^^^^^^^^^^^^
+ 100% (  3 /  3) in 'Language.Haskell.HsColour.TTY'
+ 100% (  4 /  4) in 'Language.Haskell.HsColour'
+
+Language/Haskell/HsColour.hs:37:19: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Suggested fix: Please use spaces instead.
+   |
+37 |          -> String      -- ^ Title for output.
+   |                   ^^^^^^
+Warning: Language.Haskell.HsColour.Anchors: could not find link destinations for:
+
+        - Language.Haskell.HsColour.Anchors.Anchor
+Documentation created: dist/doc/html/hscolour/index.html,
+dist/doc/html/hscolour/hscolour.txt
+Preprocessing executable 'HsColour' for hscolour-1.24.4..
+Running phase: installPhase
+Installing library in /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/lib/ghc-9.4.8/x86_64-linux-ghc-9.4.8/hscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH
+Installing executable HsColour in /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/bin
+Warning: The directory
+/nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/bin is not in the
+system search path.
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4
+shrinking /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/bin/HsColour
+shrinking /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/lib/ghc-9.4.8/x86_64-linux-ghc-9.4.8/libHShscolour-1.24.4-LikLhFzbJcNJDzssHOMzuH-ghc9.4.8.so
+checking for references to /build/ in /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4...
+patching script interpreter paths in /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4
+stripping (with command strip and flags -S -p) in  /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/lib /nix/store/5b4qrrmgpndppsim02fwgls1g8jsz2y0-hscolour-1.24.4/bin
+shrinking RPATHs of ELF executables and libraries in /nix/store/bad369g6nd7wqb541zdmr6042mnbn7ia-hscolour-1.24.4-data
+checking for references to /build/ in /nix/store/bad369g6nd7wqb541zdmr6042mnbn7ia-hscolour-1.24.4-data...
+patching script interpreter paths in /nix/store/bad369g6nd7wqb541zdmr6042mnbn7ia-hscolour-1.24.4-data
+shrinking RPATHs of ELF executables and libraries in /nix/store/jsijbc8msx3slw0w19ywg0s6gk17vx0q-hscolour-1.24.4-doc
+checking for references to /build/ in /nix/store/jsijbc8msx3slw0w19ywg0s6gk17vx0q-hscolour-1.24.4-doc...
+patching script interpreter paths in /nix/store/jsijbc8msx3slw0w19ywg0s6gk17vx0q-hscolour-1.24.4-doc

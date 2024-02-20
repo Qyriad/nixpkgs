@@ -1,0 +1,29 @@
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/4jimyylz4i6j64ymhkwirk30ifwp26n3-source
+source root is source
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Building subPackage .
+Building subPackage ./path
+@nix { "action": "setPhase", "phase": "checkPhase" }
+Running phase: checkPhase
+ok  	github.com/antonmedv/fx	0.458s
+ok  	github.com/antonmedv/fx/path	0.049s
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/fvx0k9k1qgb6kmbahif10q7cbxv1f41a-fx-31.0.0
+shrinking /nix/store/fvx0k9k1qgb6kmbahif10q7cbxv1f41a-fx-31.0.0/bin/fx
+patchelf: cannot find section '.dynamic'. The input file is most likely statically linked
+checking for references to /build/ in /nix/store/fvx0k9k1qgb6kmbahif10q7cbxv1f41a-fx-31.0.0...
+patchelf: cannot find section '.dynamic'. The input file is most likely statically linked
+patching script interpreter paths in /nix/store/fvx0k9k1qgb6kmbahif10q7cbxv1f41a-fx-31.0.0
+stripping (with command strip and flags -S -p) in  /nix/store/fvx0k9k1qgb6kmbahif10q7cbxv1f41a-fx-31.0.0/bin

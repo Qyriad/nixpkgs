@@ -1,0 +1,32 @@
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/1mmyk26f86cg3cvs9djg0l4cf95hwl7q-source
+source root is source
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+applying patch /nix/store/2q6i5q3jin7d357dm53hdkancj5wzpaq-bump-golang-x-sys.patch
+patching file go.mod
+patching file go.sum
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Building subPackage .
+Building subPackage ./args
+Building subPackage ./formatter
+@nix { "action": "setPhase", "phase": "checkPhase" }
+Running phase: checkPhase
+ok  	github.com/rs/curlie/args	0.001s
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/axaqlq81cw8yx7w81ls7krm1zqi2s951-curlie-1.7.2
+shrinking /nix/store/axaqlq81cw8yx7w81ls7krm1zqi2s951-curlie-1.7.2/bin/curlie
+patchelf: cannot find section '.dynamic'. The input file is most likely statically linked
+checking for references to /build/ in /nix/store/axaqlq81cw8yx7w81ls7krm1zqi2s951-curlie-1.7.2...
+patchelf: cannot find section '.dynamic'. The input file is most likely statically linked
+patching script interpreter paths in /nix/store/axaqlq81cw8yx7w81ls7krm1zqi2s951-curlie-1.7.2
+stripping (with command strip and flags -S -p) in  /nix/store/axaqlq81cw8yx7w81ls7krm1zqi2s951-curlie-1.7.2/bin

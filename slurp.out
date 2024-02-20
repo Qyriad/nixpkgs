@@ -1,0 +1,84 @@
+Running phase: unpackPhase
+unpacking source archive /nix/store/34x9id8g9rmwrawk6dxh52jwpwa66axq-source
+source root is source
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+mesonConfigurePhase flags: --prefix=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0 --libdir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/lib --libexecdir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/libexec --bindir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/bin --sbindir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/sbin --includedir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/include --mandir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/man --infodir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/info --localedir=/nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/locale -Dauto_features=enabled -Dwrap_mode=nodownload --buildtype=plain -Dman-pages=enabled
+The Meson build system
+Version: 1.3.1
+Source dir: /build/source
+Build dir: /build/source/build
+Build type: native build
+Project name: slurp
+Project version: 1.5.0
+C compiler for the host machine: gcc (gcc 13.2.0 "gcc (GCC) 13.2.0")
+C linker for the host machine: gcc ld.bfd 2.40
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/nix/store/knxv5h4hsh86c649rabd6dqfd97kwp5d-pkg-config-wrapper-0.29.2/bin/pkg-config) 0.29.2
+Run-time dependency cairo found: YES 1.18.0
+Library rt found: YES
+Run-time dependency wayland-client found: YES 1.22.0
+Run-time dependency wayland-cursor found: YES 1.22.0
+Run-time dependency wayland-protocols found: YES 1.33
+Run-time dependency xkbcommon found: YES 1.5.0
+Build-time dependency wayland-scanner found: YES 1.22.0
+Program /nix/store/2kncw17a1k3jsni4n45qyz1xvjx94nc1-wayland-1.22.0-bin/bin/wayland-scanner found: YES (/nix/store/2kncw17a1k3jsni4n45qyz1xvjx94nc1-wayland-1.22.0-bin/bin/wayland-scanner)
+Program scdoc found: YES (/nix/store/bww2fq4c4h0fj9lvdb20wx4mw39jac2m-scdoc-1.11.2-unstable-2023-03-08/bin/scdoc)
+Build targets in project: 2
+
+slurp 1.5.0
+
+  User defined options
+    auto_features: enabled
+    bindir       : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/bin
+    buildtype    : plain
+    includedir   : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/include
+    infodir      : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/info
+    libdir       : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/lib
+    libexecdir   : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/libexec
+    localedir    : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/locale
+    mandir       : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/man
+    prefix       : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0
+    sbindir      : /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/sbin
+    wrap_mode    : nodownload
+    man-pages    : enabled
+
+Found ninja-1.11.1 at /nix/store/0xns1gyza3sm938pc7klvzrjk5iqam9l-ninja-1.11.1/bin/ninja
+mesonConfigurePhase: enabled\ parallel\ building
+Running phase: buildPhase
+build flags: -j2
+[1/20] Generating 'slurp.p/xdg-shell-protocol.c'
+[2/20] Generating 'slurp.p/xdg-shell-client-protocol.h'
+[3/20] Generating 'slurp.p/cursor-shape-v1-client-protocol.h'
+[4/20] Generating 'slurp.p/cursor-shape-v1-protocol.c'
+[5/20] Generating 'slurp.p/tablet-unstable-v2-protocol.c'
+[6/20] Generating 'slurp.p/tablet-unstable-v2-client-protocol.h'
+[7/20] Generating 'slurp.p/xdg-output-unstable-v1-protocol.c'
+[8/20] Generating 'slurp.p/xdg-output-unstable-v1-client-protocol.h'
+[9/20] Generating 'slurp.p/wlr-layer-shell-unstable-v1-protocol.c'
+[10/20] Generating 'slurp.p/wlr-layer-shell-unstable-v1-client-protocol.h'
+[11/20] Compiling C object slurp.p/meson-generated_xdg-shell-protocol.c.o
+[12/20] Generating slurp.1 with a custom command (wrapped by meson to capture output, to feed input)
+[13/20] Compiling C object slurp.p/meson-generated_cursor-shape-v1-protocol.c.o
+[14/20] Compiling C object slurp.p/meson-generated_tablet-unstable-v2-protocol.c.o
+[15/20] Compiling C object slurp.p/meson-generated_xdg-output-unstable-v1-protocol.c.o
+[16/20] Compiling C object slurp.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o
+[17/20] Compiling C object slurp.p/pool-buffer.c.o
+[18/20] Compiling C object slurp.p/render.c.o
+[19/20] Compiling C object slurp.p/main.c.o
+[20/20] Linking target slurp
+Running phase: glibPreInstallPhase
+Running phase: installPhase
+mesonInstallPhase flags: ''
+Installing slurp to /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/bin
+Installing slurp.1 to /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/man/man1
+Running phase: glibPreFixupPhase
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0
+shrinking /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/bin/slurp
+checking for references to /build/ in /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0...
+gzipping man pages under /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/share/man/
+patching script interpreter paths in /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0
+stripping (with command strip and flags -S -p) in  /nix/store/nh7x0lqz29mzj8iw9f8cw7w8p908fy6w-slurp-1.5.0/bin

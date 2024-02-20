@@ -1,0 +1,325 @@
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/blwxxfk6dk91xms2pxgchpscv54izg0y-source
+source root is source
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+applying patch /nix/store/aym0v0a1c7wix8fywy2bg0likz5q100s-fix-functional-tests.patch
+patching file test/lit.cfg
+patching script interpreter paths in test/bin
+test/bin/assert_intercepted: interpreter directive changed from "#!/usr/bin/env python" to "/nix/store/y027d3bvlaizbri04c1bzh28hqd6lj01-python3-3.11.7/bin/python"
+test/bin/assert_compilation: interpreter directive changed from "#!/usr/bin/env python" to "/nix/store/y027d3bvlaizbri04c1bzh28hqd6lj01-python3-3.11.7/bin/python"
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+fixing cmake files...
+cmake flags: -GNinja -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LOCALEDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/locale -DCMAKE_INSTALL_LIBEXECDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/libexec -DCMAKE_INSTALL_LIBDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/lib -DCMAKE_INSTALL_DOCDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/doc/Bear -DCMAKE_INSTALL_INFODIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/info -DCMAKE_INSTALL_MANDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/man -DCMAKE_INSTALL_OLDINCLUDEDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/include -DCMAKE_INSTALL_INCLUDEDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/include -DCMAKE_INSTALL_SBINDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/sbin -DCMAKE_INSTALL_BINDIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/bin -DCMAKE_INSTALL_NAME_DIR=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/lib -DCMAKE_POLICY_DEFAULT_CMP0025=NEW -DCMAKE_OSX_SYSROOT= -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_STRIP=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/strip -DCMAKE_RANLIB=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/ranlib -DCMAKE_AR=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/ar -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=/nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3 -DCMAKE_INSTALL_BINDIR=bin -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_UNIT_TESTS:BOOL=FALSE -DENABLE_FUNC_TESTS:BOOL=FALSE 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for nlohman_json dependency
+-- Looking for nlohman_json dependency -- found
+-- Looking for fmt dependency
+-- Looking for fmt dependency -- found
+-- Looking for spdlog dependency
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for spdlog dependency -- found
+-- Looking for gRPC::grpc++ dependency
+-- Found PkgConfig: /nix/store/knxv5h4hsh86c649rabd6dqfd97kwp5d-pkg-config-wrapper-0.29.2/bin/pkg-config (found version "0.29.2") 
+-- Checking for modules 'protobuf>=3.11;grpc++>=1.26'
+--   Found protobuf, version 24.4.0
+--   Found grpc++, version 1.61.0
+-- Looking for gRPC::grpc++ dependency -- found
+-- Looking for protoc
+-- Looking for protoc -- found
+-- Looking for grpc_cpp_plugin
+-- Looking for grpc_cpp_plugin -- found
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_NAME_DIR
+    CMAKE_POLICY_DEFAULT_CMP0025
+
+[0m
+-- Build files have been written to: /build/source/build
+cmake: enabled parallel building
+cmake: enabled parallel installing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+build flags: -j32
+[1/9] Creating directories for 'BearSource'
+[2/9] No download step for 'BearSource'
+[3/9] No update step for 'BearSource'
+[4/9] No patch step for 'BearSource'
+[5/9] Performing configure step for 'BearSource'
+loading initial cache file /build/source/build/subprojects/tmp/BearSource/BearSource-cache-Release.cmake
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nlohmann_json: /nix/store/qihi6c64fwzdd9fcz7r7iydcwhx7z5gh-nlohmann_json-3.11.3/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found PkgConfig: /nix/store/knxv5h4hsh86c649rabd6dqfd97kwp5d-pkg-config-wrapper-0.29.2/bin/pkg-config (found version "0.29.2") 
+-- Checking for modules 'protobuf;grpc++'
+--   Found protobuf, version 24.4.0
+--   Found grpc++, version 1.61.0
+-- Looking for spawn.h
+-- Looking for spawn.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for sys/utsname.h
+-- Looking for sys/utsname.h - found
+-- Looking for sys/wait.h
+-- Looking for sys/wait.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for gnu/lib-names.h
+-- Looking for gnu/lib-names.h - found
+-- Looking for _NSGetEnviron
+-- Looking for _NSGetEnviron - not found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for dlsym
+-- Looking for dlsym - found
+-- Looking for dlerror
+-- Looking for dlerror - found
+-- Looking for dlclose
+-- Looking for dlclose - found
+-- Looking for RTLD_NEXT
+-- Looking for RTLD_NEXT - found
+-- Looking for EACCES
+-- Looking for EACCES - found
+-- Looking for ENOENT
+-- Looking for ENOENT - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for environ
+-- Looking for environ - found
+-- Looking for uname
+-- Looking for uname - found
+-- Looking for confstr
+-- Looking for confstr - found
+-- Looking for _CS_PATH
+-- Looking for _CS_PATH - found
+-- Looking for _CS_GNU_LIBC_VERSION
+-- Looking for _CS_GNU_LIBC_VERSION - found
+-- Looking for _CS_GNU_LIBPTHREAD_VERSION
+-- Looking for _CS_GNU_LIBPTHREAD_VERSION - found
+-- Looking for protoc ... /nix/store/sri80j9f32gs0hsm2b8y97669kn38bhm-protobuf-24.4/bin/protoc
+-- Looking for grpc_cpp_plugin ... /nix/store/ayi9a96hh9qr6s6a5zsadz0kd3rzrv77-grpc-1.61.0/bin/grpc_cpp_plugin
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /build/source/build/subprojects/Build/BearSource
+[6/9] Performing build step for 'BearSource'
+[1/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Buffer.cc.o
+[2/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Environment.cc.o
+[3/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Logger.cc.o
+[4/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Session.cc.o
+[5/59] Generating supervise.pb.h, supervise.grpc.pb.h, supervise.pb.cc, supervise.grpc.pb.cc
+[6/59] Building CXX object intercept/CMakeFiles/exec.dir/source/report/libexec/std.cc.o
+[7/59] Generating intercept.pb.h, intercept.grpc.pb.h, intercept.pb.cc, intercept.grpc.pb.cc
+[8/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Errors.cc.o
+[9/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Paths.cc.o
+[10/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Executor.cc.o
+[11/59] Building CXX object intercept/CMakeFiles/exec.dir/source/report/libexec/lib.cc.o
+[12/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Linker.cc.o
+[13/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Os.cc.o
+[14/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Guard.cc.o
+[15/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Resolver.cc.o
+[16/59] Building CXX object libmain/CMakeFiles/main_a.dir/source/SubcommandFromArgs.cc.o
+[17/59] Linking C shared library intercept/libexec.so
+[18/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Path.cc.o
+[19/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Signal.cc.o
+[20/59] Building CXX object intercept/CMakeFiles/wrapper.dir/source/report/wrapper/main.cc.o
+[21/59] Building CXX object libmain/CMakeFiles/main_a.dir/source/ApplicationFromArgs.cc.o
+[22/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolAny.cc.o
+[23/59] Building CXX object libflags/CMakeFiles/flags_a.dir/source/Flags.cc.o
+[24/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/Parsers.cc.o
+[25/59] Building CXX object intercept/CMakeFiles/domain_a.dir/source/Domain.cc.o
+[26/59] Building CXX object intercept/CMakeFiles/domain_a.dir/source/Convert.cc.o
+[27/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Process.cc.o
+[28/59] Building CXX object libmain/CMakeFiles/main_a.dir/source/ApplicationLogConfig.cc.o
+[29/59] Building CXX object intercept/CMakeFiles/events_db_a.dir/source/collect/db/EventsDatabaseReader.cc.o
+[30/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/Semantic.cc.o
+[31/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/Reporter.cc.o
+[32/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/EventFactory.cc.o
+[33/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/intercept.pb.cc.o
+[34/59] Building CXX object intercept/CMakeFiles/events_db_a.dir/source/collect/db/EventsDatabaseWriter.cc.o
+[35/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolExtendingWrapper.cc.o
+[36/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/EventReporter.cc.o
+[37/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/supervise.pb.cc.o
+[38/59] Building CXX object libshell/CMakeFiles/shell_a.dir/source/Command.cc.o
+[39/59] Building CXX object bear/CMakeFiles/bear.dir/main.cc.o
+[40/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/Session.cc.o
+[41/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/SessionLibrary.cc.o
+[42/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolWrapper.cc.o
+[43/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/RpcServices.cc.o
+[44/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/RpcClients.cc.o
+[45/59] Building CXX object bear/CMakeFiles/bear_a.dir/source/Application.cc.o
+[46/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolCuda.cc.o
+[47/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/Build.cc.o
+[48/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolClang.cc.o
+[49/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/SessionWrapper.cc.o
+In file included from /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/format.h:49,
+                 from /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/std.h:22,
+                 from /build/source/source/intercept/source/collect/SessionWrapper.cc:29:
+In member function 'constexpr void fmt::v10::detail::fill_t<Char>::operator=(fmt::v10::basic_string_view<Char>) [with Char = char]',
+    inlined from 'constexpr const Char* fmt::v10::detail::parse_align(const Char*, const Char*, fmt::v10::format_specs<Char>&) [with Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/format.h:2418:20,
+    inlined from 'constexpr auto fmt::v10::formatter<std::filesystem::__cxx11::path, Char>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/std.h:117:29,
+    inlined from 'constexpr void fmt::v10::detail::parse_empty_specs<ParseContext>::operator()(Formatter&) [with Formatter = fmt::v10::formatter<std::filesystem::__cxx11::path, char, void>; ParseContext = fmt::v10::basic_format_parse_context<char>]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:302:12,
+    inlined from 'constexpr void fmt::v10::detail::for_each(std::index_sequence<_Idx ...>, Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >; long unsigned int ...Is = {0, 1}]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:233:29,
+    inlined from 'constexpr void fmt::v10::detail::for_each(Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:239:11,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::formatter<Tuple, Char, typename std::enable_if<(fmt::v10::is_tuple_like<T>::value && fmt::v10::is_tuple_formattable<T, C>::value), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Tuple = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:367:21,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::range_formatter<T, Char, typename std::enable_if<fmt::v10::conjunction<std::is_same<T, typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type>, std::integral_constant<bool, (! std::is_base_of<fmt::v10::detail::unformattable, decltype (fmt::v10::detail::arg_mapper<fmt::v10::basic_format_context<typename std::conditional<std::is_same<T, char>::value, fmt::v10::appender, std::back_insert_iterator<fmt::v10::detail::buffer<T> > >::type, Char> >().map(declval<T&>()))>::value)> >::value, void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; T = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:475:29,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::detail::range_default_formatter<K, R, Char, typename std::enable_if<(((K == fmt::v10::range_format::sequence) || (K == fmt::v10::range_format::map)) || (K == fmt::v10::range_format::set)), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; fmt::v10::range_format K = fmt::v10::range_format::map; R = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:542:29,
+    inlined from 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h:1305:25:
+/nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h:2005:48: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2005 |     for (size_t i = 0; i < size; ++i) data_[i] = s[i];
+      |                                       ~~~~~~~~~^~~~
+/nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h: In static member function 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]':
+/nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h:1998:8: note: at offset 4 into destination object 'fmt::v10::detail::fill_t<char>::data_' of size 4
+ 1998 |   Char data_[max_size] = {Char(' '), Char(0), Char(0), Char(0)};
+      |        ^~~~~
+In member function 'constexpr void fmt::v10::detail::fill_t<Char>::operator=(fmt::v10::basic_string_view<Char>) [with Char = char]',
+    inlined from 'constexpr const Char* fmt::v10::detail::parse_align(const Char*, const Char*, fmt::v10::format_specs<Char>&) [with Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/format.h:2418:20,
+    inlined from 'constexpr auto fmt::v10::formatter<std::filesystem::__cxx11::path, Char>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/std.h:117:29,
+    inlined from 'constexpr void fmt::v10::detail::parse_empty_specs<ParseContext>::operator()(Formatter&) [with Formatter = fmt::v10::formatter<std::filesystem::__cxx11::path, char, void>; ParseContext = fmt::v10::basic_format_parse_context<char>]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:302:12,
+    inlined from 'constexpr void fmt::v10::detail::for_each(std::index_sequence<_Idx ...>, Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >; long unsigned int ...Is = {0, 1}]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:233:29,
+    inlined from 'constexpr void fmt::v10::detail::for_each(Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:239:11,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::formatter<Tuple, Char, typename std::enable_if<(fmt::v10::is_tuple_like<T>::value && fmt::v10::is_tuple_formattable<T, C>::value), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Tuple = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:367:21,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::range_formatter<T, Char, typename std::enable_if<fmt::v10::conjunction<std::is_same<T, typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type>, std::integral_constant<bool, (! std::is_base_of<fmt::v10::detail::unformattable, decltype (fmt::v10::detail::arg_mapper<fmt::v10::basic_format_context<typename std::conditional<std::is_same<T, char>::value, fmt::v10::appender, std::back_insert_iterator<fmt::v10::detail::buffer<T> > >::type, Char> >().map(declval<T&>()))>::value)> >::value, void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; T = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:475:29,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::detail::range_default_formatter<K, R, Char, typename std::enable_if<(((K == fmt::v10::range_format::sequence) || (K == fmt::v10::range_format::map)) || (K == fmt::v10::range_format::set)), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; fmt::v10::range_format K = fmt::v10::range_format::map; R = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/ranges.h:542:29,
+    inlined from 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]' at /nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h:1305:25:
+/nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h:2005:48: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2005 |     for (size_t i = 0; i < size; ++i) data_[i] = s[i];
+      |                                       ~~~~~~~~~^~~~
+/nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h: In static member function 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]':
+/nix/store/y15pc98i9lwidy1qw0if6r2ykcndjbhs-fmt-10.1.1-dev/include/fmt/core.h:1998:8: note: at offset 5 into destination object 'fmt::v10::detail::fill_t<char>::data_' of size 4
+ 1998 |   Char data_[max_size] = {Char(' '), Char(0), Char(0), Char(0)};
+      |        ^~~~~
+[50/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/supervise.grpc.pb.cc.o
+[51/59] Building CXX object citnames/CMakeFiles/citnames_json_a.dir/source/Output.cc.o
+[52/59] Building CXX object citnames/CMakeFiles/citnames_json_a.dir/source/Configuration.cc.o
+[53/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/Intercept.cc.o
+[54/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolGcc.cc.o
+[55/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/intercept.grpc.pb.cc.o
+[56/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/Citnames.cc.o
+[57/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/Application.cc.o
+[58/59] Linking CXX executable bear/bear
+[59/59] Linking CXX executable intercept/wrapper
+[7/9] Performing test step for 'BearSource'
+*********************************
+No test configuration file found!
+*********************************
+Usage
+
+  ctest [options]
+
+[8/9] Performing install step for 'BearSource'
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /build/source/build/stage/share/man/man1/bear-intercept.1
+-- Installing: /build/source/build/stage/lib/bear/wrapper
+-- Installing: /build/source/build/stage/lib/bear/wrapper.d
+-- Installing: /build/source/build/stage/lib/bear/libexec.so
+-- Installing: /build/source/build/stage/share/man/man1/bear-citnames.1
+-- Installing: /build/source/build/stage/bin/bear
+-- Installing: /build/source/build/stage/share/man/man1/bear.1
+[9/9] Completed 'BearSource'
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+install flags: -j32 install
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/.
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./bin
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./bin/bear
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/libexec.so
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/readelf
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/ranlib
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/objdump
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/objcopy
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/strip
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/ld
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/nm
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/ctangle
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/tangle
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/cweave
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/weave
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/tex2dvi
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/tex
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/makeinfo
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/lint
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/bison
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/yacc
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/flex
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/lex
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/pc
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/m2c
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/f77
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/clang++
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/clang
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/g++
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/gcc
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/cpp
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/c++
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/cc
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/as
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper.d/ar
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./lib/bear/wrapper
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./share
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./share/man
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./share/man/man1
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./share/man/man1/bear.1
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./share/man/man1/bear-citnames.1
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/./share/man/man1/bear-intercept.1
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/doc/Bear/COPYING
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/doc/Bear/README.md
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/doc/Bear/INSTALL.md
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/doc/Bear/CONTRIBUTING.md
+-- Installing: /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/doc/Bear/CODE_OF_CONDUCT.md
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3
+shrinking /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/lib/bear/libexec.so
+shrinking /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/lib/bear/wrapper
+shrinking /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/bin/bear
+checking for references to /build/ in /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3...
+gzipping man pages under /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/share/man/
+patching script interpreter paths in /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3
+stripping (with command strip and flags -S -p) in  /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/lib /nix/store/mqz5gc29fv6ym571c4h5w5pyjnmbx8nj-bear-3.1.3/bin

@@ -1,0 +1,126 @@
+Sourcing python-remove-tests-dir-hook
+Sourcing python-catch-conflicts-hook.sh
+Sourcing python-remove-bin-bytecode-hook.sh
+Sourcing setuptools-build-hook
+Using setuptoolsBuildPhase
+Using setuptoolsShellHook
+Sourcing pypa-install-hook
+Using pypaInstallPhase
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+Sourcing python-namespaces-hook
+Sourcing python-catch-conflicts-hook.sh
+Sourcing setuptools-check-hook
+Using setuptoolsCheckPhase
+Sourcing pytest-check-hook
+Using pytestCheckPhase
+Removing setuptoolsCheckPhase
+Running phase: unpackPhase
+unpacking source archive /nix/store/qzfsn8cfr9pfk586iiq5hrcbhcnmv236-six-1.16.0.tar.gz
+source root is six-1.16.0
+setting SOURCE_DATE_EPOCH to timestamp 1620224296 of file six-1.16.0/setup.cfg
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+no configure script, doing nothing
+Running phase: buildPhase
+Executing setuptoolsBuildPhase
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+copying six.py -> build/lib
+/nix/store/54mbk7y07h2hl7zvj49vd0g5arxcdiy9-python3.11-setuptools-69.0.3/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/six.py -> build/bdist.linux-x86_64/wheel
+running install_egg_info
+running egg_info
+writing six.egg-info/PKG-INFO
+writing dependency_links to six.egg-info/dependency_links.txt
+writing top-level names to six.egg-info/top_level.txt
+reading manifest file 'six.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'documentation/_build'
+adding license file 'LICENSE'
+writing manifest file 'six.egg-info/SOURCES.txt'
+Copying six.egg-info to build/bdist.linux-x86_64/wheel/six-1.16.0-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/six-1.16.0.dist-info/WHEEL
+creating 'dist/six-1.16.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'six.py'
+adding 'six-1.16.0.dist-info/LICENSE'
+adding 'six-1.16.0.dist-info/METADATA'
+adding 'six-1.16.0.dist-info/WHEEL'
+adding 'six-1.16.0.dist-info/top_level.txt'
+adding 'six-1.16.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Finished executing setuptoolsBuildPhase
+Running phase: installPhase
+Executing pypaInstallPhase
+Successfully installed six-1.16.0-py2.py3-none-any.whl
+Finished executing pypaInstallPhase
+Running phase: pythonOutputDistPhase
+Executing pythonOutputDistPhase
+Finished executing pythonOutputDistPhase
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/mbyz064zrvy2r3fvl7wcvd7584qm7jzc-python3.11-six-1.16.0
+checking for references to /build/ in /nix/store/mbyz064zrvy2r3fvl7wcvd7584qm7jzc-python3.11-six-1.16.0...
+patching script interpreter paths in /nix/store/mbyz064zrvy2r3fvl7wcvd7584qm7jzc-python3.11-six-1.16.0
+stripping (with command strip and flags -S -p) in  /nix/store/mbyz064zrvy2r3fvl7wcvd7584qm7jzc-python3.11-six-1.16.0/lib
+shrinking RPATHs of ELF executables and libraries in /nix/store/grwjm6w9cam8674pshrl7qaadrwz7wiz-python3.11-six-1.16.0-dist
+checking for references to /build/ in /nix/store/grwjm6w9cam8674pshrl7qaadrwz7wiz-python3.11-six-1.16.0-dist...
+patching script interpreter paths in /nix/store/grwjm6w9cam8674pshrl7qaadrwz7wiz-python3.11-six-1.16.0-dist
+Executing pythonRemoveTestsDir
+Finished executing pythonRemoveTestsDir
+Running phase: installCheckPhase
+no Makefile or custom installCheckPhase, doing nothing
+Running phase: pythonCatchConflictsPhase
+Running phase: pythonRemoveBinBytecodePhase
+Running phase: pythonImportsCheckPhase
+Executing pythonImportsCheckPhase
+Check whether the following modules can be imported: six
+Running phase: pytestCheckPhase
+Executing pytestCheckPhase
+============================= test session starts ==============================
+platform linux -- Python 3.11.7, pytest-7.4.4, pluggy-1.4.0
+rootdir: /build/six-1.16.0
+configfile: setup.cfg
+collected 200 items                                                            
+
+test_six.py ......................................................ssssss [ 30%]
+sssssssss............................................................... [ 66%]
+....................................................................     [100%]
+
+=============================== warnings summary ===============================
+../../nix/store/pskzm9d22yd40mwp7akhidihvcb3gq4r-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373
+  /nix/store/pskzm9d22yd40mwp7akhidihvcb3gq4r-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373: PytestConfigWarning: Unknown config option: flakes-ignore
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+../../nix/store/pskzm9d22yd40mwp7akhidihvcb3gq4r-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373
+  /nix/store/pskzm9d22yd40mwp7akhidihvcb3gq4r-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373: PytestConfigWarning: Unknown config option: pep8ignore
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================= 185 passed, 15 skipped, 2 warnings in 0.23s ==================
+Finished executing pytestCheckPhase
+Running phase: pytestcachePhase
+Running phase: pytestRemoveBytecodePhase

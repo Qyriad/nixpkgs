@@ -1,0 +1,100 @@
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/hfalpii9nbqibknfj5cd77hn5k5875z8-source
+source root is source
+Executing cargoSetupPostUnpackHook
+unpacking source archive /nix/store/rf7asaiybmagnxdsk1zgy74wfbakv8bw-diskus-0.7.0-vendor.tar.gz
+Finished cargoSetupPostUnpackHook
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+Executing cargoSetupPostPatchHook
+Validating consistency between /build/source/Cargo.lock and /build/diskus-0.7.0-vendor.tar.gz/Cargo.lock
+Finished cargoSetupPostPatchHook
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Executing cargoBuildHook
+++ env CC_X86_64_UNKNOWN_LINUX_GNU=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/cc CXX_X86_64_UNKNOWN_LINUX_GNU=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/c++ CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/cc CC_X86_64_UNKNOWN_LINUX_GNU=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/cc CXX_X86_64_UNKNOWN_LINUX_GNU=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/c++ CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/cc CARGO_BUILD_TARGET=x86_64-unknown-linux-gnu HOST_CC=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/cc HOST_CXX=/nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/c++ cargo build -j 32 --target x86_64-unknown-linux-gnu --frozen --profile release
+[1m[32m   Compiling[0m autocfg v1.0.1
+[1m[32m   Compiling[0m libc v0.2.107
+[1m[32m   Compiling[0m crossbeam-utils v0.8.5
+[1m[32m   Compiling[0m cfg-if v1.0.0
+[1m[32m   Compiling[0m lazy_static v1.4.0
+[1m[32m   Compiling[0m crossbeam-epoch v0.9.5
+[1m[32m   Compiling[0m rayon-core v1.9.1
+[1m[32m   Compiling[0m scopeguard v1.1.0
+[1m[32m   Compiling[0m arrayvec v0.4.12
+[1m[32m   Compiling[0m nodrop v0.1.14
+[1m[32m   Compiling[0m unicode-width v0.1.9
+[1m[32m   Compiling[0m ansi_term v0.11.0
+[1m[32m   Compiling[0m vec_map v0.8.2
+[1m[32m   Compiling[0m bitflags v1.3.2
+[1m[32m   Compiling[0m either v1.6.1
+[1m[32m   Compiling[0m strsim v0.8.0
+[1m[32m   Compiling[0m itoa v0.4.8
+[1m[32m   Compiling[0m humansize v1.1.1
+[1m[32m   Compiling[0m memoffset v0.6.4
+[1m[32m   Compiling[0m rayon v1.5.1
+[1m[32m   Compiling[0m num-format v0.4.0
+[1m[32m   Compiling[0m crossbeam-channel v0.5.1
+[1m[32m   Compiling[0m num_cpus v1.13.0
+[1m[32m   Compiling[0m term_size v0.3.2
+[1m[32m   Compiling[0m atty v0.2.14
+[1m[32m   Compiling[0m textwrap v0.11.0
+[1m[32m   Compiling[0m crossbeam-deque v0.8.1
+[1m[32m   Compiling[0m clap v2.33.3
+[1m[32m   Compiling[0m diskus v0.7.0 (/build/source)
+[1m[32m    Finished[0m release [optimized] target(s) in 28.83s
+Executing cargoInstallPostBuildHook
+Finished cargoInstallPostBuildHook
+Finished cargoBuildHook
+@nix { "action": "setPhase", "phase": "checkPhase" }
+Running phase: checkPhase
+Executing cargoCheckHook
+++ cargo test -j 32 --profile release --target x86_64-unknown-linux-gnu --frozen -- --test-threads=32
+[1m[32m   Compiling[0m rand v0.4.6
+[1m[32m   Compiling[0m remove_dir_all v0.5.3
+[1m[32m   Compiling[0m tempdir v0.3.7
+[1m[32m   Compiling[0m diskus v0.7.0 (/build/source)
+[1m[32m    Finished[0m release [optimized] target(s) in 6.49s
+[1m[32m     Running[0m unittests src/lib.rs (target/x86_64-unknown-linux-gnu/release/deps/diskus-69a97da52ff264dc)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[32m     Running[0m unittests src/main.rs (target/x86_64-unknown-linux-gnu/release/deps/diskus-21445808cd4d8a00)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[32m     Running[0m tests/walk.rs (target/x86_64-unknown-linux-gnu/release/deps/walk-47de5042f158fbca)
+
+running 1 test
+test size_of_single_file ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[32m   Doc-tests[0m diskus
+
+running 1 test
+test src/lib.rs - (line 3) ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.28s
+
+Finished cargoCheckHook
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+Executing cargoInstallHook
+Finished cargoInstallHook
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/kciq0xlm3lj3pidqvil4w42f497nbf31-diskus-0.7.0
+shrinking /nix/store/kciq0xlm3lj3pidqvil4w42f497nbf31-diskus-0.7.0/bin/diskus
+checking for references to /build/ in /nix/store/kciq0xlm3lj3pidqvil4w42f497nbf31-diskus-0.7.0...
+patching script interpreter paths in /nix/store/kciq0xlm3lj3pidqvil4w42f497nbf31-diskus-0.7.0
+stripping (with command strip and flags -S -p) in  /nix/store/kciq0xlm3lj3pidqvil4w42f497nbf31-diskus-0.7.0/bin

@@ -1,0 +1,16 @@
+Running phase: unpackPhase
+unpacking source archive /nix/store/x107pc87z50f0jhf5zsi71whpdlcivqa-source
+source root is source
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+no configure script, doing nothing
+Running phase: buildPhase
+no Makefile or custom buildPhase, doing nothing
+Running phase: installPhase
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/p4061c1g0n3bq8ggslwcakzlxz7z8bqf-nix-top-0.3.0
+checking for references to /build/ in /nix/store/p4061c1g0n3bq8ggslwcakzlxz7z8bqf-nix-top-0.3.0...
+patching script interpreter paths in /nix/store/p4061c1g0n3bq8ggslwcakzlxz7z8bqf-nix-top-0.3.0
+/nix/store/p4061c1g0n3bq8ggslwcakzlxz7z8bqf-nix-top-0.3.0/bin/.nix-top-wrapped: interpreter directive changed from "#!/usr/bin/env ruby" to "/nix/store/lpp53qxl39gc5vwvd8qn6ps6nh6kkffk-ruby-3.1.4/bin/ruby"
+stripping (with command strip and flags -S -p) in  /nix/store/p4061c1g0n3bq8ggslwcakzlxz7z8bqf-nix-top-0.3.0/libexec /nix/store/p4061c1g0n3bq8ggslwcakzlxz7z8bqf-nix-top-0.3.0/bin

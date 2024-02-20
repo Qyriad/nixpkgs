@@ -1,0 +1,66 @@
+Sourcing python-remove-tests-dir-hook
+Sourcing python-remove-bin-bytecode-hook.sh
+Sourcing pypa-build-hook
+Using pypaBuildPhase
+Sourcing python-runtime-deps-check-hook
+Using pythonRuntimeDepsCheckHook
+Sourcing pypa-install-hook
+Using pypaInstallPhase
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+Sourcing python-namespaces-hook
+Sourcing python-catch-conflicts-hook.sh
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/2byxphixs4wdjy8pz97nz3yra2d7s8qd-source
+source root is source
+setting SOURCE_DATE_EPOCH to timestamp 315619200 of file source/tox.ini
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Executing pypaBuildPhase
+Creating a wheel...
+[1m* Getting build dependencies for wheel...[0m
+[1m* Building wheel...[0m
+[1m[92mSuccessfully built [4mbuild-1.0.3-py3-none-any.whl[0m[1m[92m[0m
+Finished creating a wheel...
+Finished executing pypaBuildPhase
+@nix { "action": "setPhase", "phase": "pythonRuntimeDepsCheckHook" }
+Running phase: pythonRuntimeDepsCheckHook
+Executing pythonRuntimeDepsCheck
+Checking runtime dependencies for build-1.0.3-py3-none-any.whl
+Finished executing pythonRuntimeDepsCheck
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+Executing pypaInstallPhase
+Successfully installed build-1.0.3-py3-none-any.whl
+Finished executing pypaInstallPhase
+@nix { "action": "setPhase", "phase": "pythonOutputDistPhase" }
+Running phase: pythonOutputDistPhase
+Executing pythonOutputDistPhase
+Finished executing pythonOutputDistPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/klg1r9l80qzmrxs6mps3yz3v7p6dbv53-python3.11-build-1.0.3
+checking for references to /build/ in /nix/store/klg1r9l80qzmrxs6mps3yz3v7p6dbv53-python3.11-build-1.0.3...
+patching script interpreter paths in /nix/store/klg1r9l80qzmrxs6mps3yz3v7p6dbv53-python3.11-build-1.0.3
+stripping (with command strip and flags -S -p) in  /nix/store/klg1r9l80qzmrxs6mps3yz3v7p6dbv53-python3.11-build-1.0.3/lib /nix/store/klg1r9l80qzmrxs6mps3yz3v7p6dbv53-python3.11-build-1.0.3/bin
+shrinking RPATHs of ELF executables and libraries in /nix/store/vcf5g37l5yvcqzv4298srq6634ikn8vi-python3.11-build-1.0.3-dist
+checking for references to /build/ in /nix/store/vcf5g37l5yvcqzv4298srq6634ikn8vi-python3.11-build-1.0.3-dist...
+patching script interpreter paths in /nix/store/vcf5g37l5yvcqzv4298srq6634ikn8vi-python3.11-build-1.0.3-dist
+Rewriting #!/nix/store/y027d3bvlaizbri04c1bzh28hqd6lj01-python3-3.11.7/bin/python3.11 to #!/nix/store/y027d3bvlaizbri04c1bzh28hqd6lj01-python3-3.11.7
+wrapping `/nix/store/klg1r9l80qzmrxs6mps3yz3v7p6dbv53-python3.11-build-1.0.3/bin/pyproject-build'...
+Executing pythonRemoveTestsDir
+Finished executing pythonRemoveTestsDir
+@nix { "action": "setPhase", "phase": "pythonRemoveBinBytecodePhase" }
+Running phase: pythonRemoveBinBytecodePhase
+@nix { "action": "setPhase", "phase": "pythonImportsCheckPhase" }
+Running phase: pythonImportsCheckPhase
+Executing pythonImportsCheckPhase
+Check whether the following modules can be imported: build

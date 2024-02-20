@@ -1,0 +1,143 @@
+sourcing setup hook '/nix/store/2n4ns1y591c9s2d86y2f9r5dyhqs58sa-cargo-build-hook.sh/nix-support/setuphook'
+sourcing setup hook '/nix/store/5g0sl1k9kazqyfj9kf1s50bkiwpdyfb4-cargo-check-hook.sh/nix-support/setuphook'
+sourcing setup hook '/nix/store/3k0sam53i46ivpfr0qp7784sa6nffq49-cargo-install-hook.sh/nix-support/setuphook'
+sourcing setup hook '/nix/store/kncixbzqib481m29794ygh8wmba8dr7x-cargo-setup-hook.sh/nix-support/setuphook'
+sourcing setup hook '/nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
+sourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
+sourcing setup hook '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh'
+sourcing setup hook '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh'
+sourcing setup hook '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh'
+sourcing setup hook '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh'
+sourcing setup hook '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh'
+sourcing setup hook '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh'
+sourcing setup hook '/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh'
+sourcing setup hook '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh'
+sourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
+sourcing setup hook '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh'
+sourcing setup hook '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh'
+sourcing setup hook '/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40/nix-support/setuphook'
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/hfalpii9nbqibknfj5cd77hn5k5875z8-source
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/hfalpii9nbqibknfj5cd77hn5k5875z8-source
+source root is source
+evaling implicit 'postUnpack' string hook
+calling 'postUnpack' function hook 'cargoSetupPostUnpackHook'
+Executing cargoSetupPostUnpackHook
+unpacking source archive /nix/store/rf7asaiybmagnxdsk1zgy74wfbakv8bw-diskus-0.7.0-vendor.tar.gz
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/rf7asaiybmagnxdsk1zgy74wfbakv8bw-diskus-0.7.0-vendor.tar.gz
+Finished cargoSetupPostUnpackHook
+calling 'postUnpack' function hook '_updateSourceDateEpochFromSourceRoot'
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+calling 'postPatch' function hook 'cargoSetupPostPatchHook'
+Executing cargoSetupPostPatchHook
+Validating consistency between /build/source/Cargo.lock and /build/diskus-0.7.0-vendor.tar.gz/Cargo.lock
+Finished cargoSetupPostPatchHook
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+calling 'preConfigure' function hook '_multioutConfig'
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Executing cargoBuildHook
+++ env CC_X86_64_UNKNOWN_LINUX_GNU=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/cc CXX_X86_64_UNKNOWN_LINUX_GNU=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/c++ CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/cc CC_X86_64_UNKNOWN_LINUX_GNU=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/cc CXX_X86_64_UNKNOWN_LINUX_GNU=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/c++ CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/cc CARGO_BUILD_TARGET=x86_64-unknown-linux-gnu HOST_CC=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/cc HOST_CXX=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/c++ cargo build -j 16 --target x86_64-unknown-linux-gnu --frozen --profile release
+[1m[32m   Compiling[0m libc v0.2.107
+[1m[32m   Compiling[0m autocfg v1.0.1
+[1m[32m   Compiling[0m crossbeam-utils v0.8.5
+[1m[32m   Compiling[0m lazy_static v1.4.0
+[1m[32m   Compiling[0m cfg-if v1.0.0
+[1m[32m   Compiling[0m crossbeam-epoch v0.9.5
+[1m[32m   Compiling[0m rayon-core v1.9.1
+[1m[32m   Compiling[0m scopeguard v1.1.0
+[1m[32m   Compiling[0m arrayvec v0.4.12
+[1m[32m   Compiling[0m unicode-width v0.1.9
+[1m[32m   Compiling[0m nodrop v0.1.14
+[1m[32m   Compiling[0m bitflags v1.3.2
+[1m[32m   Compiling[0m itoa v0.4.8
+[1m[32m   Compiling[0m ansi_term v0.11.0
+[1m[32m   Compiling[0m either v1.6.1
+[1m[32m   Compiling[0m vec_map v0.8.2
+[1m[32m   Compiling[0m strsim v0.8.0
+[1m[32m   Compiling[0m humansize v1.1.1
+[1m[32m   Compiling[0m memoffset v0.6.4
+[1m[32m   Compiling[0m rayon v1.5.1
+[1m[32m   Compiling[0m crossbeam-channel v0.5.1
+[1m[32m   Compiling[0m num-format v0.4.0
+[1m[32m   Compiling[0m crossbeam-deque v0.8.1
+[1m[32m   Compiling[0m term_size v0.3.2
+[1m[32m   Compiling[0m num_cpus v1.13.0
+[1m[32m   Compiling[0m atty v0.2.14
+[1m[32m   Compiling[0m textwrap v0.11.0
+[1m[32m   Compiling[0m clap v2.33.3
+[1m[32m   Compiling[0m diskus v0.7.0 (/build/source)
+[1m[32m    Finished[0m release [optimized] target(s) in 11.30s
+calling 'postBuild' function hook 'cargoInstallPostBuildHook'
+Executing cargoInstallPostBuildHook
+Finished cargoInstallPostBuildHook
+Finished cargoBuildHook
+@nix { "action": "setPhase", "phase": "checkPhase" }
+Running phase: checkPhase
+Executing cargoCheckHook
+++ cargo test -j 16 --profile release --target x86_64-unknown-linux-gnu --frozen -- --test-threads=16
+[1m[32m   Compiling[0m rand v0.4.6
+[1m[32m   Compiling[0m remove_dir_all v0.5.3
+[1m[32m   Compiling[0m tempdir v0.3.7
+[1m[32m   Compiling[0m diskus v0.7.0 (/build/source)
+[1m[32m    Finished[0m release [optimized] target(s) in 6.49s
+[1m[32m     Running[0m unittests src/lib.rs (target/x86_64-unknown-linux-gnu/release/deps/diskus-cedea2eb40297dde)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[32m     Running[0m unittests src/main.rs (target/x86_64-unknown-linux-gnu/release/deps/diskus-5fdf8de1bdab2b9f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[32m     Running[0m tests/walk.rs (target/x86_64-unknown-linux-gnu/release/deps/walk-44a64c6587b68a0d)
+
+running 1 test
+test size_of_single_file ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[1m[32m   Doc-tests[0m diskus
+
+running 1 test
+test src/lib.rs - (line 3) ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.30s
+
+Finished cargoCheckHook
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+Executing cargoInstallHook
+Finished cargoInstallHook
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+calling 'preFixup' function hook '_moveToShare'
+calling 'preFixup' function hook '_multioutDocs'
+calling 'preFixup' function hook '_multioutDevs'
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/xhn1h1dwfnbx6id4ivbdchscb1qy9dg6-diskus-0.7.0
+shrinking /nix/store/xhn1h1dwfnbx6id4ivbdchscb1qy9dg6-diskus-0.7.0/bin/diskus
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/xhn1h1dwfnbx6id4ivbdchscb1qy9dg6-diskus-0.7.0...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/xhn1h1dwfnbx6id4ivbdchscb1qy9dg6-diskus-0.7.0
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+stripping (with command strip and flags -S -p) in  /nix/store/xhn1h1dwfnbx6id4ivbdchscb1qy9dg6-diskus-0.7.0/bin
+calling 'postFixup' function hook '_makeSymlinksRelativeInAllOutputs'
+calling 'postFixup' function hook '_multioutPropagateDev'

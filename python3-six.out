@@ -1,0 +1,369 @@
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook/nix-support/setuphook'
+Sourcing python-remove-tests-dir-hook
+sourcing setup hook '/nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook/nix-support/setuphook'
+Sourcing python-catch-conflicts-hook.sh
+sourcing setup hook '/nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook/nix-support/setuphook'
+Sourcing python-remove-bin-bytecode-hook.sh
+sourcing setup hook '/nix/store/j7jcyi7vcsj06gwx6lag4ixwmm5aaf5z-setuptools-setup-hook/nix-support/setuphook'
+Sourcing setuptools-build-hook
+Using setuptoolsBuildPhase
+Using setuptoolsShellHook
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook/nix-support/setuphook'
+Sourcing pypa-install-hook
+Using pypaInstallPhase
+sourcing setup hook '/nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh/nix-support/setuphook'
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+sourcing setup hook '/nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh/nix-support/setuphook'
+Sourcing python-namespaces-hook
+sourcing setup hook '/nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook/nix-support/setuphook'
+Sourcing python-catch-conflicts-hook.sh
+sourcing setup hook '/nix/store/vvp9039klc9fn2fj2msjbcszwxnln3y9-setuptools-check-hook/nix-support/setuphook'
+Sourcing setuptools-check-hook
+Using setuptoolsCheckPhase
+sourcing setup hook '/nix/store/wmrswdjxhc2gy5k066hpyiqzl07kkj7m-pytest-check-hook/nix-support/setuphook'
+Sourcing pytest-check-hook
+Using pytestCheckPhase
+Removing setuptoolsCheckPhase
+sourcing setup hook '/nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4/nix-support/setuphook'
+sourcing setup hook '/nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
+sourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
+sourcing setup hook '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh'
+sourcing setup hook '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh'
+sourcing setup hook '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh'
+sourcing setup hook '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh'
+sourcing setup hook '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh'
+sourcing setup hook '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh'
+sourcing setup hook '/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh'
+sourcing setup hook '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh'
+sourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
+sourcing setup hook '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh'
+sourcing setup hook '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh'
+sourcing setup hook '/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40/nix-support/setuphook'
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/j7jcyi7vcsj06gwx6lag4ixwmm5aaf5z-setuptools-setup-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/j7jcyi7vcsj06gwx6lag4ixwmm5aaf5z-setuptools-setup-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/j7jcyi7vcsj06gwx6lag4ixwmm5aaf5z-setuptools-setup-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/j7jcyi7vcsj06gwx6lag4ixwmm5aaf5z-setuptools-setup-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/vvp9039klc9fn2fj2msjbcszwxnln3y9-setuptools-check-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/vvp9039klc9fn2fj2msjbcszwxnln3y9-setuptools-check-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/vvp9039klc9fn2fj2msjbcszwxnln3y9-setuptools-check-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/vvp9039klc9fn2fj2msjbcszwxnln3y9-setuptools-check-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmrswdjxhc2gy5k066hpyiqzl07kkj7m-pytest-check-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmrswdjxhc2gy5k066hpyiqzl07kkj7m-pytest-check-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmrswdjxhc2gy5k066hpyiqzl07kkj7m-pytest-check-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmrswdjxhc2gy5k066hpyiqzl07kkj7m-pytest-check-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/9m8242qhgfxiy1csg7g88g3sf9302fwh-python3.11-iniconfig-2.0.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/9m8242qhgfxiy1csg7g88g3sf9302fwh-python3.11-iniconfig-2.0.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/9m8242qhgfxiy1csg7g88g3sf9302fwh-python3.11-iniconfig-2.0.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/9m8242qhgfxiy1csg7g88g3sf9302fwh-python3.11-iniconfig-2.0.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h7h4jp9nqk7glppjv98adiwyjzzkrhph-python3.11-pluggy-1.4.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h7h4jp9nqk7glppjv98adiwyjzzkrhph-python3.11-pluggy-1.4.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h7h4jp9nqk7glppjv98adiwyjzzkrhph-python3.11-pluggy-1.4.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h7h4jp9nqk7glppjv98adiwyjzzkrhph-python3.11-pluggy-1.4.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/qzfsn8cfr9pfk586iiq5hrcbhcnmv236-six-1.16.0.tar.gz
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/qzfsn8cfr9pfk586iiq5hrcbhcnmv236-six-1.16.0.tar.gz
+source root is six-1.16.0
+calling 'postUnpack' function hook '_ensureNewerSources'
+calling 'postUnpack' function hook '_updateSourceDateEpochFromSourceRoot'
+setting SOURCE_DATE_EPOCH to timestamp 1620224296 of file six-1.16.0/setup.cfg
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+calling 'preConfigure' function hook '_multioutConfig'
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Executing setuptoolsBuildPhase
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+copying six.py -> build/lib
+/nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/six.py -> build/bdist.linux-x86_64/wheel
+running install_egg_info
+running egg_info
+writing six.egg-info/PKG-INFO
+writing dependency_links to six.egg-info/dependency_links.txt
+writing top-level names to six.egg-info/top_level.txt
+reading manifest file 'six.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'documentation/_build'
+adding license file 'LICENSE'
+writing manifest file 'six.egg-info/SOURCES.txt'
+Copying six.egg-info to build/bdist.linux-x86_64/wheel/six-1.16.0-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/six-1.16.0.dist-info/WHEEL
+creating 'dist/six-1.16.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'six.py'
+adding 'six-1.16.0.dist-info/LICENSE'
+adding 'six-1.16.0.dist-info/METADATA'
+adding 'six-1.16.0.dist-info/WHEEL'
+adding 'six-1.16.0.dist-info/top_level.txt'
+adding 'six-1.16.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Finished executing setuptoolsBuildPhase
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+Executing pypaInstallPhase
+Successfully installed six-1.16.0-py2.py3-none-any.whl
+Finished executing pypaInstallPhase
+@nix { "action": "setPhase", "phase": "pythonOutputDistPhase" }
+Running phase: pythonOutputDistPhase
+Executing pythonOutputDistPhase
+Finished executing pythonOutputDistPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+calling 'preFixup' function hook '_moveToShare'
+calling 'preFixup' function hook '_multioutDocs'
+calling 'preFixup' function hook '_multioutDevs'
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/3wnb4finiha978kfi7vxyifxa8fgwg51-python3.11-six-1.16.0
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/3wnb4finiha978kfi7vxyifxa8fgwg51-python3.11-six-1.16.0...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/3wnb4finiha978kfi7vxyifxa8fgwg51-python3.11-six-1.16.0
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+stripping (with command strip and flags -S -p) in  /nix/store/3wnb4finiha978kfi7vxyifxa8fgwg51-python3.11-six-1.16.0/lib
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/il39952xwvqni0klvpagrwbzv0lxcn28-python3.11-six-1.16.0-dist
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/il39952xwvqni0klvpagrwbzv0lxcn28-python3.11-six-1.16.0-dist...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/il39952xwvqni0klvpagrwbzv0lxcn28-python3.11-six-1.16.0-dist
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+evaling implicit 'postFixup' string hook
+calling 'postFixup' function hook 'pythonRemoveTestsDir'
+Executing pythonRemoveTestsDir
+Finished executing pythonRemoveTestsDir
+calling 'postFixup' function hook '_makeSymlinksRelativeInAllOutputs'
+calling 'postFixup' function hook '_multioutPropagateDev'
+@nix { "action": "setPhase", "phase": "installCheckPhase" }
+Running phase: installCheckPhase
+no Makefile or custom installCheckPhase, doing nothing
+@nix { "action": "setPhase", "phase": "pythonCatchConflictsPhase" }
+Running phase: pythonCatchConflictsPhase
+@nix { "action": "setPhase", "phase": "pythonRemoveBinBytecodePhase" }
+Running phase: pythonRemoveBinBytecodePhase
+@nix { "action": "setPhase", "phase": "pythonImportsCheckPhase" }
+Running phase: pythonImportsCheckPhase
+Executing pythonImportsCheckPhase
+Check whether the following modules can be imported: six
+@nix { "action": "setPhase", "phase": "pytestCheckPhase" }
+Running phase: pytestCheckPhase
+Executing pytestCheckPhase
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.7, pytest-7.4.4, pluggy-1.4.0
+rootdir: /build/six-1.16.0
+configfile: setup.cfg
+[1mcollecting ... [0m[1mcollected 200 items                                                            [0m
+
+test_six.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33m [ 30%]
+[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[33ms[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m [ 66%]
+[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m     [100%][0m
+
+[33m=============================== warnings summary ===============================[0m
+../../nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373
+  /nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373: PytestConfigWarning: Unknown config option: flakes-ignore
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+../../nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373
+  /nix/store/wf8k8w401qvid2flwc02f2d3c9nsr6xm-python3.11-pytest-7.4.4/lib/python3.11/site-packages/_pytest/config/__init__.py:1373: PytestConfigWarning: Unknown config option: pep8ignore
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m================= [32m185 passed[0m, [33m[1m15 skipped[0m, [33m[1m2 warnings[0m[33m in 0.16s[0m[33m ==================[0m
+Finished executing pytestCheckPhase
+@nix { "action": "setPhase", "phase": "pytestcachePhase" }
+Running phase: pytestcachePhase
+@nix { "action": "setPhase", "phase": "pytestRemoveBytecodePhase" }
+Running phase: pytestRemoveBytecodePhase

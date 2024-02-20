@@ -1,0 +1,517 @@
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook/nix-support/setuphook'
+Sourcing python-remove-tests-dir-hook
+sourcing setup hook '/nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook/nix-support/setuphook'
+Sourcing python-catch-conflicts-hook.sh
+sourcing setup hook '/nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook/nix-support/setuphook'
+Sourcing python-remove-bin-bytecode-hook.sh
+sourcing setup hook '/nix/store/7avgb5iiyqw78zq1k393vkr2lnsdri7r-pypa-build-hook.sh/nix-support/setuphook'
+Sourcing pypa-build-hook
+Using pypaBuildPhase
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/3yav5bmjm61idck3jws64j025cmrnypf-python-runtime-deps-check-hook.sh/nix-support/setuphook'
+Sourcing python-runtime-deps-check-hook
+Using pythonRuntimeDepsCheckHook
+sourcing setup hook '/nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook/nix-support/setuphook'
+Sourcing pypa-install-hook
+Using pypaInstallPhase
+sourcing setup hook '/nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh/nix-support/setuphook'
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+sourcing setup hook '/nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh/nix-support/setuphook'
+Sourcing python-namespaces-hook
+sourcing setup hook '/nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook/nix-support/setuphook'
+Sourcing python-catch-conflicts-hook.sh
+sourcing setup hook '/nix/store/am19p8s9m8qikwcp88yrfjf1p6aa836y-glibc-locales-2.38-44/nix-support/setuphook'
+sourcing setup hook '/nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
+sourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
+sourcing setup hook '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh'
+sourcing setup hook '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh'
+sourcing setup hook '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh'
+sourcing setup hook '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh'
+sourcing setup hook '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh'
+sourcing setup hook '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh'
+sourcing setup hook '/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh'
+sourcing setup hook '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh'
+sourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
+sourcing setup hook '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh'
+sourcing setup hook '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh'
+sourcing setup hook '/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40/nix-support/setuphook'
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/26l6xyys9384bv576sw84f7z2cns4psw-wrap-python-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/r8fca7034d9skd6da6ifmvn4j52rz5hy-make-shell-wrapper-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7daynvxr4y5dqrnv0n88pnh84s3qcn3s-die-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/zjkbqwaf1iq5h3vz71p3k3xbbsrajxf7-ensure-newer-sources-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cj5is2bj4ls06kbwnhamg7bc7j1j53a2-python-remove-tests-dir-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0z5xbc2dnm0ncz7d6qny26faax65vvdr-python-catch-conflicts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pncl9afz8sg9by1408s4vvl6mn6sryx3-python-remove-bin-bytecode-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7avgb5iiyqw78zq1k393vkr2lnsdri7r-pypa-build-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7avgb5iiyqw78zq1k393vkr2lnsdri7r-pypa-build-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7avgb5iiyqw78zq1k393vkr2lnsdri7r-pypa-build-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7avgb5iiyqw78zq1k393vkr2lnsdri7r-pypa-build-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ld1mp9ajg8hxs82jriwwjl96q7gi4xbb-python3.11-wheel-0.42.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/3yav5bmjm61idck3jws64j025cmrnypf-python-runtime-deps-check-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/3yav5bmjm61idck3jws64j025cmrnypf-python-runtime-deps-check-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/3yav5bmjm61idck3jws64j025cmrnypf-python-runtime-deps-check-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/3yav5bmjm61idck3jws64j025cmrnypf-python-runtime-deps-check-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ps7ph70aizy3mani0z9i49frhjimbc3h-python3.11-packaging-23.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jcmiw4ia9x490sfqq7jf5ha15figfj71-pypa-install-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/skw1799zl0b8kz8y2mq06y0hm1sjd92y-python3.11-installer-0.7.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd5ryhba0br9ghmhrnsvh9jd0la9zdc3-python-imports-check-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/bg8rif82i8zm7v10sa6kz9fiw2n2pqmv-python-namespaces-hook.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/3qg1r7qwnsr9faabk9gql6qih5is2cmy-python-output-dist-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/am19p8s9m8qikwcp88yrfjf1p6aa836y-glibc-locales-2.38-44
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/am19p8s9m8qikwcp88yrfjf1p6aa836y-glibc-locales-2.38-44
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/am19p8s9m8qikwcp88yrfjf1p6aa836y-glibc-locales-2.38-44
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/am19p8s9m8qikwcp88yrfjf1p6aa836y-glibc-locales-2.38-44
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/glzfzj4b8sfx78kqpnwviydh0nrck44m-python3.11-nose-1.3.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/glzfzj4b8sfx78kqpnwviydh0nrck44m-python3.11-nose-1.3.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/glzfzj4b8sfx78kqpnwviydh0nrck44m-python3.11-nose-1.3.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/glzfzj4b8sfx78kqpnwviydh0nrck44m-python3.11-nose-1.3.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/vgxvrx49pkk73nlpjgbh7p9iw0l77kcz-python3.11-coverage-7.3.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/vgxvrx49pkk73nlpjgbh7p9iw0l77kcz-python3.11-coverage-7.3.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/vgxvrx49pkk73nlpjgbh7p9iw0l77kcz-python3.11-coverage-7.3.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/vgxvrx49pkk73nlpjgbh7p9iw0l77kcz-python3.11-coverage-7.3.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/6mdk888jg2bmv50p89qh5m1gq7gswzgy-source
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/6mdk888jg2bmv50p89qh5m1gq7gswzgy-source
+source root is source
+calling 'postUnpack' function hook '_ensureNewerSources'
+calling 'postUnpack' function hook '_updateSourceDateEpochFromSourceRoot'
+setting SOURCE_DATE_EPOCH to timestamp 315619200 of file source/tests/test_helper.py
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+evaling implicit 'postPatch' string hook
+substituteStream(): WARNING: '--replace' is deprecated, use --replace-{fail,warn,quiet}. (file 'tests/pty_test.py')
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+calling 'preConfigure' function hook '_multioutConfig'
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+Executing pypaBuildPhase
+Creating a wheel...
+[1m* Getting build dependencies for wheel...[0m
+running egg_info
+creating asciinema.egg-info
+writing asciinema.egg-info/PKG-INFO
+writing dependency_links to asciinema.egg-info/dependency_links.txt
+writing entry points to asciinema.egg-info/entry_points.txt
+writing top-level names to asciinema.egg-info/top_level.txt
+writing manifest file 'asciinema.egg-info/SOURCES.txt'
+reading manifest file 'asciinema.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'asciinema.egg-info/SOURCES.txt'
+[1m* Building wheel...[0m
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/asciinema
+copying asciinema/urllib_http_adapter.py -> build/lib/asciinema
+copying asciinema/tty_.py -> build/lib/asciinema
+copying asciinema/recorder.py -> build/lib/asciinema
+copying asciinema/pty_.py -> build/lib/asciinema
+copying asciinema/player.py -> build/lib/asciinema
+copying asciinema/notifier.py -> build/lib/asciinema
+copying asciinema/http_adapter.py -> build/lib/asciinema
+copying asciinema/file_writer.py -> build/lib/asciinema
+copying asciinema/config.py -> build/lib/asciinema
+copying asciinema/async_worker.py -> build/lib/asciinema
+copying asciinema/api.py -> build/lib/asciinema
+copying asciinema/__main__.py -> build/lib/asciinema
+copying asciinema/__init__.py -> build/lib/asciinema
+creating build/lib/asciinema/asciicast
+copying asciinema/asciicast/v2.py -> build/lib/asciinema/asciicast
+copying asciinema/asciicast/v1.py -> build/lib/asciinema/asciicast
+copying asciinema/asciicast/raw.py -> build/lib/asciinema/asciicast
+copying asciinema/asciicast/events.py -> build/lib/asciinema/asciicast
+copying asciinema/asciicast/__init__.py -> build/lib/asciinema/asciicast
+creating build/lib/asciinema/commands
+copying asciinema/commands/upload.py -> build/lib/asciinema/commands
+copying asciinema/commands/record.py -> build/lib/asciinema/commands
+copying asciinema/commands/play.py -> build/lib/asciinema/commands
+copying asciinema/commands/command.py -> build/lib/asciinema/commands
+copying asciinema/commands/cat.py -> build/lib/asciinema/commands
+copying asciinema/commands/auth.py -> build/lib/asciinema/commands
+copying asciinema/commands/__init__.py -> build/lib/asciinema/commands
+running egg_info
+writing asciinema.egg-info/PKG-INFO
+writing dependency_links to asciinema.egg-info/dependency_links.txt
+writing entry points to asciinema.egg-info/entry_points.txt
+writing top-level names to asciinema.egg-info/top_level.txt
+reading manifest file 'asciinema.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'asciinema.egg-info/SOURCES.txt'
+/nix/store/rygppr9l6bcqrgwmljw7yaqjbih54hws-python3.11-setuptools-69.0.3/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'asciinema.data' is absent from the `packages` configuration.
+!!
+
+        ********************************************************************************
+        ############################
+        # Package would be ignored #
+        ############################
+        Python recognizes 'asciinema.data' as an importable package[^1],
+        but it is absent from setuptools' `packages` configuration.
+
+        This leads to an ambiguous overall configuration. If you want to distribute this
+        package, please make sure that 'asciinema.data' is explicitly added
+        to the `packages` configuration field.
+
+        Alternatively, you can also rely on setuptools' discovery methods
+        (for example by using `find_namespace_packages(...)`/`find_namespace:`
+        instead of `find_packages(...)`/`find:`).
+
+        You can read more about "package discovery" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+        If you don't want 'asciinema.data' to be distributed and are
+        already explicitly excluding 'asciinema.data' via
+        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+        you can try to use `exclude_package_data`, or `include-package-data=False` in
+        combination with a more fine grained `package-data` configuration.
+
+        You can read more about "package data files" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+        [^1]: For Python, any directory (with suitable naming) can be imported,
+              even if it does not contain any `.py` files.
+              On the other hand, currently there is no concept of package data
+              directory, all directories are treated like packages.
+        ********************************************************************************
+
+!!
+  check.warn(importable)
+copying asciinema/py.typed -> build/lib/asciinema
+creating build/lib/asciinema/data
+copying asciinema/data/icon-256x256.png -> build/lib/asciinema/data
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/asciinema
+creating build/bdist.linux-x86_64/wheel/asciinema/data
+copying build/lib/asciinema/data/icon-256x256.png -> build/bdist.linux-x86_64/wheel/asciinema/data
+copying build/lib/asciinema/py.typed -> build/bdist.linux-x86_64/wheel/asciinema
+creating build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/__init__.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/auth.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/cat.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/command.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/play.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/record.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+copying build/lib/asciinema/commands/upload.py -> build/bdist.linux-x86_64/wheel/asciinema/commands
+creating build/bdist.linux-x86_64/wheel/asciinema/asciicast
+copying build/lib/asciinema/asciicast/__init__.py -> build/bdist.linux-x86_64/wheel/asciinema/asciicast
+copying build/lib/asciinema/asciicast/events.py -> build/bdist.linux-x86_64/wheel/asciinema/asciicast
+copying build/lib/asciinema/asciicast/raw.py -> build/bdist.linux-x86_64/wheel/asciinema/asciicast
+copying build/lib/asciinema/asciicast/v1.py -> build/bdist.linux-x86_64/wheel/asciinema/asciicast
+copying build/lib/asciinema/asciicast/v2.py -> build/bdist.linux-x86_64/wheel/asciinema/asciicast
+copying build/lib/asciinema/__init__.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/__main__.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/api.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/async_worker.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/config.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/file_writer.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/http_adapter.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/notifier.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/player.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/pty_.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/recorder.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/tty_.py -> build/bdist.linux-x86_64/wheel/asciinema
+copying build/lib/asciinema/urllib_http_adapter.py -> build/bdist.linux-x86_64/wheel/asciinema
+running install_data
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+copying CHANGELOG.md -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+copying CODE_OF_CONDUCT.md -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+copying CONTRIBUTING.md -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+copying README.md -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+copying doc/asciicast-v1.md -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+copying doc/asciicast-v2.md -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/doc/asciinema
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/man
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/man/man1
+copying man/asciinema.1 -> build/bdist.linux-x86_64/wheel/asciinema-2.4.0.data/data/share/man/man1
+running install_egg_info
+Copying asciinema.egg-info to build/bdist.linux-x86_64/wheel/asciinema-2.4.0-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/asciinema-2.4.0.dist-info/WHEEL
+creating '/build/source/dist/.tmp-nga1thwl/asciinema-2.4.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'asciinema/__init__.py'
+adding 'asciinema/__main__.py'
+adding 'asciinema/api.py'
+adding 'asciinema/async_worker.py'
+adding 'asciinema/config.py'
+adding 'asciinema/file_writer.py'
+adding 'asciinema/http_adapter.py'
+adding 'asciinema/notifier.py'
+adding 'asciinema/player.py'
+adding 'asciinema/pty_.py'
+adding 'asciinema/py.typed'
+adding 'asciinema/recorder.py'
+adding 'asciinema/tty_.py'
+adding 'asciinema/urllib_http_adapter.py'
+adding 'asciinema/asciicast/__init__.py'
+adding 'asciinema/asciicast/events.py'
+adding 'asciinema/asciicast/raw.py'
+adding 'asciinema/asciicast/v1.py'
+adding 'asciinema/asciicast/v2.py'
+adding 'asciinema/commands/__init__.py'
+adding 'asciinema/commands/auth.py'
+adding 'asciinema/commands/cat.py'
+adding 'asciinema/commands/command.py'
+adding 'asciinema/commands/play.py'
+adding 'asciinema/commands/record.py'
+adding 'asciinema/commands/upload.py'
+adding 'asciinema/data/icon-256x256.png'
+adding 'asciinema-2.4.0.data/data/share/doc/asciinema/CHANGELOG.md'
+adding 'asciinema-2.4.0.data/data/share/doc/asciinema/CODE_OF_CONDUCT.md'
+adding 'asciinema-2.4.0.data/data/share/doc/asciinema/CONTRIBUTING.md'
+adding 'asciinema-2.4.0.data/data/share/doc/asciinema/README.md'
+adding 'asciinema-2.4.0.data/data/share/doc/asciinema/asciicast-v1.md'
+adding 'asciinema-2.4.0.data/data/share/doc/asciinema/asciicast-v2.md'
+adding 'asciinema-2.4.0.data/data/share/man/man1/asciinema.1'
+adding 'asciinema-2.4.0.dist-info/LICENSE'
+adding 'asciinema-2.4.0.dist-info/METADATA'
+adding 'asciinema-2.4.0.dist-info/WHEEL'
+adding 'asciinema-2.4.0.dist-info/entry_points.txt'
+adding 'asciinema-2.4.0.dist-info/top_level.txt'
+adding 'asciinema-2.4.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+[1m[92mSuccessfully built [4masciinema-2.4.0-py3-none-any.whl[0m[1m[92m[0m
+Finished creating a wheel...
+Finished executing pypaBuildPhase
+@nix { "action": "setPhase", "phase": "pythonRuntimeDepsCheckHook" }
+Running phase: pythonRuntimeDepsCheckHook
+Executing pythonRuntimeDepsCheck
+Checking runtime dependencies for asciinema-2.4.0-py3-none-any.whl
+Finished executing pythonRuntimeDepsCheck
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+Executing pypaInstallPhase
+Successfully installed asciinema-2.4.0-py3-none-any.whl
+Finished executing pypaInstallPhase
+@nix { "action": "setPhase", "phase": "pythonOutputDistPhase" }
+Running phase: pythonOutputDistPhase
+Executing pythonOutputDistPhase
+Finished executing pythonOutputDistPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+calling 'preFixup' function hook '_moveToShare'
+calling 'preFixup' function hook '_multioutDocs'
+calling 'preFixup' function hook '_multioutDevs'
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+gzipping man pages under /nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0/share/man/
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+stripping (with command strip and flags -S -p) in  /nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0/lib /nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0/bin
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/lhi1c282fvwfq9iv89ilxgqz52gabdqr-asciinema-2.4.0-dist
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/lhi1c282fvwfq9iv89ilxgqz52gabdqr-asciinema-2.4.0-dist...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/lhi1c282fvwfq9iv89ilxgqz52gabdqr-asciinema-2.4.0-dist
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+evaling implicit 'postFixup' string hook
+Rewriting #!/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/bin/python3.11 to #!/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+wrapping `/nix/store/azlwd1mmbyw400clbzclcd9gdfk5mr7z-asciinema-2.4.0/bin/asciinema'...
+calling 'postFixup' function hook 'pythonRemoveTestsDir'
+Executing pythonRemoveTestsDir
+Finished executing pythonRemoveTestsDir
+calling 'postFixup' function hook '_makeSymlinksRelativeInAllOutputs'
+calling 'postFixup' function hook '_multioutPropagateDev'
+@nix { "action": "setPhase", "phase": "installCheckPhase" }
+Running phase: installCheckPhase
+tests.config_test.test_upgrade_no_config_file ... ok
+tests.config_test.test_upgrade_config_file_with_api_token ... ok
+tests.config_test.test_upgrade_config_file_with_api_token_and_more ... ok
+tests.config_test.test_upgrade_config_file_with_user_token ... ok
+tests.config_test.test_upgrade_config_file_with_user_token_and_more ... ok
+tests.config_test.test_default_api_url ... ok
+tests.config_test.test_default_record_stdin ... ok
+tests.config_test.test_default_record_command ... ok
+tests.config_test.test_default_record_env ... ok
+tests.config_test.test_default_record_idle_time_limit ... ok
+tests.config_test.test_default_record_yes ... ok
+tests.config_test.test_default_record_quiet ... ok
+tests.config_test.test_default_play_idle_time_limit ... ok
+tests.config_test.test_api_url ... ok
+tests.config_test.test_api_url_when_override_set ... ok
+tests.config_test.test_record_command ... ok
+tests.config_test.test_record_stdin ... ok
+tests.config_test.test_record_env ... ok
+tests.config_test.test_record_idle_time_limit ... ok
+tests.config_test.test_record_yes ... ok
+tests.config_test.test_record_quiet ... ok
+tests.config_test.test_play_idle_time_limit ... ok
+tests.config_test.test_notifications_enabled ... ok
+tests.config_test.test_notifications_command ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.004s
+
+OK
+@nix { "action": "setPhase", "phase": "pythonCatchConflictsPhase" }
+Running phase: pythonCatchConflictsPhase
+@nix { "action": "setPhase", "phase": "pythonRemoveBinBytecodePhase" }
+Running phase: pythonRemoveBinBytecodePhase
+@nix { "action": "setPhase", "phase": "pythonImportsCheckPhase" }
+Running phase: pythonImportsCheckPhase
+Executing pythonImportsCheckPhase

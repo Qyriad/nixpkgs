@@ -1,0 +1,325 @@
+sourcing setup hook '/nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2/nix-support/setuphook'
+sourcing setup hook '/nix/store/j7fg6nw4n9f035j8cs1637bzq94hm0ry-meson-1.3.1/nix-support/setuphook'
+sourcing setup hook '/nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1/nix-support/setuphook'
+sourcing setup hook '/nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2/nix-support/setuphook'
+sourcing setup hook '/nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
+sourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
+sourcing setup hook '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh'
+sourcing setup hook '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh'
+sourcing setup hook '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh'
+sourcing setup hook '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh'
+sourcing setup hook '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh'
+sourcing setup hook '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh'
+sourcing setup hook '/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh'
+sourcing setup hook '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh'
+sourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
+sourcing setup hook '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh'
+sourcing setup hook '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh'
+sourcing setup hook '/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40/nix-support/setuphook'
+sourcing setup hook '/nix/store/j5i64fx3sggig8897f8ipd9kwm2w6hrv-glib-2.78.4-dev/nix-support/setuphook'
+sourcing setup hook '/nix/store/7sc5hkclff6l09iyqyhwvw4jy2jijn69-gettext-0.21.1/nix-support/setuphook'
+calling 'envBuildBuildHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/j7fg6nw4n9f035j8cs1637bzq94hm0ry-meson-1.3.1
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/8imbjzalqib7f0xxp0yhwhjq4hgpd2y0-scdoc-1.11.2-unstable-2023-03-08-dev
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/dvm9ybnvz652xph5rg6gj1ilvkxlzqv7-scdoc-1.11.2-unstable-2023-03-08
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/a9bk5pdp368ia2i4v4nsvzf7bzaakqsn-cairo-1.18.0-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/a9bk5pdp368ia2i4v4nsvzf7bzaakqsn-cairo-1.18.0-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/a9bk5pdp368ia2i4v4nsvzf7bzaakqsn-cairo-1.18.0-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/a9bk5pdp368ia2i4v4nsvzf7bzaakqsn-cairo-1.18.0-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/zr365q7qaqlfxp81z35l7hmbkma3r2a1-fontconfig-2.15.0-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/zr365q7qaqlfxp81z35l7hmbkma3r2a1-fontconfig-2.15.0-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/zr365q7qaqlfxp81z35l7hmbkma3r2a1-fontconfig-2.15.0-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/zr365q7qaqlfxp81z35l7hmbkma3r2a1-fontconfig-2.15.0-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/1qxvpy6v2qgnwcl62vapnhprqhjqrbbi-freetype-2.13.2-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/1qxvpy6v2qgnwcl62vapnhprqhjqrbbi-freetype-2.13.2-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1qxvpy6v2qgnwcl62vapnhprqhjqrbbi-freetype-2.13.2-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/1qxvpy6v2qgnwcl62vapnhprqhjqrbbi-freetype-2.13.2-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/bgbdx1jnr1m99r3q6wz8pbm9wfhjk7yh-bzip2-1.0.8-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/bgbdx1jnr1m99r3q6wz8pbm9wfhjk7yh-bzip2-1.0.8-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/bgbdx1jnr1m99r3q6wz8pbm9wfhjk7yh-bzip2-1.0.8-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/bgbdx1jnr1m99r3q6wz8pbm9wfhjk7yh-bzip2-1.0.8-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/rf1c00gxcgkps1gkb7f14gqdrddghnwp-bzip2-1.0.8-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/rf1c00gxcgkps1gkb7f14gqdrddghnwp-bzip2-1.0.8-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/rf1c00gxcgkps1gkb7f14gqdrddghnwp-bzip2-1.0.8-bin
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/rf1c00gxcgkps1gkb7f14gqdrddghnwp-bzip2-1.0.8-bin
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/8abdh2c1qwwzpn9pyw89n4vw82w1hj2m-bzip2-1.0.8
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/8abdh2c1qwwzpn9pyw89n4vw82w1hj2m-bzip2-1.0.8
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/8abdh2c1qwwzpn9pyw89n4vw82w1hj2m-bzip2-1.0.8
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/8abdh2c1qwwzpn9pyw89n4vw82w1hj2m-bzip2-1.0.8
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/c7a568ikf5y54m38zb4ghg68kgphr4sa-brotli-1.1.0-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/c7a568ikf5y54m38zb4ghg68kgphr4sa-brotli-1.1.0-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/c7a568ikf5y54m38zb4ghg68kgphr4sa-brotli-1.1.0-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/c7a568ikf5y54m38zb4ghg68kgphr4sa-brotli-1.1.0-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7mprpc4zg0r5nbllc2phpwa00xazk5az-brotli-1.1.0-lib
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/7mprpc4zg0r5nbllc2phpwa00xazk5az-brotli-1.1.0-lib
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/7mprpc4zg0r5nbllc2phpwa00xazk5az-brotli-1.1.0-lib
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/7mprpc4zg0r5nbllc2phpwa00xazk5az-brotli-1.1.0-lib
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/gcna28p5mrbk5qh3467hkk64kz32hm5q-brotli-1.1.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/gcna28p5mrbk5qh3467hkk64kz32hm5q-brotli-1.1.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/gcna28p5mrbk5qh3467hkk64kz32hm5q-brotli-1.1.0
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/gcna28p5mrbk5qh3467hkk64kz32hm5q-brotli-1.1.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/jx8x45s2r08jik1n0b9j9ah7dd8m53qr-libpng-apng-1.6.40-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/jx8x45s2r08jik1n0b9j9ah7dd8m53qr-libpng-apng-1.6.40-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/jx8x45s2r08jik1n0b9j9ah7dd8m53qr-libpng-apng-1.6.40-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/jx8x45s2r08jik1n0b9j9ah7dd8m53qr-libpng-apng-1.6.40-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/acgp87w42219mihdh8nd9xapax8xryz5-libpng-apng-1.6.40
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/acgp87w42219mihdh8nd9xapax8xryz5-libpng-apng-1.6.40
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/acgp87w42219mihdh8nd9xapax8xryz5-libpng-apng-1.6.40
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/acgp87w42219mihdh8nd9xapax8xryz5-libpng-apng-1.6.40
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/f521962hcprqrnyyw5gclg8fcp32jizb-freetype-2.13.2
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/f521962hcprqrnyyw5gclg8fcp32jizb-freetype-2.13.2
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/f521962hcprqrnyyw5gclg8fcp32jizb-freetype-2.13.2
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/f521962hcprqrnyyw5gclg8fcp32jizb-freetype-2.13.2
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/zglin4jvlayk37bffj3vqdf5bqwnwar5-fontconfig-2.15.0-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/zglin4jvlayk37bffj3vqdf5bqwnwar5-fontconfig-2.15.0-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/zglin4jvlayk37bffj3vqdf5bqwnwar5-fontconfig-2.15.0-bin
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/zglin4jvlayk37bffj3vqdf5bqwnwar5-fontconfig-2.15.0-bin
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/3svqlxii1ailjghcb8ga69bf0223j4f3-fontconfig-2.15.0-lib
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/3svqlxii1ailjghcb8ga69bf0223j4f3-fontconfig-2.15.0-lib
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/3svqlxii1ailjghcb8ga69bf0223j4f3-fontconfig-2.15.0-lib
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/3svqlxii1ailjghcb8ga69bf0223j4f3-fontconfig-2.15.0-lib
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/c6rb3fkw3wyxs4vwxw0304n4m67s3p3b-pixman-0.43.2
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/c6rb3fkw3wyxs4vwxw0304n4m67s3p3b-pixman-0.43.2
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/c6rb3fkw3wyxs4vwxw0304n4m67s3p3b-pixman-0.43.2
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/c6rb3fkw3wyxs4vwxw0304n4m67s3p3b-pixman-0.43.2
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/p44blza7xxql146nqq4r6jbsg6fv8pq1-libXext-1.3.5-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/p44blza7xxql146nqq4r6jbsg6fv8pq1-libXext-1.3.5-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/p44blza7xxql146nqq4r6jbsg6fv8pq1-libXext-1.3.5-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/p44blza7xxql146nqq4r6jbsg6fv8pq1-libXext-1.3.5-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/x7295a990djzkg6547zla1vn1d3y9rk9-xorgproto-2023.2
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/x7295a990djzkg6547zla1vn1d3y9rk9-xorgproto-2023.2
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/x7295a990djzkg6547zla1vn1d3y9rk9-xorgproto-2023.2
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/x7295a990djzkg6547zla1vn1d3y9rk9-xorgproto-2023.2
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/436y2apcaczd9ag7sw0w8dnb27ribabv-libXau-1.0.11-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/436y2apcaczd9ag7sw0w8dnb27ribabv-libXau-1.0.11-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/436y2apcaczd9ag7sw0w8dnb27ribabv-libXau-1.0.11-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/436y2apcaczd9ag7sw0w8dnb27ribabv-libXau-1.0.11-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/my72f9fgrccdy1gf1r0rrdv2q1kk51qy-libXau-1.0.11
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/my72f9fgrccdy1gf1r0rrdv2q1kk51qy-libXau-1.0.11
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/my72f9fgrccdy1gf1r0rrdv2q1kk51qy-libXau-1.0.11
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/my72f9fgrccdy1gf1r0rrdv2q1kk51qy-libXau-1.0.11
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/vv7sm8kpa4pzp3hdz7gmlff3zbp4h1m4-libXext-1.3.5
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/vv7sm8kpa4pzp3hdz7gmlff3zbp4h1m4-libXext-1.3.5
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/vv7sm8kpa4pzp3hdz7gmlff3zbp4h1m4-libXext-1.3.5
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/vv7sm8kpa4pzp3hdz7gmlff3zbp4h1m4-libXext-1.3.5
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ldgdmy61njfnksjs0g7ik6cdx60yagh4-libXrender-0.9.11-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ldgdmy61njfnksjs0g7ik6cdx60yagh4-libXrender-0.9.11-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ldgdmy61njfnksjs0g7ik6cdx60yagh4-libXrender-0.9.11-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/ldgdmy61njfnksjs0g7ik6cdx60yagh4-libXrender-0.9.11-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4cr8y15v18mccpmjnbi0p244p7iggac1-libX11-1.8.7-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/4cr8y15v18mccpmjnbi0p244p7iggac1-libX11-1.8.7-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4cr8y15v18mccpmjnbi0p244p7iggac1-libX11-1.8.7-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/4cr8y15v18mccpmjnbi0p244p7iggac1-libX11-1.8.7-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/fqg77wd6b6sd1518czyiany3alxrn0fb-libxcb-1.16-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fqg77wd6b6sd1518czyiany3alxrn0fb-libxcb-1.16-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fqg77wd6b6sd1518czyiany3alxrn0fb-libxcb-1.16-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/fqg77wd6b6sd1518czyiany3alxrn0fb-libxcb-1.16-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/anivsh55f82s4a63r7d5bj2jr5v1lwlz-libxcb-1.16
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/anivsh55f82s4a63r7d5bj2jr5v1lwlz-libxcb-1.16
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/anivsh55f82s4a63r7d5bj2jr5v1lwlz-libxcb-1.16
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/anivsh55f82s4a63r7d5bj2jr5v1lwlz-libxcb-1.16
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kj20w7lhnd83n1wq1kz5ffcgwj313pmi-libX11-1.8.7
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/kj20w7lhnd83n1wq1kz5ffcgwj313pmi-libX11-1.8.7
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kj20w7lhnd83n1wq1kz5ffcgwj313pmi-libX11-1.8.7
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/kj20w7lhnd83n1wq1kz5ffcgwj313pmi-libX11-1.8.7
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/msqfw8l6dgxg2w1gp5ixgivgd5mv315w-libXrender-0.9.11
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/msqfw8l6dgxg2w1gp5ixgivgd5mv315w-libXrender-0.9.11
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/msqfw8l6dgxg2w1gp5ixgivgd5mv315w-libXrender-0.9.11
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/msqfw8l6dgxg2w1gp5ixgivgd5mv315w-libXrender-0.9.11
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/j5i64fx3sggig8897f8ipd9kwm2w6hrv-glib-2.78.4-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/j5i64fx3sggig8897f8ipd9kwm2w6hrv-glib-2.78.4-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/j5i64fx3sggig8897f8ipd9kwm2w6hrv-glib-2.78.4-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/j5i64fx3sggig8897f8ipd9kwm2w6hrv-glib-2.78.4-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/1xgzxnvsfqir4i8kaivgx3zsq6jiskr9-libffi-3.4.4-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/1xgzxnvsfqir4i8kaivgx3zsq6jiskr9-libffi-3.4.4-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1xgzxnvsfqir4i8kaivgx3zsq6jiskr9-libffi-3.4.4-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/1xgzxnvsfqir4i8kaivgx3zsq6jiskr9-libffi-3.4.4-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/p26bka6ccd220wyyng0c37whkz8hfxxc-libffi-3.4.4
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/p26bka6ccd220wyyng0c37whkz8hfxxc-libffi-3.4.4
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/p26bka6ccd220wyyng0c37whkz8hfxxc-libffi-3.4.4
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/p26bka6ccd220wyyng0c37whkz8hfxxc-libffi-3.4.4
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7sc5hkclff6l09iyqyhwvw4jy2jijn69-gettext-0.21.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/7sc5hkclff6l09iyqyhwvw4jy2jijn69-gettext-0.21.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/7sc5hkclff6l09iyqyhwvw4jy2jijn69-gettext-0.21.1
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/7sc5hkclff6l09iyqyhwvw4jy2jijn69-gettext-0.21.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/vspd9qgfz0rbsi24l03h47acwmv337rq-glib-2.78.4-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/vspd9qgfz0rbsi24l03h47acwmv337rq-glib-2.78.4-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/vspd9qgfz0rbsi24l03h47acwmv337rq-glib-2.78.4-bin
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/vspd9qgfz0rbsi24l03h47acwmv337rq-glib-2.78.4-bin
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/0xx8km850rkdi9257l35gw3z15npp5g6-glib-2.78.4
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/0xx8km850rkdi9257l35gw3z15npp5g6-glib-2.78.4
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/0xx8km850rkdi9257l35gw3z15npp5g6-glib-2.78.4
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/0xx8km850rkdi9257l35gw3z15npp5g6-glib-2.78.4
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/vf00dbpia2brs0mjfpbmdx8k1b27psv0-cairo-1.18.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/vf00dbpia2brs0mjfpbmdx8k1b27psv0-cairo-1.18.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/vf00dbpia2brs0mjfpbmdx8k1b27psv0-cairo-1.18.0
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/vf00dbpia2brs0mjfpbmdx8k1b27psv0-cairo-1.18.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/y9k70p1h9pz7rm2pxainfzjj6xxcn8wb-libxkbcommon-1.5.0-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/y9k70p1h9pz7rm2pxainfzjj6xxcn8wb-libxkbcommon-1.5.0-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/y9k70p1h9pz7rm2pxainfzjj6xxcn8wb-libxkbcommon-1.5.0-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/y9k70p1h9pz7rm2pxainfzjj6xxcn8wb-libxkbcommon-1.5.0-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ncixdn41g9zr2f38s9gv98v6m3jk3yq3-libxkbcommon-1.5.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ncixdn41g9zr2f38s9gv98v6m3jk3yq3-libxkbcommon-1.5.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ncixdn41g9zr2f38s9gv98v6m3jk3yq3-libxkbcommon-1.5.0
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/ncixdn41g9zr2f38s9gv98v6m3jk3yq3-libxkbcommon-1.5.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/1vmbyyfk338jlws2d28vlic96wi3gng8-wayland-1.22.0-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/1vmbyyfk338jlws2d28vlic96wi3gng8-wayland-1.22.0-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1vmbyyfk338jlws2d28vlic96wi3gng8-wayland-1.22.0-dev
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/1vmbyyfk338jlws2d28vlic96wi3gng8-wayland-1.22.0-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/y7p15ibd8gxq6v4a75awm10lv245hr1a-wayland-1.22.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/y7p15ibd8gxq6v4a75awm10lv245hr1a-wayland-1.22.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/y7p15ibd8gxq6v4a75awm10lv245hr1a-wayland-1.22.0
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/y7p15ibd8gxq6v4a75awm10lv245hr1a-wayland-1.22.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/f5q17bcy921p7i09mdw6pxm2al66chjc-wayland-protocols-1.33
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/f5q17bcy921p7i09mdw6pxm2al66chjc-wayland-protocols-1.33
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/f5q17bcy921p7i09mdw6pxm2al66chjc-wayland-protocols-1.33
+calling 'envHostTargetHook' function hook 'gettextDataDirsHook' /nix/store/f5q17bcy921p7i09mdw6pxm2al66chjc-wayland-protocols-1.33
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/34x9id8g9rmwrawk6dxh52jwpwa66axq-source
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/34x9id8g9rmwrawk6dxh52jwpwa66axq-source
+source root is source
+calling 'postUnpack' function hook '_updateSourceDateEpochFromSourceRoot'
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+calling 'preConfigure' function hook '_multioutConfig'
+mesonConfigurePhase flags: --prefix=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0 --libdir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/lib --libexecdir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/libexec --bindir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/bin --sbindir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/sbin --includedir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/include --mandir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/man --infodir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/info --localedir=/nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/locale -Dauto_features=enabled -Dwrap_mode=nodownload --buildtype=plain -Dman-pages=enabled
+[1mThe Meson build system[0m
+Version: 1.3.1
+Source dir: [1m/build/source[0m
+Build dir: [1m/build/source/build[0m
+Build type: [1mnative build[0m
+Project name: [1mslurp[0m
+Project version: [1m1.5.0[0m
+C compiler for the host machine: [1mgcc[0m (gcc 13.2.0 "gcc (GCC) 13.2.0")
+C linker for the host machine: [1mgcc[0m ld.bfd 2.40
+Host machine cpu family: [1mx86_64[0m
+Host machine cpu: [1mx86_64[0m
+Found pkg-config: [1;32mYES[0m [1m(/nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2/bin/pkg-config)[0m [1;34m0.29.2[0m
+Run-time dependency [1mcairo[0m found: [1;32mYES[0m [36m1.18.0[0m
+Library [1mrt[0m found: [1;32mYES[0m
+Run-time dependency [1mwayland-client[0m found: [1;32mYES[0m [36m1.22.0[0m
+Run-time dependency [1mwayland-cursor[0m found: [1;32mYES[0m [36m1.22.0[0m
+Run-time dependency [1mwayland-protocols[0m found: [1;32mYES[0m [36m1.33[0m
+Run-time dependency [1mxkbcommon[0m found: [1;32mYES[0m [36m1.5.0[0m
+Build-time dependency [1mwayland-scanner[0m found: [1;32mYES[0m [36m1.22.0[0m
+Program [1m/nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin/bin/wayland-scanner[0m found: [1;32mYES[0m (/nix/store/7z43xzifp0qznck8w7w6nj1lmwdxiryh-wayland-1.22.0-bin/bin/wayland-scanner)
+Program [1mscdoc[0m found: [1;32mYES[0m (/nix/store/dvm9ybnvz652xph5rg6gj1ilvkxlzqv7-scdoc-1.11.2-unstable-2023-03-08/bin/scdoc)
+Build targets in project: [1m2[0m
+
+slurp [36m1.5.0[0m
+
+  [1mUser defined options[0m
+    auto_features: enabled
+    bindir       : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/bin
+    buildtype    : plain
+    includedir   : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/include
+    infodir      : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/info
+    libdir       : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/lib
+    libexecdir   : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/libexec
+    localedir    : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/locale
+    mandir       : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/man
+    prefix       : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0
+    sbindir      : /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/sbin
+    wrap_mode    : nodownload
+    man-pages    : enabled
+
+Found ninja-1.11.1 at /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1/bin/ninja
+mesonConfigurePhase: enabled\ parallel\ building
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+build flags: -j16
+[1/20] Generating 'slurp.p/cursor-shape-v1-protocol.c'
+[2/20] Generating 'slurp.p/cursor-shape-v1-client-protocol.h'
+[3/20] Generating 'slurp.p/xdg-output-unstable-v1-protocol.c'
+[4/20] Generating 'slurp.p/wlr-layer-shell-unstable-v1-client-protocol.h'
+[5/20] Generating 'slurp.p/xdg-shell-protocol.c'
+[6/20] Generating 'slurp.p/tablet-unstable-v2-protocol.c'
+[7/20] Generating 'slurp.p/xdg-output-unstable-v1-client-protocol.h'
+[8/20] Generating 'slurp.p/tablet-unstable-v2-client-protocol.h'
+[9/20] Generating 'slurp.p/wlr-layer-shell-unstable-v1-protocol.c'
+[10/20] Generating 'slurp.p/xdg-shell-client-protocol.h'
+[11/20] Compiling C object slurp.p/meson-generated_xdg-shell-protocol.c.o
+[12/20] Compiling C object slurp.p/meson-generated_cursor-shape-v1-protocol.c.o
+[13/20] Compiling C object slurp.p/meson-generated_xdg-output-unstable-v1-protocol.c.o
+[14/20] Compiling C object slurp.p/meson-generated_tablet-unstable-v2-protocol.c.o
+[15/20] Compiling C object slurp.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o
+[16/20] Generating slurp.1 with a custom command (wrapped by meson to capture output, to feed input)
+[17/20] Compiling C object slurp.p/render.c.o
+[18/20] Compiling C object slurp.p/pool-buffer.c.o
+[19/20] Compiling C object slurp.p/main.c.o
+[20/20] Linking target slurp
+@nix { "action": "setPhase", "phase": "glibPreInstallPhase" }
+Running phase: glibPreInstallPhase
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+mesonInstallPhase flags: ''
+Installing slurp to /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/bin
+Installing slurp.1 to /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/man/man1
+@nix { "action": "setPhase", "phase": "glibPreFixupPhase" }
+Running phase: glibPreFixupPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+calling 'preFixup' function hook '_moveToShare'
+calling 'preFixup' function hook '_multioutDocs'
+calling 'preFixup' function hook '_multioutDevs'
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0
+shrinking /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/bin/slurp
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+gzipping man pages under /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/share/man/
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+stripping (with command strip and flags -S -p) in  /nix/store/z53hkpbk30wzk627hsvdbkn6w19xikf8-slurp-1.5.0/bin
+calling 'postFixup' function hook '_makeSymlinksRelativeInAllOutputs'
+calling 'postFixup' function hook '_multioutPropagateDev'

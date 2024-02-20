@@ -1,0 +1,1247 @@
+sourcing setup hook '/nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9/nix-support/setuphook'
+sourcing setup hook '/nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1/nix-support/setuphook'
+sourcing setup hook '/nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2/nix-support/setuphook'
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
+sourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
+sourcing setup hook '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh'
+sourcing setup hook '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh'
+sourcing setup hook '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh'
+sourcing setup hook '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh'
+sourcing setup hook '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh'
+sourcing setup hook '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh'
+sourcing setup hook '/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh'
+sourcing setup hook '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh'
+sourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
+sourcing setup hook '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh'
+sourcing setup hook '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh'
+sourcing setup hook '/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40/nix-support/setuphook'
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kfc7wnzq27zhc8mrrr5zyrhq7php3m4q-ninja-1.11.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/0199igsncfb17kswjg5p63ablhx50h3a-python3.11-lit-17.0.6
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/mdyxhb5prkirmjgkiymcyvdyrp9b34m3-c-ares-1.19.1-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qk92y3w15r7yv4g68ph6naz4ky7h04sn-c-ares-1.19.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/l4pnkkgvzqxsw6xj6k1i4j1bnkx8g5zf-re2-2023-11-01-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/mz38qhfj84q59xvi1yh5d6mwh2fqm1x6-abseil-cpp-20240116.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/rkv6b7c9zmavjk0va86h5ifyb0k4a76d-re2-2023-11-01
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/7m9rxjy1lrh6d8akyr2xpn5vafvbay5n-zlib-1.3.1-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cizhb8hclasw8zq3qlx8kb2kn4lsm6vl-zlib-1.3.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/m93kg91brzw7wzvz3l2gm5dx1r82441d-openssl-3.0.13-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qpfr84v1ylpjl6f9d2y99j5hj1rb3208-openssl-3.0.13-bin
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4i0c6js8arzhh6pqzx9yn1r2fkmkqkb0-openssl-3.0.13
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/x3hb874vc9di3yf8rr0vivhipif18wm0-gtest-1.12.1-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/6xmhzvwna39c4ygip7vidda1j1sp0xp3-gtest-1.12.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/y5x2ybhdlzd3zy65f16gjhg1f7wwh3y1-spdlog-1.12.0-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/4xcrlhhaf5rv1mip7lhh3g51x7aysavd-fmt-10.1.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qac6gbxpm83ljvwnfj01gmw7cc07knrl-spdlog-1.12.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'pkgConfigWrapper_addPkgConfigPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'postHook' function hook 'makeCmakeFindLibs'
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/blwxxfk6dk91xms2pxgchpscv54izg0y-source
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/blwxxfk6dk91xms2pxgchpscv54izg0y-source
+source root is source
+calling 'postUnpack' function hook '_updateSourceDateEpochFromSourceRoot'
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+applying patch /nix/store/aym0v0a1c7wix8fywy2bg0likz5q100s-fix-functional-tests.patch
+patching file test/lit.cfg
+evaling implicit 'postPatch' string hook
+patching script interpreter paths in test/bin
+test/bin/assert_intercepted: interpreter directive changed from "#!/usr/bin/env python" to "/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/bin/python"
+test/bin/assert_compilation: interpreter directive changed from "#!/usr/bin/env python" to "/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/bin/python"
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+calling 'preConfigure' function hook '_multioutConfig'
+fixing cmake files...
+cmake flags: -GNinja -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LOCALEDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/locale -DCMAKE_INSTALL_LIBEXECDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/libexec -DCMAKE_INSTALL_LIBDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/lib -DCMAKE_INSTALL_DOCDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/doc/Bear -DCMAKE_INSTALL_INFODIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/info -DCMAKE_INSTALL_MANDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/man -DCMAKE_INSTALL_OLDINCLUDEDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/include -DCMAKE_INSTALL_INCLUDEDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/include -DCMAKE_INSTALL_SBINDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/sbin -DCMAKE_INSTALL_BINDIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/bin -DCMAKE_INSTALL_NAME_DIR=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/lib -DCMAKE_POLICY_DEFAULT_CMP0025=NEW -DCMAKE_OSX_SYSROOT= -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_STRIP=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/strip -DCMAKE_RANLIB=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/ranlib -DCMAKE_AR=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/ar -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=/nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3 -DCMAKE_INSTALL_BINDIR=bin -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_UNIT_TESTS:BOOL=FALSE -DENABLE_FUNC_TESTS:BOOL=FALSE 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for nlohman_json dependency
+-- Looking for nlohman_json dependency -- found
+-- Looking for fmt dependency
+-- Looking for fmt dependency -- found
+-- Looking for spdlog dependency
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for spdlog dependency -- found
+-- Looking for gRPC::grpc++ dependency
+-- Found PkgConfig: /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2/bin/pkg-config (found version "0.29.2") 
+-- Checking for modules 'protobuf>=3.11;grpc++>=1.26'
+--   Found protobuf, version 24.4.0
+--   Found grpc++, version 1.61.0
+-- Looking for gRPC::grpc++ dependency -- found
+-- Looking for protoc
+-- Looking for protoc -- found
+-- Looking for grpc_cpp_plugin
+-- Looking for grpc_cpp_plugin -- found
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_NAME_DIR
+    CMAKE_POLICY_DEFAULT_CMP0025
+
+[0m
+-- Build files have been written to: /build/source/build
+cmake: enabled parallel building
+cmake: enabled parallel installing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+build flags: -j16
+[1/9] Creating directories for 'BearSource'
+[2/9] No download step for 'BearSource'
+[3/9] No update step for 'BearSource'
+[4/9] No patch step for 'BearSource'
+[5/9] Performing configure step for 'BearSource'
+loading initial cache file /build/source/build/subprojects/tmp/BearSource/BearSource-cache-Release.cmake
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nlohmann_json: /nix/store/cmwldfsn314chr25ll3v1iv8i68kq1zp-nlohmann_json-3.11.3/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found PkgConfig: /nix/store/gppzdvivrfpcalrv1f468cxn1p7ihm0b-pkg-config-wrapper-0.29.2/bin/pkg-config (found version "0.29.2") 
+-- Checking for modules 'protobuf;grpc++'
+--   Found protobuf, version 24.4.0
+--   Found grpc++, version 1.61.0
+-- Looking for spawn.h
+-- Looking for spawn.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for sys/utsname.h
+-- Looking for sys/utsname.h - found
+-- Looking for sys/wait.h
+-- Looking for sys/wait.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for gnu/lib-names.h
+-- Looking for gnu/lib-names.h - found
+-- Looking for _NSGetEnviron
+-- Looking for _NSGetEnviron - not found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for dlsym
+-- Looking for dlsym - found
+-- Looking for dlerror
+-- Looking for dlerror - found
+-- Looking for dlclose
+-- Looking for dlclose - found
+-- Looking for RTLD_NEXT
+-- Looking for RTLD_NEXT - found
+-- Looking for EACCES
+-- Looking for EACCES - found
+-- Looking for ENOENT
+-- Looking for ENOENT - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for environ
+-- Looking for environ - found
+-- Looking for uname
+-- Looking for uname - found
+-- Looking for confstr
+-- Looking for confstr - found
+-- Looking for _CS_PATH
+-- Looking for _CS_PATH - found
+-- Looking for _CS_GNU_LIBC_VERSION
+-- Looking for _CS_GNU_LIBC_VERSION - found
+-- Looking for _CS_GNU_LIBPTHREAD_VERSION
+-- Looking for _CS_GNU_LIBPTHREAD_VERSION - found
+-- Looking for protoc ... /nix/store/sam2jb5p31awp1kr1bss7qwy056zc29n-protobuf-24.4/bin/protoc
+-- Looking for grpc_cpp_plugin ... /nix/store/4pyyia2w1ilq7x5y3a8iwdv7ihcsbsa8-grpc-1.61.0/bin/grpc_cpp_plugin
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /build/source/build/subprojects/Build/BearSource
+[6/9] Performing build step for 'BearSource'
+[1/59] Generating supervise.pb.h, supervise.grpc.pb.h, supervise.pb.cc, supervise.grpc.pb.cc
+[2/59] Generating intercept.pb.h, intercept.grpc.pb.h, intercept.pb.cc, intercept.grpc.pb.cc
+[3/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Session.cc.o
+[4/59] Building CXX object intercept/CMakeFiles/exec.dir/source/report/libexec/std.cc.o
+[5/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Environment.cc.o
+[6/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Buffer.cc.o
+[7/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Logger.cc.o
+[8/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Errors.cc.o
+[9/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Paths.cc.o
+[10/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Linker.cc.o
+[11/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Executor.cc.o
+[12/59] Building CXX object intercept/CMakeFiles/exec.dir/source/report/libexec/lib.cc.o
+[13/59] Building CXX object intercept/CMakeFiles/exec_a.dir/source/report/libexec/Resolver.cc.o
+[14/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Path.cc.o
+[15/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Signal.cc.o
+[16/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Os.cc.o
+[17/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Guard.cc.o
+[18/59] Linking C shared library intercept/libexec.so
+[19/59] Building CXX object libmain/CMakeFiles/main_a.dir/source/SubcommandFromArgs.cc.o
+[20/59] Building CXX object intercept/CMakeFiles/wrapper.dir/source/report/wrapper/main.cc.o
+[21/59] Building CXX object libmain/CMakeFiles/main_a.dir/source/ApplicationLogConfig.cc.o
+[22/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolAny.cc.o
+[23/59] Building CXX object libmain/CMakeFiles/main_a.dir/source/ApplicationFromArgs.cc.o
+[24/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/Parsers.cc.o
+[25/59] Building CXX object libflags/CMakeFiles/flags_a.dir/source/Flags.cc.o
+[26/59] Building CXX object intercept/CMakeFiles/domain_a.dir/source/Domain.cc.o
+[27/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/EventFactory.cc.o
+[28/59] Building CXX object intercept/CMakeFiles/domain_a.dir/source/Convert.cc.o
+[29/59] Building CXX object intercept/CMakeFiles/events_db_a.dir/source/collect/db/EventsDatabaseWriter.cc.o
+[30/59] Building CXX object libsys/CMakeFiles/sys_a.dir/source/Process.cc.o
+[31/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/Reporter.cc.o
+[32/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/intercept.pb.cc.o
+[33/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/Session.cc.o
+[34/59] Building CXX object intercept/CMakeFiles/events_db_a.dir/source/collect/db/EventsDatabaseReader.cc.o
+[35/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolExtendingWrapper.cc.o
+[36/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/SessionLibrary.cc.o
+[37/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/Semantic.cc.o
+[38/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolWrapper.cc.o
+[39/59] Building CXX object bear/CMakeFiles/bear.dir/main.cc.o
+[40/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/supervise.pb.cc.o
+[41/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/EventReporter.cc.o
+[42/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/RpcServices.cc.o
+[43/59] Building CXX object libshell/CMakeFiles/shell_a.dir/source/Command.cc.o
+[44/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/RpcClients.cc.o
+[45/59] Building CXX object bear/CMakeFiles/bear_a.dir/source/Application.cc.o
+[46/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/SessionWrapper.cc.o
+In file included from /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/format.h:49,
+                 from /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/std.h:22,
+                 from /build/source/source/intercept/source/collect/SessionWrapper.cc:29:
+In member function 'constexpr void fmt::v10::detail::fill_t<Char>::operator=(fmt::v10::basic_string_view<Char>) [with Char = char]',
+    inlined from 'constexpr const Char* fmt::v10::detail::parse_align(const Char*, const Char*, fmt::v10::format_specs<Char>&) [with Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/format.h:2418:20,
+    inlined from 'constexpr auto fmt::v10::formatter<std::filesystem::__cxx11::path, Char>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/std.h:117:29,
+    inlined from 'constexpr void fmt::v10::detail::parse_empty_specs<ParseContext>::operator()(Formatter&) [with Formatter = fmt::v10::formatter<std::filesystem::__cxx11::path, char, void>; ParseContext = fmt::v10::basic_format_parse_context<char>]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:302:12,
+    inlined from 'constexpr void fmt::v10::detail::for_each(std::index_sequence<_Idx ...>, Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >; long unsigned int ...Is = {0, 1}]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:233:29,
+    inlined from 'constexpr void fmt::v10::detail::for_each(Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:239:11,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::formatter<Tuple, Char, typename std::enable_if<(fmt::v10::is_tuple_like<T>::value && fmt::v10::is_tuple_formattable<T, C>::value), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Tuple = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:367:21,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::range_formatter<T, Char, typename std::enable_if<fmt::v10::conjunction<std::is_same<T, typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type>, std::integral_constant<bool, (! std::is_base_of<fmt::v10::detail::unformattable, decltype (fmt::v10::detail::arg_mapper<fmt::v10::basic_format_context<typename std::conditional<std::is_same<T, char>::value, fmt::v10::appender, std::back_insert_iterator<fmt::v10::detail::buffer<T> > >::type, Char> >().map(declval<T&>()))>::value)> >::value, void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; T = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:475:29,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::detail::range_default_formatter<K, R, Char, typename std::enable_if<(((K == fmt::v10::range_format::sequence) || (K == fmt::v10::range_format::map)) || (K == fmt::v10::range_format::set)), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; fmt::v10::range_format K = fmt::v10::range_format::map; R = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:542:29,
+    inlined from 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h:1305:25:
+/nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h:2005:48: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2005 |     for (size_t i = 0; i < size; ++i) data_[i] = s[i];
+      |                                       ~~~~~~~~~^~~~
+/nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h: In static member function 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]':
+/nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h:1998:8: note: at offset 4 into destination object 'fmt::v10::detail::fill_t<char>::data_' of size 4
+ 1998 |   Char data_[max_size] = {Char(' '), Char(0), Char(0), Char(0)};
+      |        ^~~~~
+In member function 'constexpr void fmt::v10::detail::fill_t<Char>::operator=(fmt::v10::basic_string_view<Char>) [with Char = char]',
+    inlined from 'constexpr const Char* fmt::v10::detail::parse_align(const Char*, const Char*, fmt::v10::format_specs<Char>&) [with Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/format.h:2418:20,
+    inlined from 'constexpr auto fmt::v10::formatter<std::filesystem::__cxx11::path, Char>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/std.h:117:29,
+    inlined from 'constexpr void fmt::v10::detail::parse_empty_specs<ParseContext>::operator()(Formatter&) [with Formatter = fmt::v10::formatter<std::filesystem::__cxx11::path, char, void>; ParseContext = fmt::v10::basic_format_parse_context<char>]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:302:12,
+    inlined from 'constexpr void fmt::v10::detail::for_each(std::index_sequence<_Idx ...>, Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >; long unsigned int ...Is = {0, 1}]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:233:29,
+    inlined from 'constexpr void fmt::v10::detail::for_each(Tuple&&, F&&) [with Tuple = std::tuple<fmt::v10::formatter<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char, void>, fmt::v10::formatter<std::filesystem::__cxx11::path, char, void> >&; F = parse_empty_specs<fmt::v10::basic_format_parse_context<char> >]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:239:11,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::formatter<Tuple, Char, typename std::enable_if<(fmt::v10::is_tuple_like<T>::value && fmt::v10::is_tuple_formattable<T, C>::value), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; Tuple = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:367:21,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::range_formatter<T, Char, typename std::enable_if<fmt::v10::conjunction<std::is_same<T, typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type>, std::integral_constant<bool, (! std::is_base_of<fmt::v10::detail::unformattable, decltype (fmt::v10::detail::arg_mapper<fmt::v10::basic_format_context<typename std::conditional<std::is_same<T, char>::value, fmt::v10::appender, std::back_insert_iterator<fmt::v10::detail::buffer<T> > >::type, Char> >().map(declval<T&>()))>::value)> >::value, void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; T = std::pair<const std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:475:29,
+    inlined from 'constexpr decltype (ctx.begin()) fmt::v10::detail::range_default_formatter<K, R, Char, typename std::enable_if<(((K == fmt::v10::range_format::sequence) || (K == fmt::v10::range_format::map)) || (K == fmt::v10::range_format::set)), void>::type>::parse(ParseContext&) [with ParseContext = fmt::v10::basic_format_parse_context<char>; fmt::v10::range_format K = fmt::v10::range_format::map; R = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Char = char]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/ranges.h:542:29,
+    inlined from 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]' at /nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h:1305:25:
+/nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h:2005:48: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2005 |     for (size_t i = 0; i < size; ++i) data_[i] = s[i];
+      |                                       ~~~~~~~~~^~~~
+/nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h: In static member function 'static void fmt::v10::detail::value<Context>::format_custom_arg(void*, typename Context::parse_context_type&, Context&) [with T = std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>; Formatter = fmt::v10::formatter<std::map<std::__cxx11::basic_string<char>, std::filesystem::__cxx11::path>, char, void>; Context = fmt::v10::basic_format_context<fmt::v10::appender, char>]':
+/nix/store/0bq058jd9x1rhqca259nyd5f1kanq6jg-fmt-10.1.1-dev/include/fmt/core.h:1998:8: note: at offset 5 into destination object 'fmt::v10::detail::fill_t<char>::data_' of size 4
+ 1998 |   Char data_[max_size] = {Char(' '), Char(0), Char(0), Char(0)};
+      |        ^~~~~
+[47/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/Build.cc.o
+[48/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolClang.cc.o
+[49/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolCuda.cc.o
+[50/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/intercept.grpc.pb.cc.o
+[51/59] Building CXX object intercept/CMakeFiles/intercept_a.dir/source/collect/Intercept.cc.o
+[52/59] Building CXX object intercept/proto/CMakeFiles/rpc_a.dir/supervise.grpc.pb.cc.o
+[53/59] Building CXX object intercept/CMakeFiles/wrapper_a.dir/source/report/wrapper/Application.cc.o
+[54/59] Linking CXX executable intercept/wrapper
+[55/59] Building CXX object citnames/CMakeFiles/citnames_json_a.dir/source/Configuration.cc.o
+[56/59] Building CXX object citnames/CMakeFiles/citnames_json_a.dir/source/Output.cc.o
+[57/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/Citnames.cc.o
+[58/59] Building CXX object citnames/CMakeFiles/citnames_a.dir/source/semantic/ToolGcc.cc.o
+[59/59] Linking CXX executable bear/bear
+[7/9] Performing test step for 'BearSource'
+*********************************
+No test configuration file found!
+*********************************
+Usage
+
+  ctest [options]
+
+[8/9] Performing install step for 'BearSource'
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /build/source/build/stage/share/man/man1/bear-intercept.1
+-- Installing: /build/source/build/stage/lib/bear/wrapper
+-- Installing: /build/source/build/stage/lib/bear/wrapper.d
+-- Installing: /build/source/build/stage/lib/bear/libexec.so
+-- Installing: /build/source/build/stage/share/man/man1/bear-citnames.1
+-- Installing: /build/source/build/stage/bin/bear
+-- Installing: /build/source/build/stage/share/man/man1/bear.1
+[9/9] Completed 'BearSource'
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+install flags: -j16 install
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/.
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./bin
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./bin/bear
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/libexec.so
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/readelf
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/ranlib
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/objdump
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/objcopy
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/strip
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/ld
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/nm
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/ctangle
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/tangle
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/cweave
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/weave
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/tex2dvi
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/tex
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/makeinfo
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/lint
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/bison
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/yacc
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/flex
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/lex
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/pc
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/m2c
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/f77
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/clang++
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/clang
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/g++
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/gcc
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/cpp
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/c++
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/cc
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/as
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper.d/ar
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./lib/bear/wrapper
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./share
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./share/man
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./share/man/man1
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./share/man/man1/bear.1
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./share/man/man1/bear-citnames.1
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/./share/man/man1/bear-intercept.1
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/doc/Bear/COPYING
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/doc/Bear/README.md
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/doc/Bear/INSTALL.md
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/doc/Bear/CONTRIBUTING.md
+-- Installing: /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/doc/Bear/CODE_OF_CONDUCT.md
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+calling 'preFixup' function hook '_moveToShare'
+calling 'preFixup' function hook '_multioutDocs'
+calling 'preFixup' function hook '_multioutDevs'
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3
+shrinking /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/lib/bear/libexec.so
+shrinking /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/lib/bear/wrapper
+shrinking /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/bin/bear
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+gzipping man pages under /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/share/man/
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+stripping (with command strip and flags -S -p) in  /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/lib /nix/store/9lqhs9620qmnn6mfn0561b23jazz9c7n-bear-3.1.3/bin
+calling 'postFixup' function hook 'cmakePcfileCheckPhase'
+calling 'postFixup' function hook '_makeSymlinksRelativeInAllOutputs'
+calling 'postFixup' function hook '_multioutPropagateDev'

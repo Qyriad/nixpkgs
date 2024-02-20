@@ -1,0 +1,741 @@
+sourcing setup hook '/nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9/nix-support/setuphook'
+sourcing setup hook '/nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/nix-support/setuphook'
+sourcing setup hook '/nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook/nix-support/setuphook'
+sourcing setup hook '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh'
+sourcing setup hook '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh'
+sourcing setup hook '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh'
+sourcing setup hook '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh'
+sourcing setup hook '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh'
+sourcing setup hook '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh'
+sourcing setup hook '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh'
+sourcing setup hook '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh'
+sourcing setup hook '/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh'
+sourcing setup hook '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh'
+sourcing setup hook '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh'
+sourcing setup hook '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh'
+sourcing setup hook '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh'
+sourcing setup hook '/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/nix-support/setuphook'
+sourcing setup hook '/nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40/nix-support/setuphook'
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildBuildHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildBuildHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildHostHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildHostHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envBuildTargetHook' function hook 'addPythonPath' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envBuildTargetHook' function hook 'sysconfigdataHook' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostHostHook' function hook 'addCMakeParams' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'ccWrapper_addCVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostHostHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/a142rsi26xqvn5q5q0kc5skr7b9d1zax-cmake-3.27.9
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/p42vb91qn00sz0ja5m85l94imzi7jk5i-gnum4-1.4.19
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/33jvc2jsv20lsx8dp0pwf0rr7xhwwpq9-patchelf-0.15.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/qmavq4i2rh012ggwb5fxlvp3pzhxmbkl-update-autotools-gnu-config-scripts-hook
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/1byi00pspg4j6jpvaj4xn2mfkyh28g9g-binutils-wrapper-2.40
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/lpc1znrq9pd8y495rby2n9sp2xbfi1gp-sqlite-3.45.1-bin
+calling 'envHostTargetHook' function hook 'addCMakeParams' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'ccWrapper_addCVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'envHostTargetHook' function hook 'bintoolsWrapper_addLDVars' /nix/store/srxwhb0mh6rpa0avby6v6vr2jazl2nvr-sqlite-3.45.1
+calling 'postHook' function hook 'makeCmakeFindLibs'
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+Running phase: unpackPhase
+unpacking source archive /nix/store/kh041hi0hwiq2b07xi1zyx79fqdkminq-source
+calling 'unpackCmd' function hook '_defaultUnpack' /nix/store/kh041hi0hwiq2b07xi1zyx79fqdkminq-source
+source root is source
+calling 'postUnpack' function hook '_updateSourceDateEpochFromSourceRoot'
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Running phase: configurePhase
+calling 'preConfigure' function hook '_multioutConfig'
+fixing cmake files...
+cmake flags: -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LOCALEDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/share/locale -DCMAKE_INSTALL_LIBEXECDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/libexec -DCMAKE_INSTALL_LIBDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/lib -DCMAKE_INSTALL_DOCDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/share/doc/doxygen -DCMAKE_INSTALL_INFODIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/share/info -DCMAKE_INSTALL_MANDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/share/man -DCMAKE_INSTALL_OLDINCLUDEDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/include -DCMAKE_INSTALL_INCLUDEDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/include -DCMAKE_INSTALL_SBINDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/sbin -DCMAKE_INSTALL_BINDIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/bin -DCMAKE_INSTALL_NAME_DIR=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/lib -DCMAKE_POLICY_DEFAULT_CMP0025=NEW -DCMAKE_OSX_SYSROOT= -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_STRIP=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/strip -DCMAKE_RANLIB=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/ranlib -DCMAKE_AR=/nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/ar -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=/nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0 -DICONV_INCLUDE_DIR=/nix/store/wp6p8gkc8nqb7ayd0zfgj3xfsb44pxlw-glibc-iconv-2.38/include -Duse_sys_sqlite3=ON 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/w0x01w0vcdzvaj90axjxq6w2p290cp5m-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using Cmake version 3.27.9
+-- Found SQLite3: /nix/store/ffprpng9f5642hfcqmgvbbvh81xhw0yc-sqlite-3.45.1-dev/include (found version "3.45.1") 
+-- Found Python: /nix/store/fw3r7lnncx7r4d6nclzdwka144cn15fa-python3-3.11.7/bin/python3.11 (found version "3.11.7") found components: Interpreter 
+-- Found FLEX: /nix/store/ahz4w0fq2x3n7y0n7w7647m0a8hrahra-flex-2.6.4/bin/flex (found version "2.6.4") 
+-- Found BISON: /nix/store/j6ai0c4r3k0ipy6sdnzl2hnsh1damvyb-bison-3.8.2/bin/bison (found version "3.8.2") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for iconv_open
+-- Looking for iconv_open - found
+-- Performing Test ICONV_COMPILES
+-- Performing Test ICONV_COMPILES - Success
+-- Found Iconv: In glibc  
+-- One (and only one) of the ICONV_ACCEPTS_... tests must pass
+-- Performing Test ICONV_ACCEPTS_NONCONST_INPUT
+-- Performing Test ICONV_ACCEPTS_NONCONST_INPUT - Success
+-- Performing Test ICONV_ACCEPTS_CONST_INPUT
+-- Performing Test ICONV_ACCEPTS_CONST_INPUT - Failed
+-- Build spdlog: 1.11.0
+-- Build type: Release
+-- The javacc executable not found, using existing files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_POLICY_DEFAULT_CMP0025
+
+[0m
+-- Build files have been written to: /build/source/build
+cmake: enabled parallel building
+cmake: enabled parallel installing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Running phase: buildPhase
+build flags: -j4 SHELL=/nix/store/p1i089pshpdfsj3dbd7ykblzlk2vb3n8-bash-5.2p26/bin/bash
+[  1%] [34m[1mGenerating ../../generated_src/mscgen_lexer.l.h[0m
+[  1%] [32mBuilding C object deps/libmd5/CMakeFiles/md5.dir/md5.c.o[0m
+[  2%] [32mBuilding CXX object deps/liblodepng/CMakeFiles/lodepng.dir/lodepng.cpp.o[0m
+[  3%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[  3%] [34m[1m[BISON][mscgen_language] Building parser with bison 3.8.2[0m
+[  3%] [34m[1m[FLEX][mscgen_lexer] Building scanner with flex 2.6.4[0m
+[  3%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd.c.o[0m
+[  4%] [32m[1mLinking C static library ../../lib/libmd5.a[0m
+[  4%] Built target md5
+[  4%] [34m[1mChecking the git repository for changes...[0m
+[  4%] Built target check_git_repository
+[  4%] [34m[1mChecking the doxygen version for changes...[0m
+[  4%] Built target check_doxygen_version
+[  5%] [34m[1mGenerating ../generated_src/xml.l.h[0m
+[  5%] [34m[1m[FLEX][xml] Building scanner with flex 2.6.4[0m
+[  5%] [32mBuilding CXX object libxml/CMakeFiles/xml.dir/__/generated_src/xml.cpp.o[0m
+[  5%] [32m[1mLinking CXX static library ../../lib/liblodepng.a[0m
+[  5%] Built target lodepng
+[  5%] [34m[1mGenerating ../generated_src/configvalues.h[0m
+[  5%] Built target generate_configvalues_header
+[  5%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd_security.c.o[0m
+[  6%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdfontt.c.o[0m
+[  6%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdtables.c.o[0m
+[  7%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd_color.c.o[0m
+[  7%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdfonts.c.o[0m
+[  7%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gdhelpers.c.o[0m
+[  7%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[  8%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/gd_lodepng.c.o[0m
+[  8%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_adraw.c.o[0m
+[  9%] [32m[1mLinking CXX static library ../lib/libxml.a[0m
+[  9%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_gd_out.c.o[0m
+[  9%] Built target xml
+[ 10%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_ps_out.c.o[0m
+[ 10%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_null_out.c.o[0m
+[ 11%] [32mBuilding CXX object deps/libmscgen/CMakeFiles/mscgen.dir/__/__/generated_src/mscgen_language.cpp.o[0m
+[ 11%] [32mBuilding CXX object deps/libmscgen/CMakeFiles/mscgen.dir/__/__/generated_src/mscgen_lexer.cpp.o[0m
+[ 11%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_api.c.o[0m
+[ 12%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_msc.c.o[0m
+[ 12%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_safe.c.o[0m
+[ 12%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_svg_out.c.o[0m
+[ 13%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_usage.c.o[0m
+[ 13%] [32mBuilding C object deps/libmscgen/CMakeFiles/mscgen.dir/mscgen_utf8.c.o[0m
+[ 13%] [34m[1mGenerating ../generated_src/configimpl.l, ../generated_src/configimpl.corr, ../generated_src/configimpl.d[0m
+[ 14%] [32m[1mLinking CXX static library ../../lib/libmscgen.a[0m
+[ 14%] [34m[1mGenerating ../generated_src/configoptions.cpp[0m
+[ 14%] Built target mscgen
+[ 14%] [34m[1mGenerating ../generated_src/xmlcode.l, ../generated_src/xmlcode.corr, ../generated_src/xmlcode.d[0m
+[ 15%] [34m[1m[BISON][constexp] Building parser with bison 3.8.2[0m
+/build/source/src/constexp.y:36.1-25: warning: deprecated directive: '%name-prefix "constexpYY"', use '%define api.prefix {constexpYY}' [-Wdeprecated]
+   36 | %name-prefix "constexpYY"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      | %define api.prefix {constexpYY}
+[ 15%] [34m[1mGenerating ../generated_src/configvalues.cpp[0m
+/build/source/src/constexp.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+[ 15%] [34m[1mGenerating ../generated_src/ce_parse.h[0m
+/build/source/src/constexp.y:36.1-25: warning: deprecated directive: '%name-prefix "constexpYY"', use '%define api.prefix {constexpYY}' [-Wdeprecated]
+   36 | %name-prefix "constexpYY"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      | %define api.prefix {constexpYY}
+[ 16%] [34m[1m[FLEX][configimpl] Building scanner with flex 2.6.4[0m
+/build/source/src/constexp.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+[ 16%] [34m[1mGenerating ../generated_src/configimpl.l.h[0m
+[ 16%] [34m[1mGenerating ../generated_src/code.l, ../generated_src/code.corr, ../generated_src/code.d[0m
+[ 17%] [34m[1mGenerating ../generated_src/configimpl.cpp[0m
+[ 18%] [34m[1mGenerating ../generated_src/commentcnv.l, ../generated_src/commentcnv.corr, ../generated_src/commentcnv.d[0m
+[ 18%] [34m[1mGenerating ../generated_src/commentscan.l, ../generated_src/commentscan.corr, ../generated_src/commentscan.d[0m
+[ 18%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/__/generated_src/configimpl.cpp.o[0m
+[ 18%] [34m[1mGenerating ../generated_src/constexp.l, ../generated_src/constexp.corr, ../generated_src/constexp.d[0m
+[ 19%] [34m[1mGenerating ../generated_src/declinfo.l, ../generated_src/declinfo.corr, ../generated_src/declinfo.d[0m
+[ 19%] [34m[1mGenerating ../generated_src/defargs.l, ../generated_src/defargs.corr, ../generated_src/defargs.d[0m
+[ 19%] [34m[1mGenerating ../generated_src/doctokenizer.l, ../generated_src/doctokenizer.corr, ../generated_src/doctokenizer.d[0m
+[ 20%] [34m[1mGenerating ../generated_src/fortrancode.l, ../generated_src/fortrancode.corr, ../generated_src/fortrancode.d[0m
+[ 20%] [34m[1mGenerating ../generated_src/fortranscanner.l, ../generated_src/fortranscanner.corr, ../generated_src/fortranscanner.d[0m
+[ 20%] [34m[1mGenerating ../generated_src/lexcode.l, ../generated_src/lexcode.corr, ../generated_src/lexcode.d[0m
+[ 21%] [34m[1mGenerating ../generated_src/lexscanner.l, ../generated_src/lexscanner.corr, ../generated_src/lexscanner.d[0m
+[ 21%] [34m[1mGenerating ../generated_src/pre.l, ../generated_src/pre.corr, ../generated_src/pre.d[0m
+[ 22%] [34m[1mGenerating ../generated_src/pycode.l, ../generated_src/pycode.corr, ../generated_src/pycode.d[0m
+[ 22%] [34m[1mGenerating ../generated_src/pyscanner.l, ../generated_src/pyscanner.corr, ../generated_src/pyscanner.d[0m
+[ 23%] [34m[1mGenerating /build/source/build/generated_src/resources.cpp[0m
+[ 24%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[ 24%] [34m[1mGenerating ../generated_src/scanner.l, ../generated_src/scanner.corr, ../generated_src/scanner.d[0m
+[ 25%] [34m[1mGenerating ../generated_src/sqlcode.l, ../generated_src/sqlcode.corr, ../generated_src/sqlcode.d[0m
+[ 25%] [34m[1mGenerating ../generated_src/vhdlcode.l, ../generated_src/vhdlcode.corr, ../generated_src/vhdlcode.d[0m
+[ 26%] [34m[1mGenerating ../generated_src/xmlcode.l.h[0m
+[ 26%] [34m[1m[FLEX][xmlcode] Building scanner with flex 2.6.4[0m
+[ 27%] [34m[1m[FLEX][code] Building scanner with flex 2.6.4[0m
+[ 27%] [34m[1mGenerating ../generated_src/code.l.h[0m
+[ 27%] [34m[1m[FLEX][commentcnv] Building scanner with flex 2.6.4[0m
+[ 28%] [34m[1mGenerating ../generated_src/commentcnv.l.h[0m
+[ 28%] [34m[1m[FLEX][commentscan] Building scanner with flex 2.6.4[0m
+[ 28%] [34m[1mGenerating ../generated_src/commentscan.l.h[0m
+[ 29%] [34m[1m[FLEX][constexp] Building scanner with flex 2.6.4[0m
+[ 30%] [34m[1mGenerating ../generated_src/constexp.l.h[0m
+[ 30%] [34m[1m[FLEX][declinfo] Building scanner with flex 2.6.4[0m
+[ 30%] [34m[1mGenerating ../generated_src/declinfo.l.h[0m
+[ 31%] [34m[1m[FLEX][defargs] Building scanner with flex 2.6.4[0m
+[ 31%] [34m[1mGenerating ../generated_src/defargs.l.h[0m
+[ 31%] [34m[1m[FLEX][doctokenizer] Building scanner with flex 2.6.4[0m
+[ 31%] [32mBuilding CXX object libversion/CMakeFiles/doxygen_version.dir/__/generated_src/doxyversion.cpp.o[0m
+[ 31%] [32mBuilding CXX object libversion/CMakeFiles/doxygen_version.dir/__/generated_src/gitversion.cpp.o[0m
+[ 32%] [32mBuilding CXX object libversion/CMakeFiles/doxygen_version.dir/fullversion.cpp.o[0m
+[ 34%] [34m[1mGenerating ../generated_src/doctokenizer.l.h[0m
+[ 34%] [34m[1m[FLEX][fortrancode] Building scanner with flex 2.6.4[0m
+[ 34%] [32m[1mLinking CXX static library ../lib/libdoxygen_version.a[0m
+[ 34%] Built target doxygen_version
+[ 34%] [34m[1mGenerating ../generated_src/VhdlParser_adj.cc[0m
+[ 34%] [34m[1mGenerating ../generated_src/VhdlParserTokenManager_adj.cc[0m
+[ 35%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/CharStream.cc.o[0m
+[ 35%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/ParseException.cc.o[0m
+[ 35%] [34m[1mGenerating ../generated_src/fortrancode.l.h[0m
+[ 36%] [34m[1m[FLEX][fortranscanner] Building scanner with flex 2.6.4[0m
+[ 37%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/Token.cc.o[0m
+[ 37%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/__/generated_src/configoptions.cpp.o[0m
+[ 37%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/TokenMgrError.cc.o[0m
+[ 37%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/__/generated_src/VhdlParser_adj.cc.o[0m
+[ 37%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/__/generated_src/configvalues.cpp.o[0m
+[ 38%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[ 39%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[ 39%] [32mBuilding CXX object deps/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/portable.cpp.o[0m
+[ 39%] [34m[1mGenerating ../generated_src/fortranscanner.l.h[0m
+[ 39%] [34m[1m[FLEX][lexcode] Building scanner with flex 2.6.4[0m
+[ 40%] [34m[1mGenerating ../generated_src/lexcode.l.h[0m
+[ 40%] [34m[1m[FLEX][lexscanner] Building scanner with flex 2.6.4[0m
+[ 40%] [34m[1mGenerating ../generated_src/lexscanner.l.h[0m
+[ 41%] [34m[1m[FLEX][pre] Building scanner with flex 2.6.4[0m
+[ 42%] [34m[1mGenerating ../generated_src/pre.l.h[0m
+[ 42%] [34m[1m[FLEX][pycode] Building scanner with flex 2.6.4[0m
+[ 42%] [34m[1mGenerating ../generated_src/pycode.l.h[0m
+[ 42%] [34m[1m[FLEX][pyscanner] Building scanner with flex 2.6.4[0m
+[ 42%] [34m[1mGenerating ../generated_src/pyscanner.l.h[0m
+[ 43%] [34m[1m[FLEX][scanner] Building scanner with flex 2.6.4[0m
+[ 44%] [34m[1mGenerating ../generated_src/scanner.l.h[0m
+[ 44%] [34m[1m[FLEX][sqlcode] Building scanner with flex 2.6.4[0m
+[ 44%] [34m[1mGenerating ../generated_src/sqlcode.l.h[0m
+[ 45%] [34m[1m[FLEX][vhdlcode] Building scanner with flex 2.6.4[0m
+[ 45%] [32mBuilding C object src/CMakeFiles/doxycfg.dir/portable_c.c.o[0m
+[ 46%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/message.cpp.o[0m
+[ 46%] [32m[1mLinking CXX static library ../../lib/libspdlog.a[0m
+[ 46%] Built target spdlog
+[ 47%] [32mBuilding CXX object vhdlparser/CMakeFiles/vhdlparser.dir/__/generated_src/VhdlParserTokenManager_adj.cc.o[0m
+[ 47%] [34m[1mGenerating ../generated_src/vhdlcode.l.h[0m
+[ 47%] [34m[1mGenerating ../generated_src/xmlcode.cpp[0m
+[ 47%] [34m[1mGenerating ../generated_src/code.cpp[0m
+[ 47%] [34m[1mGenerating ../generated_src/commentcnv.cpp[0m
+[ 48%] [34m[1mGenerating ../generated_src/commentscan.cpp[0m
+[ 48%] [34m[1mGenerating ../generated_src/constexp.cpp[0m
+[ 49%] [34m[1mGenerating ../generated_src/declinfo.cpp[0m
+[ 49%] [34m[1mGenerating ../generated_src/defargs.cpp[0m
+[ 49%] [34m[1mGenerating ../generated_src/doctokenizer.cpp[0m
+[ 50%] [34m[1mGenerating ../generated_src/fortrancode.cpp[0m
+[ 50%] [34m[1mGenerating ../generated_src/fortranscanner.cpp[0m
+[ 50%] [34m[1mGenerating ../generated_src/lexcode.cpp[0m
+[ 51%] [34m[1mGenerating ../generated_src/lexscanner.cpp[0m
+[ 51%] [34m[1mGenerating ../generated_src/pre.cpp[0m
+[ 51%] [34m[1mGenerating ../generated_src/pycode.cpp[0m
+[ 52%] [34m[1mGenerating ../generated_src/pyscanner.cpp[0m
+[ 52%] [34m[1mGenerating ../generated_src/scanner.cpp[0m
+[ 53%] [34m[1mGenerating ../generated_src/sqlcode.cpp[0m
+[ 53%] [34m[1mGenerating ../generated_src/vhdlcode.cpp[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/code.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/debug.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/doxycfg.dir/trace.cpp.o[0m
+[ 54%] [32m[1mLinking CXX static library ../lib/libvhdlparser.a[0m
+[ 54%] Built target vhdlparser
+[ 55%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/commentcnv.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/commentscan.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/constexp.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/declinfo.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/defargs.cpp.o[0m
+[ 56%] [32m[1mLinking CXX static library ../lib/libdoxycfg.a[0m
+[ 56%] Built target doxycfg
+[ 57%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/doctokenizer.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/fortrancode.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/fortranscanner.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/lexcode.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/lexscanner.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/pre.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/pycode.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/pyscanner.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/scanner.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/sqlcode.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/vhdlcode.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/xmlcode.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/ce_parse.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/__/generated_src/resources.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/aliases.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/anchor.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/arguments.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/cite.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/clangparser.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/classdef.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/classlist.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/cmdmapper.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/codefragment.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/conceptdef.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/condparser.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/cppvalue.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/datetime.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/defgen.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/definition.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dia.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/diagram.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dir.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dirdef.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docbookgen.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docbookvisitor.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docgroup.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docnode.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docparser.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docsets.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/docvisitor.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dot.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotcallgraph.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotclassgraph.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotdirdeps.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotfilepatcher.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotgfxhierarchytable.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotgraph.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotgroupcollaboration.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotincldepgraph.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotlegendgraph.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotnode.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/dotrunner.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/doxygen.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/eclipsehelp.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/emoji.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/entry.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/filedef.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/fileinfo.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/fileparser.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/formula.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/ftvhelp.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/groupdef.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htags.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmldocvisitor.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmlentity.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmlgen.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/htmlhelp.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/image.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/index.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/language.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/latexdocvisitor.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/latexgen.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/layout.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/mandocvisitor.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/mangen.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/markdown.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/memberdef.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/membergroup.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/memberlist.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/moduledef.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/msc.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/namespacedef.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/outputgen.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/outputlist.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/pagedef.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/perlmodgen.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/plantuml.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/qcstring.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/qhp.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/reflist.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/regex.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/resourcemgr.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/rtfdocvisitor.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/rtfgen.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/rtfstyle.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/searchindex.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/searchindex_js.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/sitemap.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/sqlite3gen.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/stlsupport.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/symbolresolver.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/tagreader.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/textdocvisitor.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/tooltip.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/utf8.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/util.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/vhdldocgen.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/vhdljjparser.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/xmldocvisitor.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/doxymain.dir/xmlgen.cpp.o[0m
+[ 98%] [32m[1mLinking CXX static library ../lib/libdoxymain.a[0m
+[ 98%] Built target doxymain
+[ 98%] [32mBuilding CXX object src/CMakeFiles/doxygen.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../bin/doxygen[0m
+[100%] Built target doxygen
+buildPhase completed in 2 minutes 0 seconds
+@nix { "action": "setPhase", "phase": "installPhase" }
+Running phase: installPhase
+install flags: -j4 SHELL=/nix/store/p1i089pshpdfsj3dbd7ykblzlk2vb3n8-bash-5.2p26/bin/bash install
+[  1%] Built target md5
+[  2%] Built target lodepng
+[ 10%] Built target mscgen
+[ 13%] Built target spdlog
+[ 13%] [34m[1mChecking the git repository for changes...[0m
+[ 13%] [34m[1mChecking the doxygen version for changes...[0m
+[ 15%] Built target xml
+[ 15%] Built target generate_configvalues_header
+[ 15%] Built target check_doxygen_version
+[ 15%] Built target check_git_repository
+[ 16%] Built target doxygen_version
+[ 22%] Built target doxycfg
+[ 25%] Built target vhdlparser
+[ 98%] Built target doxymain
+[100%] Built target doxygen
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/bin/doxygen
+evaling implicit 'postInstall' string hook
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+Running phase: fixupPhase
+calling 'preFixup' function hook '_moveToShare'
+calling 'preFixup' function hook '_multioutDocs'
+calling 'preFixup' function hook '_multioutDevs'
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0
+shrinking /nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/bin/doxygen
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+stripping (with command strip and flags -S -p) in  /nix/store/w8vqg4gjiqa28jlyhvy5vs4vydcpm827-doxygen-1.10.0/bin
+evaling 'fixupOutput' string hook 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi'
+shrinking RPATHs of ELF executables and libraries in /nix/store/a60x3kbjz3vd36c9c8w4xkhl1i6hgr41-doxygen-1.10.0-examples
+evaling 'fixupOutput' string hook 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi'
+checking for references to /build/ in /nix/store/a60x3kbjz3vd36c9c8w4xkhl1i6hgr41-doxygen-1.10.0-examples...
+evaling 'fixupOutput' string hook 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi'
+calling 'fixupOutput' function hook '_moveLib64'
+calling 'fixupOutput' function hook '_moveSbin'
+calling 'fixupOutput' function hook '_moveSystemdUserUnits'
+calling 'fixupOutput' function hook 'patchShebangsAuto'
+patching script interpreter paths in /nix/store/a60x3kbjz3vd36c9c8w4xkhl1i6hgr41-doxygen-1.10.0-examples
+calling 'fixupOutput' function hook '_pruneLibtoolFiles'
+calling 'fixupOutput' function hook '_doStrip'
+calling 'postFixup' function hook 'cmakePcfileCheckPhase'
+calling 'postFixup' function hook '_makeSymlinksRelativeInAllOutputs'
+calling 'postFixup' function hook '_multioutPropagateDev'

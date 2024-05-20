@@ -10,8 +10,11 @@
 , Security
 , garage
 , nixosTests
+, darwin
 }:
 let
+  inherit (darwin.apple_sdk.frameworks) Security SystemConfiguration;
+
   generic = { version, sha256, cargoSha256, eol ? false, broken ? false }: rustPlatform.buildRustPackage {
     pname = "garage";
     inherit version;
@@ -36,7 +39,10 @@ let
 
     buildInputs = [
       openssl
-    ] ++ lib.optional stdenv.isDarwin Security;
+    ] ++ lib.optionals stdenv.hostPlatform.isDarwin [
+      Security
+      SystemConfiguration
+    ];
 
     checkInputs = [
       cacert
@@ -108,14 +114,12 @@ rec {
     version = "0.9.4";
     sha256 = "sha256-2ZaxenwaVGYYUjUJaGgnGpZNQprQV9+Jns2sXM6cowk=";
     cargoSha256 = "sha256-Cssls9csn6qribF+pAAagBydX9e9WTq4K/ehaLCWOOA=";
-    broken = stdenv.isDarwin;
   };
 
   garage_1_0_0 = generic {
     version = "1.0.0";
     sha256 = "sha256-5W5cXylFCrDup+HOOUVPWBJUSphOp8szgtpvRIv82b8=";
     cargoSha256 = "sha256-tXO+Vk6bYpayNWi/y4sMtkn2EQ9wiwSAfn79Zbt28q0=";
-    broken = stdenv.isDarwin;
   };
 
   garage_0_9 = garage_0_9_4;

@@ -32,6 +32,85 @@ let
 in
 rec {
 
+  hump = callPackage ({ fetchFromGitHub, fetchurl }: buildLuarocksPackage rec {
+    pname = "hump";
+    version = "0.4-2";
+    knownRockspec = (fetchurl {
+      url = "mirror://luarocks/hump-${version}.rockspec";
+      sha256 = "0j89rznvq90bvjsj1mj9plxmxj8c7b4jkqsllw882f8xscdqq2sa";
+    }).outPath;
+    src = fetchFromGitHub {
+      owner = "vrld";
+      repo = "hump";
+      # Github repo has no tags.
+      rev = "08937cc0ecf72d1a964a8de6cd552c5e136bf0d4";
+      hash = "sha256-CQmyS7ABj2dZJoI+VYSuLa6md6OoJrJ5TT0w4Cj7KG8=";
+    };
+
+    disabled = luaOlder "5.1";
+
+    meta = {
+      homepage = "https://hump.readthedocs.io";
+      description = "Lightweight game development utilities";
+      license = with lib.licenses; [ mit ];
+      maintainers = with lib.maintainers; [ qyriad ];
+    };
+  }) { };
+
+  sirocco = callPackage ({ fetchFromGitHub, fetchurl, bit32, compat53, hump, lua-term, wcwidth }: buildLuarocksPackage rec {
+    pname = "sirocco";
+    version = "0.0.1-5";
+    knownRockspec = (fetchurl {
+      url = "mirror://luarocks/sirocco-${version}.rockspec";
+      sha256 = "0bs2zcy8sng4x16clfz47cn4l6fw43rj224vjgmnkfvp9nznd4b4";
+    }).outPath;
+    src = fetchFromGitHub {
+      owner = "giann";
+      repo = "sirocco";
+      rev = "b2af2d336e808e763b424d2ea42e6a2c2b4aa24d";
+      hash = "sha256-LcdHV+STHNZzRaw/aoIWi71Gx1t4+7uHVoP9w6Rrc9Y=";
+      fetchSubmodules = true;
+    };
+
+    disabled = luaOlder "5.1";
+    propagatedBuildInputs = [
+      bit32
+      compat53
+      hump
+      lua-term
+      wcwidth
+    ];
+
+    meta = {
+      homepage = "https://github.com/giann/sirocco";
+      description = "A collection of useful cli prompts";
+      license.fullName = "MIT/X11";
+    };
+  }) { };
+
+  wcwidth = callPackage ({ fetchFromGitHub, fetchurl }: buildLuarocksPackage {
+    pname = "wcwidth";
+    version = "0.5-1";
+    knownRockspec = (fetchurl {
+      url = "mirror://luarocks/wcwidth-0.5-1.rockspec";
+      sha256 = "0hyl8f3fvmiq2grhafz1cbnkp60mb58y2p8jg7yafin9kk69zg64";
+    }).outPath;
+    src = fetchFromGitHub {
+      owner = "aperezdc";
+      repo = "lua-wcwidth";
+      rev = "v0.5";
+      hash = "sha256-q2M2bE11c/Eg9akACaGYoB+8yTlgppGURUUxKhBuwqs=";
+    };
+
+    disabled = luaOlder "5.1";
+
+    meta = {
+      homepage = "https://github.com/aperezdc/lua-wcwidth";
+      description = "Pure Lua implementation of the wcwidth() function";
+      license.fullName = "MIT/X11";
+    };
+  }) { };
+
   # Dont take luaPackages from "global" pkgs scope to avoid mixing lua versions
   luaPackages = self;
 

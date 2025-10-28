@@ -8,7 +8,7 @@
   options,
   name,
   ...
-}:
+}@modArgs:
 let
   inherit (lib)
     types
@@ -20,6 +20,15 @@ let
     mkMerge
     mkIf
   ;
+
+  t = lib.types;
+  renderExtraVeth = name: cfg: ''
+    handleExtraVeth "${name}" \
+      "${toString cfg.localAddress}" \
+      "${toString cfg.hostAddress}" \
+      "${toString cfg.localAddress6}" \
+      "${toString cfg.hostAddress6}"
+  '';
 
   kernelVersion = host.config.boot.kernelPackages.kernel.version;
 
@@ -393,11 +402,24 @@ in
         with types;
         attrsOf (submodule {
           options = networkOptions;
+          config = {
+
+          };
         });
       default = { };
       description = ''
         Extra veth-pairs to be created for the container.
       '';
+    };
+
+    extraVethsRendered = mkOption {
+      type = t.lines;
+      internal = true;
+      readOnly = true;
+
+      default = config.extraVeths
+      |> lib.mapAttrsToList renderExtraVeth
+      |> lib.concatStringsSep "\n";
     };
 
     autoStart = mkOption {
@@ -486,6 +508,58 @@ in
         The Flake URI of the NixOS configuration to use for the container.
         Replaces the option {option}`containers.<name>.path`.
       '';
+    };
+
+    finalConfig = lib.mkOption {
+      type = t.attrsOf t.anything;
+      internal = true;
+      readOnly = true;
+
+      default = {
+        inherit (config)
+          extraVeths
+          additionalCapabilities
+          ephemeral
+          timeoutStartSec
+          allowedDevices
+          hostAddress
+          hostAddress6
+          localAddress
+          localAddress6
+          tmpfs
+        ;
+      };
+    };
+
+    finalStartScript = mkOption {
+      type = t.package;
+      internal = true;
+      readOnly = true;
+
+      default = host.pkgs.callPackage ./start-script.nix {
+        systemd = host.config.systemd.package;
+        containerConfig = config.finalConfig // {
+          inherit (config) finalInitScript;
+        };
+      };
+    };
+
+    finalInitScript = mkOption {
+      type = t.package;
+      internal = true;
+      readOnly = true;
+
+      default = host.pkgs.callPackage ./nixos-containers/container-init.nix {
+        ##containerConfig = (builtins.trace modArgs.config modArgs.config)
+        #|> lib.mapAttrs (_: value: value.value or value);
+        containerConfig = {
+          inherit (modArgs.config)
+            extraVeths
+            extraVethsRendered
+            finalConfig
+          ;
+        };
+      };
     };
 
     # Removed option. See `checkAssertion` below for the accompanying error message.

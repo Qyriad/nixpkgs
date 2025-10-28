@@ -38,44 +38,40 @@ let
     )}
   '';
 
-  postStartScript = (
-    cfg:
-    let
-      ipcall =
-        cfg: ipcmd: variable: attribute:
-        if cfg.${attribute} == null then
-          ''
-            if [ -n "${variable}" ]; then
-              ${ipcmd} add "${variable}" dev "$ifaceHost"
-            fi
-          ''
-        else
-          ''${ipcmd} add ${cfg.${attribute}} dev "$ifaceHost"'';
-      renderExtraVeth =
-        name: cfg:
-        if cfg.hostBridge != null then
-          ''
-            # Add ${name} to bridge ${cfg.hostBridge}
-            ip link set dev "${name}" master "${cfg.hostBridge}" up
-          ''
-        else
-          ''
-            echo "Bring ${name} up"
-            ip link set dev "${name}" up
-            # Set IPs and routes for ${name}
-            ${optionalString (cfg.hostAddress != null) ''
-              ip addr add ${cfg.hostAddress} dev "${name}"
-            ''}
-            ${optionalString (cfg.hostAddress6 != null) ''
-              ip -6 addr add ${cfg.hostAddress6} dev "${name}"
-            ''}
-            ${optionalString (cfg.localAddress != null) ''
-              ip route add ${cfg.localAddress} dev "${name}"
-            ''}
-            ${optionalString (cfg.localAddress6 != null) ''
-              ip -6 route add ${cfg.localAddress6} dev "${name}"
-            ''}
-          '';
+  postStartScript = cfg: let
+    ipcall = cfg: ipcmd: variable: attribute:
+      if cfg.${attribute} == null then ''
+        if [ -n "${variable}" ]; then
+          ${ipcmd} add "${variable}" dev "$ifaceHost"
+        fi
+      ''
+      else (
+        ''${ipcmd} add ${cfg.${attribute}} dev "$ifaceHost"''
+      );
+
+    renderExtraVeth =
+      name: cfg:
+      if cfg.hostBridge != null then ''
+        # Add ${name} to bridge ${cfg.hostBridge}
+        ip link set dev "${name}" master "${cfg.hostBridge}" up
+      ''
+      else ''
+        echo "Bring ${name} up"
+        ip link set dev "${name}" up
+        # Set IPs and routes for ${name}
+        ${optionalString (cfg.hostAddress != null) ''
+          ip addr add ${cfg.hostAddress} dev "${name}"
+        ''}
+        ${optionalString (cfg.hostAddress6 != null) ''
+          ip -6 addr add ${cfg.hostAddress6} dev "${name}"
+        ''}
+        ${optionalString (cfg.localAddress != null) ''
+          ip route add ${cfg.localAddress} dev "${name}"
+        ''}
+        ${optionalString (cfg.localAddress6 != null) ''
+          ip -6 route add ${cfg.localAddress6} dev "${name}"
+        ''}
+      '';
     in
     ''
       if [ -n "$HOST_ADDRESS" ]  || [ -n "$LOCAL_ADDRESS" ] ||
@@ -92,7 +88,7 @@ let
       fi
       ${concatStringsSep "\n" (mapAttrsToList renderExtraVeth cfg.extraVeths)}
     ''
-  );
+  ;
 
   serviceDirectives = cfg: {
     ExecReload = pkgs.writeScript "reload-container" ''
@@ -143,18 +139,13 @@ let
 
   mkBindFlags = bs: concatMapStrings mkBindFlag (lib.attrValues bs);
 
-  dummyConfig = {
-    extraVeths = { };
-    additionalCapabilities = [ ];
-    ephemeral = false;
-    timeoutStartSec = "1min";
-    allowedDevices = [ ];
-    hostAddress = null;
-    hostAddress6 = null;
-    localAddress = null;
-    localAddress6 = null;
-    tmpfs = null;
-  };
+  containerType = types.submodule (
+    lib.modules.importApply ./containers-submodule.nix host
+  );
+
+  dummyConfig = (lib.evalModules {
+    modules = containerType.getSubModules;
+  }).config;
 
 in
 
@@ -181,9 +172,7 @@ in
 
     containers = mkOption {
       type = types.attrsOf (
-        types.submodule (
-          lib.modules.importApply ./containers-submodule.nix host
-        )
+        containerType
       );
 
       default = { };
@@ -311,7 +300,8 @@ in
                 in
                 recursiveUpdate unit {
                   preStart = preStartScript containerConfig;
-                  script = "source ${lib.getExe (startScript containerConfig)}";
+                  #script = "source ${lib.getExe (startScript containerConfig)}";
+                  script = "source ${lib.getExe containerConfig.finalStartScript}";
                   postStart = postStartScript containerConfig;
                   serviceConfig = (serviceDirectives containerConfig) // {
                   };

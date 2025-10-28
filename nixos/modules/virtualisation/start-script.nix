@@ -3,50 +3,38 @@
   stdenv,
   nixos-container,
   replaceVarsWith,
-  runtimeShell,
+  #runtimeShell,
   systemd,
-  #containerConfig,
-  containerConfig ? {
-    extraVeths = { };
-    additionalCapabilities = [ ];
-    ephemeral = false;
-    timeoutStartSec = "1min";
-    allowedDevices = [ ];
-    hostAddress = null;
-    hostAddress6 = null;
-    localAddress = null;
-    localAddress6 = null;
-    tmpfs = null;
-  },
+  containerConfig,
 }: let
   inherit (lib) optionalString;
 
   cfg = containerConfig;
   nonEmptyList = list: list != null && list != [ ];
 
-  containerInit = replaceVarsWith {
-    src = ./container-init.bash;
-    replacements = {
-      inherit runtimeShell;
+  #containerInit = replaceVarsWith {
+  #  src = ./container-init.bash;
+  #  replacements = {
+  #    inherit runtimeShell;
+  #
+  #    handleExtraVeths = cfg.extraVeths
+  #    |> lib.mapAttrsToList renderExtraVeth
+  #    |> lib.concatStringsSep "\n";
+  #  };
+  #
+  #  name = "container-init-stage2";
+  #  dir = "bin";
+  #  isExecutable = true;
+  #  meta.mainProgram = "container-init-stage2";
+  #};
 
-      handleExtraVeths = cfg.extraVeths
-      |> lib.mapAttrsToList renderExtraVeth
-      |> lib.concatStringsSep "\n";
-    };
-
-    name = "container-init-stage2";
-    dir = "bin";
-    isExecutable = true;
-    meta.mainProgram = "container-init-stage2";
-  };
-
-  renderExtraVeth = name: cfg: ''
-    handleExtraVeth "${name}" \
-      "${toString cfg.localAddress}" \
-      "${toString cfg.hostAddress}" \
-      "${toString cfg.localAddress6}" \
-      "${toString cfg.hostAddress6}"
-  '';
+  #renderExtraVeth = name: cfg: ''
+  #  handleExtraVeth "${name}" \
+  #    "${toString cfg.localAddress}" \
+  #    "${toString cfg.hostAddress}" \
+  #    "${toString cfg.localAddress6}" \
+  #    "${toString cfg.hostAddress6}"
+  #'';
 in replaceVarsWith {
   src = ./start-script.bash;
   replacements = {
@@ -65,10 +53,8 @@ in replaceVarsWith {
     tmpfs_arg = optionalString (nonEmptyList cfg.tmpfs)
       ''--tmpfs=${lib.concatStringsSep " --tmpfs=" cfg.tmpfs}''
     ;
-    container_init = lib.getExe containerInit;
+    container_init = lib.getExe containerConfig.finalInitScript;
   };
-
-  containerInit2 = containerInit;
 
   name = "nixos-container-start-script";
   dir = "bin";

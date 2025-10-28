@@ -529,35 +529,30 @@ rec {
         ''}
       ''; # */
 
-  makeJobScript =
-    {
-      name,
-      text,
-      enableStrictShellChecks,
-    }:
-    let
-      scriptName = replaceStrings [ "\\" "@" ] [ "-" "_" ] (shellEscape name);
-      out =
-        (
-          if !enableStrictShellChecks then
-            pkgs.writeShellScriptBin scriptName ''
-              set -e
+  makeJobScript = {
+    name,
+    text,
+    enableStrictShellChecks,
+  }: let
+    scriptName = replaceStrings [ "\\" "@" ] [ "-" "_" ] (shellEscape name);
+    script = if !enableStrictShellChecks then
+      pkgs.writeShellScriptBin scriptName ''
+        set -e
 
-              ${text}
-            ''
-          else
-            pkgs.writeShellApplication {
-              name = scriptName;
-              inherit text;
-            }
-        ).overrideAttrs
-          (_: {
-            # The derivation name is different from the script file name
-            # to keep the script file name short to avoid cluttering logs.
-            name = "unit-script-${scriptName}";
-          });
-    in
-    lib.getExe out;
+        ${text}
+      ''
+    else
+      pkgs.writeShellApplication {
+        name = scriptName;
+        inherit text;
+      }
+    ;
+    out = script.overrideAttrs ({
+      # The derivation name is different from the script file name
+      # to keep the script file name short to avoid cluttering logs.
+      name = "unit-script-${scriptName}";
+    });
+  in lib.getExe out;
 
   unitConfig =
     {
